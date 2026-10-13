@@ -1,0 +1,27 @@
+.app__navbar {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.5rem;
+  display: flex;
+  background-color: var(--color-white);
+  box-shadow: var(--color-shadow);
+}
+
+.app__panel {
+  display: none;
+}
+
+.app--editor .app__panel--editor {
+  display: block;
+}
+
+.app--design .app__panel--design {
+  display: block;
+}
+
+.app--resume .app__panel--resume {
+  display: block;
+}

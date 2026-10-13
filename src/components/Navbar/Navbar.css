@@ -1,0 +1,28 @@
+.navbar__button {
+  flex: 1;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: var(--radius-md);
+}
+
+.navbar__button--selected {
+  background-color: var(--color-background);
+  color: var(--color-navy);
+}
+
+.navbar__button:active {
+  transform: scale(95%);
+}
+
+.navbar__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.navbar__label {
+  font-weight: 600;
+  text-transform: capitalize;
+}
