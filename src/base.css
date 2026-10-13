@@ -39,8 +39,8 @@ body {
 button {
   background: none;
   border: none;
-  /* color: inherit; */
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
-  font-family: inherit;
+  font: inherit;
   cursor: pointer;
 }
