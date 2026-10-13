@@ -53,6 +53,7 @@
   background-color: var(--color-white);
   border: 1px solid #ccc;
   border-radius: var(--radius-sm);
+  color: inherit;
   -webkit-tap-highlight-color: transparent;
   font-family: inherit;
   font-size: clamp(0.5rem, 3.5vw, 1rem);

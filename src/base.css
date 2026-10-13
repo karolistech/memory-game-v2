@@ -61,6 +61,16 @@ body {
   font-family: Rubik, system-ui;
 }
 
+body:has(.reset-menu) {
+  overflow: hidden;
+  touch-action: none;
+}
+
+body:has(.help-modal) {
+  overflow: hidden;
+  touch-action: none;
+}
+
 body:has(.card-modal) {
   overflow: hidden;
   touch-action: none;
