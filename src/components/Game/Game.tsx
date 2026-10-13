@@ -198,7 +198,7 @@ export default function Game({ setScreen }: GameProps) {
 }
 
 function getRandomPokemon(count: number): Pokemon[] {
-  const ids: number[] = [8, 101, 625, 876];
+  const ids: number[] = [7, 100, 624, 875];
 
   while (ids.length < count) {
     const id = Math.floor(Math.random() * pokemons.length);
