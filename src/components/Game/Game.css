@@ -1,0 +1,82 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.game__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.game__title {
+  color: var(--color-yellow);
+  -webkit-text-stroke: 2px var(--color-dark-blue);
+  font-size: clamp(1rem, 9vw, 3rem);
+  text-transform: uppercase;
+}
+
+.game__button {
+  width: clamp(32px, 10vw, 48px);
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-white);
+  border-radius: var(--radius-circle);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.game__icon {
+  width: 50%;
+  height: 50%;
+}
+
+.game__scoreboard {
+  align-self: center;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: var(--color-white);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.game__scores {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.game__progress {
+  width: 50%;
+  padding-block: 0.5rem;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  font-size: clamp(1rem, 6vw, 1.5rem);
+  font-weight: 600;
+  text-align: center;
+}
+
+.game__cards {
+  padding-block: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 160px));
+  justify-content: center;
+  gap: 1.5rem 1rem;
+}
+
+@media (min-width: 600px) {
+  .game__cards {
+    grid-template-columns: repeat(4, minmax(0, 170px));
+  }
+}
+
+@media (min-width: 1024px) {
+  .game__cards--12 {
+    grid-template-columns: repeat(6, minmax(0, 180px));
+  }
+}

@@ -1,39 +1,69 @@
 @font-face {
-  font-family: NotoSans;
-  src: url("./assets/fonts/NotoSans.woff2") format("woff2");
-  font-weight: 100 900;
-}
-
-@font-face {
-  font-family: NotoSerif;
-  src: url("./assets/fonts/NotoSerif.woff2") format("woff2");
-  font-weight: 100 900;
-}
-
-@font-face {
-  font-family: NotoSansMono;
-  src: url("./assets/fonts/NotoSansMono.woff2") format("woff2");
-  font-weight: 100 900;
+  font-family: Rubik;
+  src: url("./assets/fonts/Rubik.woff2") format("woff2");
+  font-weight: 300 900;
 }
 
 :root {
-  --color-background: #f4f4f4;
-  --color-shadow: 0 0 8px rgb(0 0 0 / 10%);
+  --card-texture: url("./assets/images/card-texture.webp");
+
+  --color-background: #f9f9f9;
+  --color-backdrop: rgb(0 0 0 / 70%);
+
+  --color-card-back: #218;
+  --color-light-gray: #ccc;
+  --color-yellow: #fc0;
+  --color-sky-blue: #59d;
+  --color-dark-blue: #037;
   --color-white: #fff;
-  --color-navy: #0e374e;
+  --color-red: #f00;
+  --color-green: #5b0;
+
   --radius-sm: 4px;
   --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-pill: 25px;
+  --radius-circle: 50%;
 }
 
+[data-type="bug"] { --color-type: #a4d14b; }
+[data-type="dark"] { --color-type: #7a7a7a; }
+[data-type="dragon"] { --color-type: #dbac39; }
+[data-type="electric"] { --color-type: #fee000; }
+[data-type="fairy"] { --color-type: #eb6ca5; }
+[data-type="fighting"] { --color-type: #eb9038; }
+[data-type="fire"] { --color-type: #ef6d40; }
+[data-type="flying"] { --color-type: #a1bbec; }
+[data-type="ghost"] { --color-type: #8a9bed; }
+[data-type="grass"] { --color-type: #74c566; }
+[data-type="ground"] { --color-type: #dc871c; }
+[data-type="ice"] { --color-type: #8cd8d1; }
+[data-type="normal"] { --color-type: #c2c6c2; }
+[data-type="poison"] { --color-type: #d08ede; }
+[data-type="psychic"] { --color-type: #d789ba; }
+[data-type="rock"] { --color-type: #c9bb8a; }
+[data-type="steel"] { --color-type: #6fa7b6; }
+[data-type="water"] { --color-type: #76c6f4; }
+
 *, *::before, *::after {
+  /* border: 1px solid; */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+html {
+  scrollbar-gutter: stable;
+}
+
 body {
   background-color: var(--color-background);
-  font-family: NotoSans, system-ui;
+  font-family: Rubik, system-ui;
+}
+
+body:has(.card-modal) {
+  overflow: hidden;
+  touch-action: none;
 }
 
 button {

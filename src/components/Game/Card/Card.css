@@ -1,0 +1,88 @@
+.game {
+  .card {
+    container-type: inline-size;
+    aspect-ratio: 5 / 7;
+    transform: perspective(800px);
+    transform-style: preserve-3d;
+    transition: transform 0.8s ease;
+  }
+
+  .card--open {
+    transform: perspective(800px) rotateY(180deg);
+  }
+
+  .card__face {
+    position: absolute;
+    inset: 0;
+    padding: 5cqw;
+    backface-visibility: hidden;
+    border-radius: 5cqw;
+    box-shadow: 0 0 5cqw rgba(0, 0, 0, 0.25);
+  }
+
+  .card__face--back {
+    background-color: var(--color-card-back);
+  }
+
+  .card__back-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 2.5cqw;
+  }
+
+  .card__face--front {
+    transform: rotateY(180deg);
+    background-color: var(--color-white);
+  }
+
+  .card__content {
+    height: 100%;
+    padding: 2.5cqw;
+    display: flex;
+    flex-direction: column;
+    gap: 5cqw;
+    background-color: var(--color-type);
+    background-image: var(--card-texture);
+    border-radius: 2.5cqw;
+    box-shadow: inset 0 0 5cqw rgba(0, 0, 0, 0.5);
+  }
+
+  .card__header {
+    padding: 2.5cqw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5cqw;
+  }
+
+  .card__name {
+    font-size: 7.5cqw;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+  }
+
+  .card__type-icon {
+    flex-shrink: 0;
+    width: 12.5cqw;
+    aspect-ratio: 1 / 1;
+    padding: 2.5cqw;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: var(--radius-circle);
+    box-shadow: 0 0 5cqw var(--color-white);
+    color: var(--color-white);
+  }
+
+  .card__body {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border: 2cqw solid var(--color-white);
+    box-shadow: inset 0 0 5cqw rgba(0, 0, 0, 0.5);
+  }
+
+  .card__front-image {
+    width: 100%;
+    filter: drop-shadow(2px 3px 5px rgba(0, 0, 0, 0.5));
+  }
+}

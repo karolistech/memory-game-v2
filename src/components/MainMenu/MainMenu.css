@@ -1,0 +1,122 @@
+.main-menu {
+  min-height: calc(100vh - 1rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.main-menu__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  text-transform: uppercase;
+}
+
+.main-menu__pokemon {
+  color: var(--color-yellow);
+  -webkit-text-stroke: 2px var(--color-dark-blue);
+  font-size: 3.5rem;
+}
+
+.main-menu__memory-game {
+  color: var(--color-dark-blue);
+  font-size: 2rem;
+}
+
+.main-menu__actions {
+  width: min(100%, 500px);
+  padding-block: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  border-block: 2px solid;
+  border-image-source: linear-gradient(to right, transparent, #555 50%, transparent);
+  border-image-slice: 1;
+  filter: drop-shadow(2px 3px 5px rgba(0, 0, 0, 0.5));
+}
+
+.main-menu__button {
+  width: 200px;
+  height: 50px;
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--color-white);
+  border-radius: var(--radius-pill);
+}
+
+.main-menu__icon {
+  width: 32px;
+  height: 32px;
+}
+
+.main-menu__label {
+  font-weight: 600;
+}
+
+.reset-menu__backdrop {
+  position: fixed;
+  z-index: 1;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.reset-menu {
+  position: fixed;
+  z-index: 2;
+  width: min(95%, 450px);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: var(--color-white);
+  border-radius: var(--radius-md);
+}
+
+.reset-menu__warning {
+  color: var(--color-red);
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.reset-menu__question {
+  text-align: center;
+}
+
+.reset-menu__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.reset-menu__button {
+  width: 150px;
+  height: 50px;
+  border-radius: var(--radius-pill);
+  box-shadow: 2px 2px 8px #555;
+  font-weight: 600;
+}
+
+.reset-menu__button--confirm {
+  position: relative;
+  color: var(--color-red);
+}
+
+.reset-menu__button--confirm::after {
+  content: "";
+  position: absolute;
+  inset: var(--radius-sm);
+  border: 3px solid var(--color-red);
+  border-radius: inherit;
+  box-shadow: inset 0 0 3px var(--color-red);
+}

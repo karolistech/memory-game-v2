@@ -1,0 +1,72 @@
+.difficulty-menu {
+  min-height: calc(100vh - 1rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.difficulty-menu__title {
+  font-size: 2rem;
+}
+
+.difficulty-menu__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.difficulty-menu__button {
+  position: relative;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--radius-pill);
+  box-shadow: 2px 2px 8px #555;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.difficulty-menu__button--easy::after {
+  content: "";
+  position: absolute;
+  inset: var(--radius-sm);
+  border: 3px solid var(--color-sky-blue);
+  border-radius: inherit;
+  box-shadow: inset 0 0 3px var(--color-sky-blue);
+}
+
+.difficulty-menu__button--medium::after {
+  content: "";
+  position: absolute;
+  inset: var(--radius-sm);
+  border: 3px solid var(--color-green);
+  border-radius: inherit;
+  box-shadow: inset 0 0 3px var(--color-green);
+}
+
+.difficulty-menu__button--hard::after {
+  content: "";
+  position: absolute;
+  inset: var(--radius-sm);
+  border: 3px solid var(--color-red);
+  border-radius: inherit;
+  box-shadow: inset 0 0 3px var(--color-red);
+}
+
+.difficulty-menu__button--back::after {
+  content: "";
+  position: absolute;
+  inset: var(--radius-sm);
+  border: 3px solid var(--color-light-gray);
+  border-radius: inherit;
+  box-shadow: inset 0 0 3px var(--color-light-gray);
+}
+
+.difficulty-menu__icon {
+  width: 24px;
+  height: 24px;
+}

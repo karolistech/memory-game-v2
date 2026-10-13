@@ -1,29 +1,21 @@
-import { useView } from "@/hooks/useView";
+import { useScreen } from "./hooks/useScreen";
 
-import Navbar from "@/components/Navbar/Navbar";
+import MainMenu from "./components/MainMenu/MainMenu";
+import Game from "./components/Game/Game";
+import Collection from "./components/Collection/Collection";
 
 import "./App.css";
 
 export default function App() {
-  const { view, setView } = useView();
+  const { screen, setScreen } = useScreen();
 
   return (
-    <div className={`app app--${view}`}>
-      <div className="app__navbar">
-        <Navbar view={view} setView={setView} />
-      </div>
+    <div className="app">
+      {screen === "main-menu" && <MainMenu setScreen={setScreen} />}
 
-      <div className="app__panel app__panel--editor">
-        Editor
-      </div>
+      {screen === "game" && <Game setScreen={setScreen} />}
 
-      <div className="app__panel app__panel--design">
-        Design
-      </div>
-
-      <div className="app__panel app__panel--resume">
-        Resume
-      </div>
+      {screen === "collection" && <Collection setScreen={setScreen} />}
     </div>
   );
 }
