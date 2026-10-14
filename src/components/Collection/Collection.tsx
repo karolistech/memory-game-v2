@@ -34,7 +34,6 @@ export default function Collection({ setScreen }: CollectionProps) {
   const [helpModalOpen, setHelpModalOpen] = useState(false);
   const [selectedPokemon, setSelectedPokemon] = useState<Pokemon | null>(null);
 
-  // const filteredIds = filter === "collected" ? ids.filter(id => collection[id] !== undefined) : ids;
   const filteredIds = filter === "collected" ? ids.filter(id => collection.includes(id)) : ids;
 
   const collectedCount = collection.length;

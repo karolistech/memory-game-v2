@@ -63,7 +63,6 @@
   font-size: 7.5cqw;
   font-weight: 500;
   text-align: left;
-  text-transform: capitalize;
 }
 
 .card-modal__card-type-icon {
@@ -146,7 +145,6 @@
 
 .card-modal__name {
   font-size: clamp(1.25rem, 5vw, 1.75rem);
-  text-transform: capitalize;
 }
 
 .card-modal__facts {

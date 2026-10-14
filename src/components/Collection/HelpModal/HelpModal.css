@@ -83,7 +83,8 @@
 
   @media (min-width: 768px) {
     .help-modal__steps {
-      flex-direction: row;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 }

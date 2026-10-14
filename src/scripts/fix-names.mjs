@@ -1,0 +1,50 @@
+// Run once with: node scripts/fix-names.mjs
+// Turns the lowercase API names in src/data/pokemon.json into display names.
+import { readFileSync, writeFileSync } from "node:fs";
+
+const file = "src/data/pokemons.json";
+
+const fixes = {
+  // form suffix removed
+  "deoxys-normal": "Deoxys", "wormadam-plant": "Wormadam", "giratina-altered": "Giratina", "shaymin-land": "Shaymin",
+  "basculin-red-striped": "Basculin", "darmanitan-standard": "Darmanitan", "frillish-male": "Frillish",
+  "jellicent-male": "Jellicent", "tornadus-incarnate": "Tornadus", "thundurus-incarnate": "Thundurus",
+  "landorus-incarnate": "Landorus", "keldeo-ordinary": "Keldeo", "meloetta-aria": "Meloetta", "pyroar-male": "Pyroar",
+  "meowstic-male": "Meowstic", "aegislash-shield": "Aegislash", "pumpkaboo-average": "Pumpkaboo",
+  "gourgeist-average": "Gourgeist", "zygarde-50": "Zygarde", "oricorio-baile": "Oricorio", "lycanroc-midday": "Lycanroc",
+  "wishiwashi-solo": "Wishiwashi", "minior-red-meteor": "Minior", "mimikyu-disguised": "Mimikyu",
+  "toxtricity-amped": "Toxtricity", "eiscue-ice": "Eiscue", "indeedee-male": "Indeedee", "morpeko-full-belly": "Morpeko",
+  "urshifu-single-strike": "Urshifu", "basculegion-male": "Basculegion", "enamorus-incarnate": "Enamorus",
+  "oinkologne-male": "Oinkologne", "maushold-family-of-four": "Maushold", "squawkabilly-green-plumage": "Squawkabilly",
+  "palafin-zero": "Palafin", "tatsugiri-curly": "Tatsugiri", "dudunsparce-two-segment": "Dudunsparce",
+
+  // hyphen becomes a space
+  "tapu-koko": "Tapu Koko", "tapu-lele": "Tapu Lele", "tapu-bulu": "Tapu Bulu", "tapu-fini": "Tapu Fini",
+  "great-tusk": "Great Tusk", "scream-tail": "Scream Tail", "brute-bonnet": "Brute Bonnet", "flutter-mane": "Flutter Mane",
+  "slither-wing": "Slither Wing", "sandy-shocks": "Sandy Shocks", "iron-treads": "Iron Treads", "iron-bundle": "Iron Bundle",
+  "iron-hands": "Iron Hands", "iron-jugulis": "Iron Jugulis", "iron-moth": "Iron Moth", "iron-thorns": "Iron Thorns",
+  "roaring-moon": "Roaring Moon", "iron-valiant": "Iron Valiant", "walking-wake": "Walking Wake", "iron-leaves": "Iron Leaves",
+  "gouging-fire": "Gouging Fire", "raging-bolt": "Raging Bolt", "iron-boulder": "Iron Boulder", "iron-crown": "Iron Crown",
+
+  // punctuation and special characters
+  "nidoran-f": "Nidoran♀", "nidoran-m": "Nidoran♂", "farfetchd": "Farfetch’d", "mr-mime": "Mr. Mime",
+  "mime-jr": "Mime Jr.", "flabebe": "Flabébé", "type-null": "Type: Null", "sirfetchd": "Sirfetch’d", "mr-rime": "Mr. Rime",
+
+  // the hyphen is part of the name
+  "ho-oh": "Ho-Oh", "porygon-z": "Porygon-Z", "jangmo-o": "Jangmo-o", "hakamo-o": "Hakamo-o", "kommo-o": "Kommo-o",
+  "wo-chien": "Wo-Chien", "chien-pao": "Chien-Pao", "ting-lu": "Ting-Lu", "chi-yu": "Chi-Yu"
+};
+
+let text = readFileSync(file, "utf8");
+
+// 1) The special names, replaced exactly. Only the "name" lines are touched.
+for (const [from, to] of Object.entries(fixes)) {
+  text = text.replace(`"name": "${from}"`, `"name": "${to}"`).replace(`"name":"${from}"`, `"name":"${to}"`);
+}
+
+// 2) Every remaining lowercase name just gets a capital first letter (bulbasaur -> Bulbasaur)
+text = text.replace(/("name":\s*")([a-z])/g, (_, start, letter) => start + letter.toUpperCase());
+
+writeFileSync(file, text);
+
+console.log("Names fixed");

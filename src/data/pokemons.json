@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "bulbasaur",
+    "name": "Bulbasaur",
     "type": "grass",
     "height": 0.7,
     "weight": 6.9,
@@ -14,7 +14,7 @@
 
   {
     "id": 2,
-    "name": "ivysaur",
+    "name": "Ivysaur",
     "type": "grass",
     "height": 1,
     "weight": 13,
@@ -27,7 +27,7 @@
 
   {
     "id": 3,
-    "name": "venusaur",
+    "name": "Venusaur",
     "type": "grass",
     "height": 2,
     "weight": 100,
@@ -40,7 +40,7 @@
 
   {
     "id": 4,
-    "name": "charmander",
+    "name": "Charmander",
     "type": "fire",
     "height": 0.6,
     "weight": 8.5,
@@ -53,7 +53,7 @@
 
   {
     "id": 5,
-    "name": "charmeleon",
+    "name": "Charmeleon",
     "type": "fire",
     "height": 1.1,
     "weight": 19,
@@ -66,7 +66,7 @@
 
   {
     "id": 6,
-    "name": "charizard",
+    "name": "Charizard",
     "type": "fire",
     "height": 1.7,
     "weight": 90.5,
@@ -79,7 +79,7 @@
 
   {
     "id": 7,
-    "name": "squirtle",
+    "name": "Squirtle",
     "type": "water",
     "height": 0.5,
     "weight": 9,
@@ -92,7 +92,7 @@
 
   {
     "id": 8,
-    "name": "wartortle",
+    "name": "Wartortle",
     "type": "water",
     "height": 1,
     "weight": 22.5,
@@ -105,7 +105,7 @@
 
   {
     "id": 9,
-    "name": "blastoise",
+    "name": "Blastoise",
     "type": "water",
     "height": 1.6,
     "weight": 85.5,
@@ -118,7 +118,7 @@
 
   {
     "id": 10,
-    "name": "caterpie",
+    "name": "Caterpie",
     "type": "bug",
     "height": 0.3,
     "weight": 2.9,
@@ -131,7 +131,7 @@
 
   {
     "id": 11,
-    "name": "metapod",
+    "name": "Metapod",
     "type": "bug",
     "height": 0.7,
     "weight": 9.9,
@@ -144,7 +144,7 @@
 
   {
     "id": 12,
-    "name": "butterfree",
+    "name": "Butterfree",
     "type": "bug",
     "height": 1.1,
     "weight": 32,
@@ -157,7 +157,7 @@
 
   {
     "id": 13,
-    "name": "weedle",
+    "name": "Weedle",
     "type": "bug",
     "height": 0.3,
     "weight": 3.2,
@@ -170,7 +170,7 @@
 
   {
     "id": 14,
-    "name": "kakuna",
+    "name": "Kakuna",
     "type": "bug",
     "height": 0.6,
     "weight": 10,
@@ -183,7 +183,7 @@
 
   {
     "id": 15,
-    "name": "beedrill",
+    "name": "Beedrill",
     "type": "bug",
     "height": 1,
     "weight": 29.5,
@@ -196,7 +196,7 @@
 
   {
     "id": 16,
-    "name": "pidgey",
+    "name": "Pidgey",
     "type": "normal",
     "height": 0.3,
     "weight": 1.8,
@@ -209,7 +209,7 @@
 
   {
     "id": 17,
-    "name": "pidgeotto",
+    "name": "Pidgeotto",
     "type": "normal",
     "height": 1.1,
     "weight": 30,
@@ -222,7 +222,7 @@
 
   {
     "id": 18,
-    "name": "pidgeot",
+    "name": "Pidgeot",
     "type": "normal",
     "height": 1.5,
     "weight": 39.5,
@@ -235,7 +235,7 @@
 
   {
     "id": 19,
-    "name": "rattata",
+    "name": "Rattata",
     "type": "normal",
     "height": 0.3,
     "weight": 3.5,
@@ -248,7 +248,7 @@
 
   {
     "id": 20,
-    "name": "raticate",
+    "name": "Raticate",
     "type": "normal",
     "height": 0.7,
     "weight": 18.5,
@@ -261,7 +261,7 @@
 
   {
     "id": 21,
-    "name": "spearow",
+    "name": "Spearow",
     "type": "normal",
     "height": 0.3,
     "weight": 2,
@@ -274,7 +274,7 @@
 
   {
     "id": 22,
-    "name": "fearow",
+    "name": "Fearow",
     "type": "normal",
     "height": 1.2,
     "weight": 38,
@@ -287,7 +287,7 @@
 
   {
     "id": 23,
-    "name": "ekans",
+    "name": "Ekans",
     "type": "poison",
     "height": 2,
     "weight": 6.9,
@@ -300,7 +300,7 @@
 
   {
     "id": 24,
-    "name": "arbok",
+    "name": "Arbok",
     "type": "poison",
     "height": 3.5,
     "weight": 65,
@@ -313,7 +313,7 @@
 
   {
     "id": 25,
-    "name": "pikachu",
+    "name": "Pikachu",
     "type": "electric",
     "height": 0.4,
     "weight": 6,
@@ -326,7 +326,7 @@
 
   {
     "id": 26,
-    "name": "raichu",
+    "name": "Raichu",
     "type": "electric",
     "height": 0.8,
     "weight": 30,
@@ -339,7 +339,7 @@
 
   {
     "id": 27,
-    "name": "sandshrew",
+    "name": "Sandshrew",
     "type": "ground",
     "height": 0.6,
     "weight": 12,
@@ -352,7 +352,7 @@
 
   {
     "id": 28,
-    "name": "sandslash",
+    "name": "Sandslash",
     "type": "ground",
     "height": 1,
     "weight": 29.5,
@@ -365,7 +365,7 @@
 
   {
     "id": 29,
-    "name": "nidoran-f",
+    "name": "Nidoran♀",
     "type": "poison",
     "height": 0.4,
     "weight": 7,
@@ -378,7 +378,7 @@
 
   {
     "id": 30,
-    "name": "nidorina",
+    "name": "Nidorina",
     "type": "poison",
     "height": 0.8,
     "weight": 20,
@@ -391,7 +391,7 @@
 
   {
     "id": 31,
-    "name": "nidoqueen",
+    "name": "Nidoqueen",
     "type": "poison",
     "height": 1.3,
     "weight": 60,
@@ -404,7 +404,7 @@
 
   {
     "id": 32,
-    "name": "nidoran-m",
+    "name": "Nidoran♂",
     "type": "poison",
     "height": 0.5,
     "weight": 9,
@@ -417,7 +417,7 @@
 
   {
     "id": 33,
-    "name": "nidorino",
+    "name": "Nidorino",
     "type": "poison",
     "height": 0.9,
     "weight": 19.5,
@@ -430,7 +430,7 @@
 
   {
     "id": 34,
-    "name": "nidoking",
+    "name": "Nidoking",
     "type": "poison",
     "height": 1.4,
     "weight": 62,
@@ -443,7 +443,7 @@
 
   {
     "id": 35,
-    "name": "clefairy",
+    "name": "Clefairy",
     "type": "fairy",
     "height": 0.6,
     "weight": 7.5,
@@ -456,7 +456,7 @@
 
   {
     "id": 36,
-    "name": "clefable",
+    "name": "Clefable",
     "type": "fairy",
     "height": 1.3,
     "weight": 40,
@@ -469,7 +469,7 @@
 
   {
     "id": 37,
-    "name": "vulpix",
+    "name": "Vulpix",
     "type": "fire",
     "height": 0.6,
     "weight": 9.9,
@@ -482,7 +482,7 @@
 
   {
     "id": 38,
-    "name": "ninetales",
+    "name": "Ninetales",
     "type": "fire",
     "height": 1.1,
     "weight": 19.9,
@@ -495,7 +495,7 @@
 
   {
     "id": 39,
-    "name": "jigglypuff",
+    "name": "Jigglypuff",
     "type": "normal",
     "height": 0.5,
     "weight": 5.5,
@@ -508,7 +508,7 @@
 
   {
     "id": 40,
-    "name": "wigglytuff",
+    "name": "Wigglytuff",
     "type": "normal",
     "height": 1,
     "weight": 12,
@@ -521,7 +521,7 @@
 
   {
     "id": 41,
-    "name": "zubat",
+    "name": "Zubat",
     "type": "poison",
     "height": 0.8,
     "weight": 7.5,
@@ -534,7 +534,7 @@
 
   {
     "id": 42,
-    "name": "golbat",
+    "name": "Golbat",
     "type": "poison",
     "height": 1.6,
     "weight": 55,
@@ -547,7 +547,7 @@
 
   {
     "id": 43,
-    "name": "oddish",
+    "name": "Oddish",
     "type": "grass",
     "height": 0.5,
     "weight": 5.4,
@@ -560,7 +560,7 @@
 
   {
     "id": 44,
-    "name": "gloom",
+    "name": "Gloom",
     "type": "grass",
     "height": 0.8,
     "weight": 8.6,
@@ -573,7 +573,7 @@
 
   {
     "id": 45,
-    "name": "vileplume",
+    "name": "Vileplume",
     "type": "grass",
     "height": 1.2,
     "weight": 18.6,
@@ -586,7 +586,7 @@
 
   {
     "id": 46,
-    "name": "paras",
+    "name": "Paras",
     "type": "bug",
     "height": 0.3,
     "weight": 5.4,
@@ -599,7 +599,7 @@
 
   {
     "id": 47,
-    "name": "parasect",
+    "name": "Parasect",
     "type": "bug",
     "height": 1,
     "weight": 29.5,
@@ -612,7 +612,7 @@
 
   {
     "id": 48,
-    "name": "venonat",
+    "name": "Venonat",
     "type": "bug",
     "height": 1,
     "weight": 30,
@@ -625,7 +625,7 @@
 
   {
     "id": 49,
-    "name": "venomoth",
+    "name": "Venomoth",
     "type": "bug",
     "height": 1.5,
     "weight": 12.5,
@@ -638,7 +638,7 @@
 
   {
     "id": 50,
-    "name": "diglett",
+    "name": "Diglett",
     "type": "ground",
     "height": 0.2,
     "weight": 0.8,
@@ -651,7 +651,7 @@
 
   {
     "id": 51,
-    "name": "dugtrio",
+    "name": "Dugtrio",
     "type": "ground",
     "height": 0.7,
     "weight": 33.3,
@@ -664,7 +664,7 @@
 
   {
     "id": 52,
-    "name": "meowth",
+    "name": "Meowth",
     "type": "normal",
     "height": 0.4,
     "weight": 4.2,
@@ -677,7 +677,7 @@
 
   {
     "id": 53,
-    "name": "persian",
+    "name": "Persian",
     "type": "normal",
     "height": 1,
     "weight": 32,
@@ -690,7 +690,7 @@
 
   {
     "id": 54,
-    "name": "psyduck",
+    "name": "Psyduck",
     "type": "water",
     "height": 0.8,
     "weight": 19.6,
@@ -703,7 +703,7 @@
 
   {
     "id": 55,
-    "name": "golduck",
+    "name": "Golduck",
     "type": "water",
     "height": 1.7,
     "weight": 76.6,
@@ -716,7 +716,7 @@
 
   {
     "id": 56,
-    "name": "mankey",
+    "name": "Mankey",
     "type": "fighting",
     "height": 0.5,
     "weight": 28,
@@ -729,7 +729,7 @@
 
   {
     "id": 57,
-    "name": "primeape",
+    "name": "Primeape",
     "type": "fighting",
     "height": 1,
     "weight": 32,
@@ -742,7 +742,7 @@
 
   {
     "id": 58,
-    "name": "growlithe",
+    "name": "Growlithe",
     "type": "fire",
     "height": 0.7,
     "weight": 19,
@@ -755,7 +755,7 @@
 
   {
     "id": 59,
-    "name": "arcanine",
+    "name": "Arcanine",
     "type": "fire",
     "height": 1.9,
     "weight": 155,
@@ -768,7 +768,7 @@
 
   {
     "id": 60,
-    "name": "poliwag",
+    "name": "Poliwag",
     "type": "water",
     "height": 0.6,
     "weight": 12.4,
@@ -781,7 +781,7 @@
 
   {
     "id": 61,
-    "name": "poliwhirl",
+    "name": "Poliwhirl",
     "type": "water",
     "height": 1,
     "weight": 20,
@@ -794,7 +794,7 @@
 
   {
     "id": 62,
-    "name": "poliwrath",
+    "name": "Poliwrath",
     "type": "water",
     "height": 1.3,
     "weight": 54,
@@ -807,7 +807,7 @@
 
   {
     "id": 63,
-    "name": "abra",
+    "name": "Abra",
     "type": "psychic",
     "height": 0.9,
     "weight": 19.5,
@@ -820,7 +820,7 @@
 
   {
     "id": 64,
-    "name": "kadabra",
+    "name": "Kadabra",
     "type": "psychic",
     "height": 1.3,
     "weight": 56.5,
@@ -833,7 +833,7 @@
 
   {
     "id": 65,
-    "name": "alakazam",
+    "name": "Alakazam",
     "type": "psychic",
     "height": 1.5,
     "weight": 48,
@@ -846,7 +846,7 @@
 
   {
     "id": 66,
-    "name": "machop",
+    "name": "Machop",
     "type": "fighting",
     "height": 0.8,
     "weight": 19.5,
@@ -859,7 +859,7 @@
 
   {
     "id": 67,
-    "name": "machoke",
+    "name": "Machoke",
     "type": "fighting",
     "height": 1.5,
     "weight": 70.5,
@@ -872,7 +872,7 @@
 
   {
     "id": 68,
-    "name": "machamp",
+    "name": "Machamp",
     "type": "fighting",
     "height": 1.6,
     "weight": 130,
@@ -885,7 +885,7 @@
 
   {
     "id": 69,
-    "name": "bellsprout",
+    "name": "Bellsprout",
     "type": "grass",
     "height": 0.7,
     "weight": 4,
@@ -898,7 +898,7 @@
 
   {
     "id": 70,
-    "name": "weepinbell",
+    "name": "Weepinbell",
     "type": "grass",
     "height": 1,
     "weight": 6.4,
@@ -911,7 +911,7 @@
 
   {
     "id": 71,
-    "name": "victreebel",
+    "name": "Victreebel",
     "type": "grass",
     "height": 1.7,
     "weight": 15.5,
@@ -924,7 +924,7 @@
 
   {
     "id": 72,
-    "name": "tentacool",
+    "name": "Tentacool",
     "type": "water",
     "height": 0.9,
     "weight": 45.5,
@@ -937,7 +937,7 @@
 
   {
     "id": 73,
-    "name": "tentacruel",
+    "name": "Tentacruel",
     "type": "water",
     "height": 1.6,
     "weight": 55,
@@ -950,7 +950,7 @@
 
   {
     "id": 74,
-    "name": "geodude",
+    "name": "Geodude",
     "type": "rock",
     "height": 0.4,
     "weight": 20,
@@ -963,7 +963,7 @@
 
   {
     "id": 75,
-    "name": "graveler",
+    "name": "Graveler",
     "type": "rock",
     "height": 1,
     "weight": 105,
@@ -976,7 +976,7 @@
 
   {
     "id": 76,
-    "name": "golem",
+    "name": "Golem",
     "type": "rock",
     "height": 1.4,
     "weight": 300,
@@ -989,7 +989,7 @@
 
   {
     "id": 77,
-    "name": "ponyta",
+    "name": "Ponyta",
     "type": "fire",
     "height": 1,
     "weight": 30,
@@ -1002,7 +1002,7 @@
 
   {
     "id": 78,
-    "name": "rapidash",
+    "name": "Rapidash",
     "type": "fire",
     "height": 1.7,
     "weight": 95,
@@ -1015,7 +1015,7 @@
 
   {
     "id": 79,
-    "name": "slowpoke",
+    "name": "Slowpoke",
     "type": "water",
     "height": 1.2,
     "weight": 36,
@@ -1028,7 +1028,7 @@
 
   {
     "id": 80,
-    "name": "slowbro",
+    "name": "Slowbro",
     "type": "water",
     "height": 1.6,
     "weight": 78.5,
@@ -1041,7 +1041,7 @@
 
   {
     "id": 81,
-    "name": "magnemite",
+    "name": "Magnemite",
     "type": "electric",
     "height": 0.3,
     "weight": 6,
@@ -1054,7 +1054,7 @@
 
   {
     "id": 82,
-    "name": "magneton",
+    "name": "Magneton",
     "type": "electric",
     "height": 1,
     "weight": 60,
@@ -1067,7 +1067,7 @@
 
   {
     "id": 83,
-    "name": "farfetchd",
+    "name": "Farfetch’d",
     "type": "normal",
     "height": 0.8,
     "weight": 15,
@@ -1080,7 +1080,7 @@
 
   {
     "id": 84,
-    "name": "doduo",
+    "name": "Doduo",
     "type": "normal",
     "height": 1.4,
     "weight": 39.2,
@@ -1093,7 +1093,7 @@
 
   {
     "id": 85,
-    "name": "dodrio",
+    "name": "Dodrio",
     "type": "normal",
     "height": 1.8,
     "weight": 85.2,
@@ -1106,7 +1106,7 @@
 
   {
     "id": 86,
-    "name": "seel",
+    "name": "Seel",
     "type": "water",
     "height": 1.1,
     "weight": 90,
@@ -1119,7 +1119,7 @@
 
   {
     "id": 87,
-    "name": "dewgong",
+    "name": "Dewgong",
     "type": "water",
     "height": 1.7,
     "weight": 120,
@@ -1132,7 +1132,7 @@
 
   {
     "id": 88,
-    "name": "grimer",
+    "name": "Grimer",
     "type": "poison",
     "height": 0.9,
     "weight": 30,
@@ -1145,7 +1145,7 @@
 
   {
     "id": 89,
-    "name": "muk",
+    "name": "Muk",
     "type": "poison",
     "height": 1.2,
     "weight": 30,
@@ -1158,7 +1158,7 @@
 
   {
     "id": 90,
-    "name": "shellder",
+    "name": "Shellder",
     "type": "water",
     "height": 0.3,
     "weight": 4,
@@ -1171,7 +1171,7 @@
 
   {
     "id": 91,
-    "name": "cloyster",
+    "name": "Cloyster",
     "type": "water",
     "height": 1.5,
     "weight": 132.5,
@@ -1184,7 +1184,7 @@
 
   {
     "id": 92,
-    "name": "gastly",
+    "name": "Gastly",
     "type": "ghost",
     "height": 1.3,
     "weight": 0.1,
@@ -1197,7 +1197,7 @@
 
   {
     "id": 93,
-    "name": "haunter",
+    "name": "Haunter",
     "type": "ghost",
     "height": 1.6,
     "weight": 0.1,
@@ -1210,7 +1210,7 @@
 
   {
     "id": 94,
-    "name": "gengar",
+    "name": "Gengar",
     "type": "ghost",
     "height": 1.5,
     "weight": 40.5,
@@ -1223,7 +1223,7 @@
 
   {
     "id": 95,
-    "name": "onix",
+    "name": "Onix",
     "type": "rock",
     "height": 8.8,
     "weight": 210,
@@ -1236,7 +1236,7 @@
 
   {
     "id": 96,
-    "name": "drowzee",
+    "name": "Drowzee",
     "type": "psychic",
     "height": 1,
     "weight": 32.4,
@@ -1249,7 +1249,7 @@
 
   {
     "id": 97,
-    "name": "hypno",
+    "name": "Hypno",
     "type": "psychic",
     "height": 1.6,
     "weight": 75.6,
@@ -1262,7 +1262,7 @@
 
   {
     "id": 98,
-    "name": "krabby",
+    "name": "Krabby",
     "type": "water",
     "height": 0.4,
     "weight": 6.5,
@@ -1275,7 +1275,7 @@
 
   {
     "id": 99,
-    "name": "kingler",
+    "name": "Kingler",
     "type": "water",
     "height": 1.3,
     "weight": 60,
@@ -1288,7 +1288,7 @@
 
   {
     "id": 100,
-    "name": "voltorb",
+    "name": "Voltorb",
     "type": "electric",
     "height": 0.5,
     "weight": 10.4,
@@ -1301,7 +1301,7 @@
 
   {
     "id": 101,
-    "name": "electrode",
+    "name": "Electrode",
     "type": "electric",
     "height": 1.2,
     "weight": 66.6,
@@ -1314,7 +1314,7 @@
 
   {
     "id": 102,
-    "name": "exeggcute",
+    "name": "Exeggcute",
     "type": "grass",
     "height": 0.4,
     "weight": 2.5,
@@ -1327,7 +1327,7 @@
 
   {
     "id": 103,
-    "name": "exeggutor",
+    "name": "Exeggutor",
     "type": "grass",
     "height": 2,
     "weight": 120,
@@ -1340,7 +1340,7 @@
 
   {
     "id": 104,
-    "name": "cubone",
+    "name": "Cubone",
     "type": "ground",
     "height": 0.4,
     "weight": 6.5,
@@ -1353,7 +1353,7 @@
 
   {
     "id": 105,
-    "name": "marowak",
+    "name": "Marowak",
     "type": "ground",
     "height": 1,
     "weight": 45,
@@ -1366,7 +1366,7 @@
 
   {
     "id": 106,
-    "name": "hitmonlee",
+    "name": "Hitmonlee",
     "type": "fighting",
     "height": 1.5,
     "weight": 49.8,
@@ -1379,7 +1379,7 @@
 
   {
     "id": 107,
-    "name": "hitmonchan",
+    "name": "Hitmonchan",
     "type": "fighting",
     "height": 1.4,
     "weight": 50.2,
@@ -1392,7 +1392,7 @@
 
   {
     "id": 108,
-    "name": "lickitung",
+    "name": "Lickitung",
     "type": "normal",
     "height": 1.2,
     "weight": 65.5,
@@ -1405,7 +1405,7 @@
 
   {
     "id": 109,
-    "name": "koffing",
+    "name": "Koffing",
     "type": "poison",
     "height": 0.6,
     "weight": 1,
@@ -1418,7 +1418,7 @@
 
   {
     "id": 110,
-    "name": "weezing",
+    "name": "Weezing",
     "type": "poison",
     "height": 1.2,
     "weight": 9.5,
@@ -1431,7 +1431,7 @@
 
   {
     "id": 111,
-    "name": "rhyhorn",
+    "name": "Rhyhorn",
     "type": "ground",
     "height": 1,
     "weight": 115,
@@ -1444,7 +1444,7 @@
 
   {
     "id": 112,
-    "name": "rhydon",
+    "name": "Rhydon",
     "type": "ground",
     "height": 1.9,
     "weight": 120,
@@ -1457,7 +1457,7 @@
 
   {
     "id": 113,
-    "name": "chansey",
+    "name": "Chansey",
     "type": "normal",
     "height": 1.1,
     "weight": 34.6,
@@ -1470,7 +1470,7 @@
 
   {
     "id": 114,
-    "name": "tangela",
+    "name": "Tangela",
     "type": "grass",
     "height": 1,
     "weight": 35,
@@ -1483,7 +1483,7 @@
 
   {
     "id": 115,
-    "name": "kangaskhan",
+    "name": "Kangaskhan",
     "type": "normal",
     "height": 2.2,
     "weight": 80,
@@ -1496,7 +1496,7 @@
 
   {
     "id": 116,
-    "name": "horsea",
+    "name": "Horsea",
     "type": "water",
     "height": 0.4,
     "weight": 8,
@@ -1509,7 +1509,7 @@
 
   {
     "id": 117,
-    "name": "seadra",
+    "name": "Seadra",
     "type": "water",
     "height": 1.2,
     "weight": 25,
@@ -1522,7 +1522,7 @@
 
   {
     "id": 118,
-    "name": "goldeen",
+    "name": "Goldeen",
     "type": "water",
     "height": 0.6,
     "weight": 15,
@@ -1535,7 +1535,7 @@
 
   {
     "id": 119,
-    "name": "seaking",
+    "name": "Seaking",
     "type": "water",
     "height": 1.3,
     "weight": 39,
@@ -1548,7 +1548,7 @@
 
   {
     "id": 120,
-    "name": "staryu",
+    "name": "Staryu",
     "type": "water",
     "height": 0.8,
     "weight": 34.5,
@@ -1561,7 +1561,7 @@
 
   {
     "id": 121,
-    "name": "starmie",
+    "name": "Starmie",
     "type": "water",
     "height": 1.1,
     "weight": 80,
@@ -1574,7 +1574,7 @@
 
   {
     "id": 122,
-    "name": "mr-mime",
+    "name": "Mr. Mime",
     "type": "psychic",
     "height": 1.3,
     "weight": 54.5,
@@ -1587,7 +1587,7 @@
 
   {
     "id": 123,
-    "name": "scyther",
+    "name": "Scyther",
     "type": "bug",
     "height": 1.5,
     "weight": 56,
@@ -1600,7 +1600,7 @@
 
   {
     "id": 124,
-    "name": "jynx",
+    "name": "Jynx",
     "type": "ice",
     "height": 1.4,
     "weight": 40.6,
@@ -1613,7 +1613,7 @@
 
   {
     "id": 125,
-    "name": "electabuzz",
+    "name": "Electabuzz",
     "type": "electric",
     "height": 1.1,
     "weight": 30,
@@ -1626,7 +1626,7 @@
 
   {
     "id": 126,
-    "name": "magmar",
+    "name": "Magmar",
     "type": "fire",
     "height": 1.3,
     "weight": 44.5,
@@ -1639,7 +1639,7 @@
 
   {
     "id": 127,
-    "name": "pinsir",
+    "name": "Pinsir",
     "type": "bug",
     "height": 1.5,
     "weight": 55,
@@ -1652,7 +1652,7 @@
 
   {
     "id": 128,
-    "name": "tauros",
+    "name": "Tauros",
     "type": "normal",
     "height": 1.4,
     "weight": 88.4,
@@ -1665,7 +1665,7 @@
 
   {
     "id": 129,
-    "name": "magikarp",
+    "name": "Magikarp",
     "type": "water",
     "height": 0.9,
     "weight": 10,
@@ -1678,7 +1678,7 @@
 
   {
     "id": 130,
-    "name": "gyarados",
+    "name": "Gyarados",
     "type": "water",
     "height": 6.5,
     "weight": 235,
@@ -1691,7 +1691,7 @@
 
   {
     "id": 131,
-    "name": "lapras",
+    "name": "Lapras",
     "type": "water",
     "height": 2.5,
     "weight": 220,
@@ -1704,7 +1704,7 @@
 
   {
     "id": 132,
-    "name": "ditto",
+    "name": "Ditto",
     "type": "normal",
     "height": 0.3,
     "weight": 4,
@@ -1717,7 +1717,7 @@
 
   {
     "id": 133,
-    "name": "eevee",
+    "name": "Eevee",
     "type": "normal",
     "height": 0.3,
     "weight": 6.5,
@@ -1730,7 +1730,7 @@
 
   {
     "id": 134,
-    "name": "vaporeon",
+    "name": "Vaporeon",
     "type": "water",
     "height": 1,
     "weight": 29,
@@ -1743,7 +1743,7 @@
 
   {
     "id": 135,
-    "name": "jolteon",
+    "name": "Jolteon",
     "type": "electric",
     "height": 0.8,
     "weight": 24.5,
@@ -1756,7 +1756,7 @@
 
   {
     "id": 136,
-    "name": "flareon",
+    "name": "Flareon",
     "type": "fire",
     "height": 0.9,
     "weight": 25,
@@ -1769,7 +1769,7 @@
 
   {
     "id": 137,
-    "name": "porygon",
+    "name": "Porygon",
     "type": "normal",
     "height": 0.8,
     "weight": 36.5,
@@ -1782,7 +1782,7 @@
 
   {
     "id": 138,
-    "name": "omanyte",
+    "name": "Omanyte",
     "type": "rock",
     "height": 0.4,
     "weight": 7.5,
@@ -1795,7 +1795,7 @@
 
   {
     "id": 139,
-    "name": "omastar",
+    "name": "Omastar",
     "type": "rock",
     "height": 1,
     "weight": 35,
@@ -1808,7 +1808,7 @@
 
   {
     "id": 140,
-    "name": "kabuto",
+    "name": "Kabuto",
     "type": "rock",
     "height": 0.5,
     "weight": 11.5,
@@ -1821,7 +1821,7 @@
 
   {
     "id": 141,
-    "name": "kabutops",
+    "name": "Kabutops",
     "type": "rock",
     "height": 1.3,
     "weight": 40.5,
@@ -1834,7 +1834,7 @@
 
   {
     "id": 142,
-    "name": "aerodactyl",
+    "name": "Aerodactyl",
     "type": "rock",
     "height": 1.8,
     "weight": 59,
@@ -1847,7 +1847,7 @@
 
   {
     "id": 143,
-    "name": "snorlax",
+    "name": "Snorlax",
     "type": "normal",
     "height": 2.1,
     "weight": 460,
@@ -1860,7 +1860,7 @@
 
   {
     "id": 144,
-    "name": "articuno",
+    "name": "Articuno",
     "type": "ice",
     "height": 1.7,
     "weight": 55.4,
@@ -1873,7 +1873,7 @@
 
   {
     "id": 145,
-    "name": "zapdos",
+    "name": "Zapdos",
     "type": "electric",
     "height": 1.6,
     "weight": 52.6,
@@ -1886,7 +1886,7 @@
 
   {
     "id": 146,
-    "name": "moltres",
+    "name": "Moltres",
     "type": "fire",
     "height": 2,
     "weight": 60,
@@ -1899,7 +1899,7 @@
 
   {
     "id": 147,
-    "name": "dratini",
+    "name": "Dratini",
     "type": "dragon",
     "height": 1.8,
     "weight": 3.3,
@@ -1912,7 +1912,7 @@
 
   {
     "id": 148,
-    "name": "dragonair",
+    "name": "Dragonair",
     "type": "dragon",
     "height": 4,
     "weight": 16.5,
@@ -1925,7 +1925,7 @@
 
   {
     "id": 149,
-    "name": "dragonite",
+    "name": "Dragonite",
     "type": "dragon",
     "height": 2.2,
     "weight": 210,
@@ -1938,7 +1938,7 @@
 
   {
     "id": 150,
-    "name": "mewtwo",
+    "name": "Mewtwo",
     "type": "psychic",
     "height": 2,
     "weight": 122,
@@ -1951,7 +1951,7 @@
 
   {
     "id": 151,
-    "name": "mew",
+    "name": "Mew",
     "type": "psychic",
     "height": 0.4,
     "weight": 4,
@@ -1964,7 +1964,7 @@
 
   {
     "id": 152,
-    "name": "chikorita",
+    "name": "Chikorita",
     "type": "grass",
     "height": 0.9,
     "weight": 6.4,
@@ -1977,7 +1977,7 @@
 
   {
     "id": 153,
-    "name": "bayleef",
+    "name": "Bayleef",
     "type": "grass",
     "height": 1.2,
     "weight": 15.8,
@@ -1990,7 +1990,7 @@
 
   {
     "id": 154,
-    "name": "meganium",
+    "name": "Meganium",
     "type": "grass",
     "height": 1.8,
     "weight": 100.5,
@@ -2003,7 +2003,7 @@
 
   {
     "id": 155,
-    "name": "cyndaquil",
+    "name": "Cyndaquil",
     "type": "fire",
     "height": 0.5,
     "weight": 7.9,
@@ -2016,7 +2016,7 @@
 
   {
     "id": 156,
-    "name": "quilava",
+    "name": "Quilava",
     "type": "fire",
     "height": 0.9,
     "weight": 19,
@@ -2029,7 +2029,7 @@
 
   {
     "id": 157,
-    "name": "typhlosion",
+    "name": "Typhlosion",
     "type": "fire",
     "height": 1.7,
     "weight": 79.5,
@@ -2042,7 +2042,7 @@
 
   {
     "id": 158,
-    "name": "totodile",
+    "name": "Totodile",
     "type": "water",
     "height": 0.6,
     "weight": 9.5,
@@ -2055,7 +2055,7 @@
 
   {
     "id": 159,
-    "name": "croconaw",
+    "name": "Croconaw",
     "type": "water",
     "height": 1.1,
     "weight": 25,
@@ -2068,7 +2068,7 @@
 
   {
     "id": 160,
-    "name": "feraligatr",
+    "name": "Feraligatr",
     "type": "water",
     "height": 2.3,
     "weight": 88.8,
@@ -2081,7 +2081,7 @@
 
   {
     "id": 161,
-    "name": "sentret",
+    "name": "Sentret",
     "type": "normal",
     "height": 0.8,
     "weight": 6,
@@ -2094,7 +2094,7 @@
 
   {
     "id": 162,
-    "name": "furret",
+    "name": "Furret",
     "type": "normal",
     "height": 1.8,
     "weight": 32.5,
@@ -2107,7 +2107,7 @@
 
   {
     "id": 163,
-    "name": "hoothoot",
+    "name": "Hoothoot",
     "type": "normal",
     "height": 0.7,
     "weight": 21.2,
@@ -2120,7 +2120,7 @@
 
   {
     "id": 164,
-    "name": "noctowl",
+    "name": "Noctowl",
     "type": "normal",
     "height": 1.6,
     "weight": 40.8,
@@ -2133,7 +2133,7 @@
 
   {
     "id": 165,
-    "name": "ledyba",
+    "name": "Ledyba",
     "type": "bug",
     "height": 1,
     "weight": 10.8,
@@ -2146,7 +2146,7 @@
 
   {
     "id": 166,
-    "name": "ledian",
+    "name": "Ledian",
     "type": "bug",
     "height": 1.4,
     "weight": 35.6,
@@ -2159,7 +2159,7 @@
 
   {
     "id": 167,
-    "name": "spinarak",
+    "name": "Spinarak",
     "type": "bug",
     "height": 0.5,
     "weight": 8.5,
@@ -2172,7 +2172,7 @@
 
   {
     "id": 168,
-    "name": "ariados",
+    "name": "Ariados",
     "type": "bug",
     "height": 1.1,
     "weight": 33.5,
@@ -2185,7 +2185,7 @@
 
   {
     "id": 169,
-    "name": "crobat",
+    "name": "Crobat",
     "type": "poison",
     "height": 1.8,
     "weight": 75,
@@ -2198,7 +2198,7 @@
 
   {
     "id": 170,
-    "name": "chinchou",
+    "name": "Chinchou",
     "type": "water",
     "height": 0.5,
     "weight": 12,
@@ -2211,7 +2211,7 @@
 
   {
     "id": 171,
-    "name": "lanturn",
+    "name": "Lanturn",
     "type": "water",
     "height": 1.2,
     "weight": 22.5,
@@ -2224,7 +2224,7 @@
 
   {
     "id": 172,
-    "name": "pichu",
+    "name": "Pichu",
     "type": "electric",
     "height": 0.3,
     "weight": 2,
@@ -2237,7 +2237,7 @@
 
   {
     "id": 173,
-    "name": "cleffa",
+    "name": "Cleffa",
     "type": "fairy",
     "height": 0.3,
     "weight": 3,
@@ -2250,7 +2250,7 @@
 
   {
     "id": 174,
-    "name": "igglybuff",
+    "name": "Igglybuff",
     "type": "normal",
     "height": 0.3,
     "weight": 1,
@@ -2263,7 +2263,7 @@
 
   {
     "id": 175,
-    "name": "togepi",
+    "name": "Togepi",
     "type": "fairy",
     "height": 0.3,
     "weight": 1.5,
@@ -2276,7 +2276,7 @@
 
   {
     "id": 176,
-    "name": "togetic",
+    "name": "Togetic",
     "type": "fairy",
     "height": 0.6,
     "weight": 3.2,
@@ -2289,7 +2289,7 @@
 
   {
     "id": 177,
-    "name": "natu",
+    "name": "Natu",
     "type": "psychic",
     "height": 0.2,
     "weight": 2,
@@ -2302,7 +2302,7 @@
 
   {
     "id": 178,
-    "name": "xatu",
+    "name": "Xatu",
     "type": "psychic",
     "height": 1.5,
     "weight": 15,
@@ -2315,7 +2315,7 @@
 
   {
     "id": 179,
-    "name": "mareep",
+    "name": "Mareep",
     "type": "electric",
     "height": 0.6,
     "weight": 7.8,
@@ -2328,7 +2328,7 @@
 
   {
     "id": 180,
-    "name": "flaaffy",
+    "name": "Flaaffy",
     "type": "electric",
     "height": 0.8,
     "weight": 13.3,
@@ -2341,7 +2341,7 @@
 
   {
     "id": 181,
-    "name": "ampharos",
+    "name": "Ampharos",
     "type": "electric",
     "height": 1.4,
     "weight": 61.5,
@@ -2354,7 +2354,7 @@
 
   {
     "id": 182,
-    "name": "bellossom",
+    "name": "Bellossom",
     "type": "grass",
     "height": 0.4,
     "weight": 5.8,
@@ -2367,7 +2367,7 @@
 
   {
     "id": 183,
-    "name": "marill",
+    "name": "Marill",
     "type": "water",
     "height": 0.4,
     "weight": 8.5,
@@ -2380,7 +2380,7 @@
 
   {
     "id": 184,
-    "name": "azumarill",
+    "name": "Azumarill",
     "type": "water",
     "height": 0.8,
     "weight": 28.5,
@@ -2393,7 +2393,7 @@
 
   {
     "id": 185,
-    "name": "sudowoodo",
+    "name": "Sudowoodo",
     "type": "rock",
     "height": 1.2,
     "weight": 38,
@@ -2406,7 +2406,7 @@
 
   {
     "id": 186,
-    "name": "politoed",
+    "name": "Politoed",
     "type": "water",
     "height": 1.1,
     "weight": 33.9,
@@ -2419,7 +2419,7 @@
 
   {
     "id": 187,
-    "name": "hoppip",
+    "name": "Hoppip",
     "type": "grass",
     "height": 0.4,
     "weight": 0.5,
@@ -2432,7 +2432,7 @@
 
   {
     "id": 188,
-    "name": "skiploom",
+    "name": "Skiploom",
     "type": "grass",
     "height": 0.6,
     "weight": 1,
@@ -2445,7 +2445,7 @@
 
   {
     "id": 189,
-    "name": "jumpluff",
+    "name": "Jumpluff",
     "type": "grass",
     "height": 0.8,
     "weight": 3,
@@ -2458,7 +2458,7 @@
 
   {
     "id": 190,
-    "name": "aipom",
+    "name": "Aipom",
     "type": "normal",
     "height": 0.8,
     "weight": 11.5,
@@ -2471,7 +2471,7 @@
 
   {
     "id": 191,
-    "name": "sunkern",
+    "name": "Sunkern",
     "type": "grass",
     "height": 0.3,
     "weight": 1.8,
@@ -2484,7 +2484,7 @@
 
   {
     "id": 192,
-    "name": "sunflora",
+    "name": "Sunflora",
     "type": "grass",
     "height": 0.8,
     "weight": 8.5,
@@ -2497,7 +2497,7 @@
 
   {
     "id": 193,
-    "name": "yanma",
+    "name": "Yanma",
     "type": "bug",
     "height": 1.2,
     "weight": 38,
@@ -2510,7 +2510,7 @@
 
   {
     "id": 194,
-    "name": "wooper",
+    "name": "Wooper",
     "type": "water",
     "height": 0.4,
     "weight": 8.5,
@@ -2523,7 +2523,7 @@
 
   {
     "id": 195,
-    "name": "quagsire",
+    "name": "Quagsire",
     "type": "water",
     "height": 1.4,
     "weight": 75,
@@ -2536,7 +2536,7 @@
 
   {
     "id": 196,
-    "name": "espeon",
+    "name": "Espeon",
     "type": "psychic",
     "height": 0.9,
     "weight": 26.5,
@@ -2549,7 +2549,7 @@
 
   {
     "id": 197,
-    "name": "umbreon",
+    "name": "Umbreon",
     "type": "dark",
     "height": 1,
     "weight": 27,
@@ -2562,7 +2562,7 @@
 
   {
     "id": 198,
-    "name": "murkrow",
+    "name": "Murkrow",
     "type": "dark",
     "height": 0.5,
     "weight": 2.1,
@@ -2575,7 +2575,7 @@
 
   {
     "id": 199,
-    "name": "slowking",
+    "name": "Slowking",
     "type": "water",
     "height": 2,
     "weight": 79.5,
@@ -2588,7 +2588,7 @@
 
   {
     "id": 200,
-    "name": "misdreavus",
+    "name": "Misdreavus",
     "type": "ghost",
     "height": 0.7,
     "weight": 1,
@@ -2601,7 +2601,7 @@
 
   {
     "id": 201,
-    "name": "unown",
+    "name": "Unown",
     "type": "psychic",
     "height": 0.5,
     "weight": 5,
@@ -2614,7 +2614,7 @@
 
   {
     "id": 202,
-    "name": "wobbuffet",
+    "name": "Wobbuffet",
     "type": "psychic",
     "height": 1.3,
     "weight": 28.5,
@@ -2627,7 +2627,7 @@
 
   {
     "id": 203,
-    "name": "girafarig",
+    "name": "Girafarig",
     "type": "normal",
     "height": 1.5,
     "weight": 41.5,
@@ -2640,7 +2640,7 @@
 
   {
     "id": 204,
-    "name": "pineco",
+    "name": "Pineco",
     "type": "bug",
     "height": 0.6,
     "weight": 7.2,
@@ -2653,7 +2653,7 @@
 
   {
     "id": 205,
-    "name": "forretress",
+    "name": "Forretress",
     "type": "bug",
     "height": 1.2,
     "weight": 125.8,
@@ -2666,7 +2666,7 @@
 
   {
     "id": 206,
-    "name": "dunsparce",
+    "name": "Dunsparce",
     "type": "normal",
     "height": 1.5,
     "weight": 14,
@@ -2679,7 +2679,7 @@
 
   {
     "id": 207,
-    "name": "gligar",
+    "name": "Gligar",
     "type": "ground",
     "height": 1.1,
     "weight": 64.8,
@@ -2692,7 +2692,7 @@
 
   {
     "id": 208,
-    "name": "steelix",
+    "name": "Steelix",
     "type": "steel",
     "height": 9.2,
     "weight": 400,
@@ -2705,7 +2705,7 @@
 
   {
     "id": 209,
-    "name": "snubbull",
+    "name": "Snubbull",
     "type": "fairy",
     "height": 0.6,
     "weight": 7.8,
@@ -2718,7 +2718,7 @@
 
   {
     "id": 210,
-    "name": "granbull",
+    "name": "Granbull",
     "type": "fairy",
     "height": 1.4,
     "weight": 48.7,
@@ -2731,7 +2731,7 @@
 
   {
     "id": 211,
-    "name": "qwilfish",
+    "name": "Qwilfish",
     "type": "water",
     "height": 0.5,
     "weight": 3.9,
@@ -2744,7 +2744,7 @@
 
   {
     "id": 212,
-    "name": "scizor",
+    "name": "Scizor",
     "type": "bug",
     "height": 1.8,
     "weight": 118,
@@ -2757,7 +2757,7 @@
 
   {
     "id": 213,
-    "name": "shuckle",
+    "name": "Shuckle",
     "type": "bug",
     "height": 0.6,
     "weight": 20.5,
@@ -2770,7 +2770,7 @@
 
   {
     "id": 214,
-    "name": "heracross",
+    "name": "Heracross",
     "type": "bug",
     "height": 1.5,
     "weight": 54,
@@ -2783,7 +2783,7 @@
 
   {
     "id": 215,
-    "name": "sneasel",
+    "name": "Sneasel",
     "type": "dark",
     "height": 0.9,
     "weight": 28,
@@ -2796,7 +2796,7 @@
 
   {
     "id": 216,
-    "name": "teddiursa",
+    "name": "Teddiursa",
     "type": "normal",
     "height": 0.6,
     "weight": 8.8,
@@ -2809,7 +2809,7 @@
 
   {
     "id": 217,
-    "name": "ursaring",
+    "name": "Ursaring",
     "type": "normal",
     "height": 1.8,
     "weight": 125.8,
@@ -2822,7 +2822,7 @@
 
   {
     "id": 218,
-    "name": "slugma",
+    "name": "Slugma",
     "type": "fire",
     "height": 0.7,
     "weight": 35,
@@ -2835,7 +2835,7 @@
 
   {
     "id": 219,
-    "name": "magcargo",
+    "name": "Magcargo",
     "type": "fire",
     "height": 0.8,
     "weight": 55,
@@ -2848,7 +2848,7 @@
 
   {
     "id": 220,
-    "name": "swinub",
+    "name": "Swinub",
     "type": "ice",
     "height": 0.4,
     "weight": 6.5,
@@ -2861,7 +2861,7 @@
 
   {
     "id": 221,
-    "name": "piloswine",
+    "name": "Piloswine",
     "type": "ice",
     "height": 1.1,
     "weight": 55.8,
@@ -2874,7 +2874,7 @@
 
   {
     "id": 222,
-    "name": "corsola",
+    "name": "Corsola",
     "type": "water",
     "height": 0.6,
     "weight": 5,
@@ -2887,7 +2887,7 @@
 
   {
     "id": 223,
-    "name": "remoraid",
+    "name": "Remoraid",
     "type": "water",
     "height": 0.6,
     "weight": 12,
@@ -2900,7 +2900,7 @@
 
   {
     "id": 224,
-    "name": "octillery",
+    "name": "Octillery",
     "type": "water",
     "height": 0.9,
     "weight": 28.5,
@@ -2913,7 +2913,7 @@
 
   {
     "id": 225,
-    "name": "delibird",
+    "name": "Delibird",
     "type": "ice",
     "height": 0.9,
     "weight": 16,
@@ -2926,7 +2926,7 @@
 
   {
     "id": 226,
-    "name": "mantine",
+    "name": "Mantine",
     "type": "water",
     "height": 2.1,
     "weight": 220,
@@ -2939,7 +2939,7 @@
 
   {
     "id": 227,
-    "name": "skarmory",
+    "name": "Skarmory",
     "type": "steel",
     "height": 1.7,
     "weight": 50.5,
@@ -2952,7 +2952,7 @@
 
   {
     "id": 228,
-    "name": "houndour",
+    "name": "Houndour",
     "type": "dark",
     "height": 0.6,
     "weight": 10.8,
@@ -2965,7 +2965,7 @@
 
   {
     "id": 229,
-    "name": "houndoom",
+    "name": "Houndoom",
     "type": "dark",
     "height": 1.4,
     "weight": 35,
@@ -2978,7 +2978,7 @@
 
   {
     "id": 230,
-    "name": "kingdra",
+    "name": "Kingdra",
     "type": "water",
     "height": 1.8,
     "weight": 152,
@@ -2991,7 +2991,7 @@
 
   {
     "id": 231,
-    "name": "phanpy",
+    "name": "Phanpy",
     "type": "ground",
     "height": 0.5,
     "weight": 33.5,
@@ -3004,7 +3004,7 @@
 
   {
     "id": 232,
-    "name": "donphan",
+    "name": "Donphan",
     "type": "ground",
     "height": 1.1,
     "weight": 120,
@@ -3017,7 +3017,7 @@
 
   {
     "id": 233,
-    "name": "porygon2",
+    "name": "Porygon2",
     "type": "normal",
     "height": 0.6,
     "weight": 32.5,
@@ -3030,7 +3030,7 @@
 
   {
     "id": 234,
-    "name": "stantler",
+    "name": "Stantler",
     "type": "normal",
     "height": 1.4,
     "weight": 71.2,
@@ -3043,7 +3043,7 @@
 
   {
     "id": 235,
-    "name": "smeargle",
+    "name": "Smeargle",
     "type": "normal",
     "height": 1.2,
     "weight": 58,
@@ -3056,7 +3056,7 @@
 
   {
     "id": 236,
-    "name": "tyrogue",
+    "name": "Tyrogue",
     "type": "fighting",
     "height": 0.7,
     "weight": 21,
@@ -3069,7 +3069,7 @@
 
   {
     "id": 237,
-    "name": "hitmontop",
+    "name": "Hitmontop",
     "type": "fighting",
     "height": 1.4,
     "weight": 48,
@@ -3082,7 +3082,7 @@
 
   {
     "id": 238,
-    "name": "smoochum",
+    "name": "Smoochum",
     "type": "ice",
     "height": 0.4,
     "weight": 6,
@@ -3095,7 +3095,7 @@
 
   {
     "id": 239,
-    "name": "elekid",
+    "name": "Elekid",
     "type": "electric",
     "height": 0.6,
     "weight": 23.5,
@@ -3108,7 +3108,7 @@
 
   {
     "id": 240,
-    "name": "magby",
+    "name": "Magby",
     "type": "fire",
     "height": 0.7,
     "weight": 21.4,
@@ -3121,7 +3121,7 @@
 
   {
     "id": 241,
-    "name": "miltank",
+    "name": "Miltank",
     "type": "normal",
     "height": 1.2,
     "weight": 75.5,
@@ -3134,7 +3134,7 @@
 
   {
     "id": 242,
-    "name": "blissey",
+    "name": "Blissey",
     "type": "normal",
     "height": 1.5,
     "weight": 46.8,
@@ -3147,7 +3147,7 @@
 
   {
     "id": 243,
-    "name": "raikou",
+    "name": "Raikou",
     "type": "electric",
     "height": 1.9,
     "weight": 178,
@@ -3160,7 +3160,7 @@
 
   {
     "id": 244,
-    "name": "entei",
+    "name": "Entei",
     "type": "fire",
     "height": 2.1,
     "weight": 198,
@@ -3173,7 +3173,7 @@
 
   {
     "id": 245,
-    "name": "suicune",
+    "name": "Suicune",
     "type": "water",
     "height": 2,
     "weight": 187,
@@ -3186,7 +3186,7 @@
 
   {
     "id": 246,
-    "name": "larvitar",
+    "name": "Larvitar",
     "type": "rock",
     "height": 0.6,
     "weight": 72,
@@ -3199,7 +3199,7 @@
 
   {
     "id": 247,
-    "name": "pupitar",
+    "name": "Pupitar",
     "type": "rock",
     "height": 1.2,
     "weight": 152,
@@ -3212,7 +3212,7 @@
 
   {
     "id": 248,
-    "name": "tyranitar",
+    "name": "Tyranitar",
     "type": "rock",
     "height": 2,
     "weight": 202,
@@ -3225,7 +3225,7 @@
 
   {
     "id": 249,
-    "name": "lugia",
+    "name": "Lugia",
     "type": "psychic",
     "height": 5.2,
     "weight": 216,
@@ -3238,7 +3238,7 @@
 
   {
     "id": 250,
-    "name": "ho-oh",
+    "name": "Ho-Oh",
     "type": "fire",
     "height": 3.8,
     "weight": 199,
@@ -3251,7 +3251,7 @@
 
   {
     "id": 251,
-    "name": "celebi",
+    "name": "Celebi",
     "type": "psychic",
     "height": 0.6,
     "weight": 5,
@@ -3264,7 +3264,7 @@
 
   {
     "id": 252,
-    "name": "treecko",
+    "name": "Treecko",
     "type": "grass",
     "height": 0.5,
     "weight": 5,
@@ -3277,7 +3277,7 @@
 
   {
     "id": 253,
-    "name": "grovyle",
+    "name": "Grovyle",
     "type": "grass",
     "height": 0.9,
     "weight": 21.6,
@@ -3290,7 +3290,7 @@
 
   {
     "id": 254,
-    "name": "sceptile",
+    "name": "Sceptile",
     "type": "grass",
     "height": 1.7,
     "weight": 52.2,
@@ -3303,7 +3303,7 @@
 
   {
     "id": 255,
-    "name": "torchic",
+    "name": "Torchic",
     "type": "fire",
     "height": 0.4,
     "weight": 2.5,
@@ -3316,7 +3316,7 @@
 
   {
     "id": 256,
-    "name": "combusken",
+    "name": "Combusken",
     "type": "fire",
     "height": 0.9,
     "weight": 19.5,
@@ -3329,7 +3329,7 @@
 
   {
     "id": 257,
-    "name": "blaziken",
+    "name": "Blaziken",
     "type": "fire",
     "height": 1.9,
     "weight": 52,
@@ -3342,7 +3342,7 @@
 
   {
     "id": 258,
-    "name": "mudkip",
+    "name": "Mudkip",
     "type": "water",
     "height": 0.4,
     "weight": 7.6,
@@ -3355,7 +3355,7 @@
 
   {
     "id": 259,
-    "name": "marshtomp",
+    "name": "Marshtomp",
     "type": "water",
     "height": 0.7,
     "weight": 28,
@@ -3368,7 +3368,7 @@
 
   {
     "id": 260,
-    "name": "swampert",
+    "name": "Swampert",
     "type": "water",
     "height": 1.5,
     "weight": 81.9,
@@ -3381,7 +3381,7 @@
 
   {
     "id": 261,
-    "name": "poochyena",
+    "name": "Poochyena",
     "type": "dark",
     "height": 0.5,
     "weight": 13.6,
@@ -3394,7 +3394,7 @@
 
   {
     "id": 262,
-    "name": "mightyena",
+    "name": "Mightyena",
     "type": "dark",
     "height": 1,
     "weight": 37,
@@ -3407,7 +3407,7 @@
 
   {
     "id": 263,
-    "name": "zigzagoon",
+    "name": "Zigzagoon",
     "type": "normal",
     "height": 0.4,
     "weight": 17.5,
@@ -3420,7 +3420,7 @@
 
   {
     "id": 264,
-    "name": "linoone",
+    "name": "Linoone",
     "type": "normal",
     "height": 0.5,
     "weight": 32.5,
@@ -3433,7 +3433,7 @@
 
   {
     "id": 265,
-    "name": "wurmple",
+    "name": "Wurmple",
     "type": "bug",
     "height": 0.3,
     "weight": 3.6,
@@ -3446,7 +3446,7 @@
 
   {
     "id": 266,
-    "name": "silcoon",
+    "name": "Silcoon",
     "type": "bug",
     "height": 0.6,
     "weight": 10,
@@ -3459,7 +3459,7 @@
 
   {
     "id": 267,
-    "name": "beautifly",
+    "name": "Beautifly",
     "type": "bug",
     "height": 1,
     "weight": 28.4,
@@ -3472,7 +3472,7 @@
 
   {
     "id": 268,
-    "name": "cascoon",
+    "name": "Cascoon",
     "type": "bug",
     "height": 0.7,
     "weight": 11.5,
@@ -3485,7 +3485,7 @@
 
   {
     "id": 269,
-    "name": "dustox",
+    "name": "Dustox",
     "type": "bug",
     "height": 1.2,
     "weight": 31.6,
@@ -3498,7 +3498,7 @@
 
   {
     "id": 270,
-    "name": "lotad",
+    "name": "Lotad",
     "type": "water",
     "height": 0.5,
     "weight": 2.6,
@@ -3511,7 +3511,7 @@
 
   {
     "id": 271,
-    "name": "lombre",
+    "name": "Lombre",
     "type": "water",
     "height": 1.2,
     "weight": 32.5,
@@ -3524,7 +3524,7 @@
 
   {
     "id": 272,
-    "name": "ludicolo",
+    "name": "Ludicolo",
     "type": "water",
     "height": 1.5,
     "weight": 55,
@@ -3537,7 +3537,7 @@
 
   {
     "id": 273,
-    "name": "seedot",
+    "name": "Seedot",
     "type": "grass",
     "height": 0.5,
     "weight": 4,
@@ -3550,7 +3550,7 @@
 
   {
     "id": 274,
-    "name": "nuzleaf",
+    "name": "Nuzleaf",
     "type": "grass",
     "height": 1,
     "weight": 28,
@@ -3563,7 +3563,7 @@
 
   {
     "id": 275,
-    "name": "shiftry",
+    "name": "Shiftry",
     "type": "grass",
     "height": 1.3,
     "weight": 59.6,
@@ -3576,7 +3576,7 @@
 
   {
     "id": 276,
-    "name": "taillow",
+    "name": "Taillow",
     "type": "normal",
     "height": 0.3,
     "weight": 2.3,
@@ -3589,7 +3589,7 @@
 
   {
     "id": 277,
-    "name": "swellow",
+    "name": "Swellow",
     "type": "normal",
     "height": 0.7,
     "weight": 19.8,
@@ -3602,7 +3602,7 @@
 
   {
     "id": 278,
-    "name": "wingull",
+    "name": "Wingull",
     "type": "water",
     "height": 0.6,
     "weight": 9.5,
@@ -3615,7 +3615,7 @@
 
   {
     "id": 279,
-    "name": "pelipper",
+    "name": "Pelipper",
     "type": "water",
     "height": 1.2,
     "weight": 28,
@@ -3628,7 +3628,7 @@
 
   {
     "id": 280,
-    "name": "ralts",
+    "name": "Ralts",
     "type": "psychic",
     "height": 0.4,
     "weight": 6.6,
@@ -3641,7 +3641,7 @@
 
   {
     "id": 281,
-    "name": "kirlia",
+    "name": "Kirlia",
     "type": "psychic",
     "height": 0.8,
     "weight": 20.2,
@@ -3654,7 +3654,7 @@
 
   {
     "id": 282,
-    "name": "gardevoir",
+    "name": "Gardevoir",
     "type": "psychic",
     "height": 1.6,
     "weight": 48.4,
@@ -3667,7 +3667,7 @@
 
   {
     "id": 283,
-    "name": "surskit",
+    "name": "Surskit",
     "type": "bug",
     "height": 0.5,
     "weight": 1.7,
@@ -3680,7 +3680,7 @@
 
   {
     "id": 284,
-    "name": "masquerain",
+    "name": "Masquerain",
     "type": "bug",
     "height": 0.8,
     "weight": 3.6,
@@ -3693,7 +3693,7 @@
 
   {
     "id": 285,
-    "name": "shroomish",
+    "name": "Shroomish",
     "type": "grass",
     "height": 0.4,
     "weight": 4.5,
@@ -3706,7 +3706,7 @@
 
   {
     "id": 286,
-    "name": "breloom",
+    "name": "Breloom",
     "type": "grass",
     "height": 1.2,
     "weight": 39.2,
@@ -3719,7 +3719,7 @@
 
   {
     "id": 287,
-    "name": "slakoth",
+    "name": "Slakoth",
     "type": "normal",
     "height": 0.8,
     "weight": 24,
@@ -3732,7 +3732,7 @@
 
   {
     "id": 288,
-    "name": "vigoroth",
+    "name": "Vigoroth",
     "type": "normal",
     "height": 1.4,
     "weight": 46.5,
@@ -3745,7 +3745,7 @@
 
   {
     "id": 289,
-    "name": "slaking",
+    "name": "Slaking",
     "type": "normal",
     "height": 2,
     "weight": 130.5,
@@ -3758,7 +3758,7 @@
 
   {
     "id": 290,
-    "name": "nincada",
+    "name": "Nincada",
     "type": "bug",
     "height": 0.5,
     "weight": 5.5,
@@ -3771,7 +3771,7 @@
 
   {
     "id": 291,
-    "name": "ninjask",
+    "name": "Ninjask",
     "type": "bug",
     "height": 0.8,
     "weight": 12,
@@ -3784,7 +3784,7 @@
 
   {
     "id": 292,
-    "name": "shedinja",
+    "name": "Shedinja",
     "type": "bug",
     "height": 0.8,
     "weight": 1.2,
@@ -3797,7 +3797,7 @@
 
   {
     "id": 293,
-    "name": "whismur",
+    "name": "Whismur",
     "type": "normal",
     "height": 0.6,
     "weight": 16.3,
@@ -3810,7 +3810,7 @@
 
   {
     "id": 294,
-    "name": "loudred",
+    "name": "Loudred",
     "type": "normal",
     "height": 1,
     "weight": 40.5,
@@ -3823,7 +3823,7 @@
 
   {
     "id": 295,
-    "name": "exploud",
+    "name": "Exploud",
     "type": "normal",
     "height": 1.5,
     "weight": 84,
@@ -3836,7 +3836,7 @@
 
   {
     "id": 296,
-    "name": "makuhita",
+    "name": "Makuhita",
     "type": "fighting",
     "height": 1,
     "weight": 86.4,
@@ -3849,7 +3849,7 @@
 
   {
     "id": 297,
-    "name": "hariyama",
+    "name": "Hariyama",
     "type": "fighting",
     "height": 2.3,
     "weight": 253.8,
@@ -3862,7 +3862,7 @@
 
   {
     "id": 298,
-    "name": "azurill",
+    "name": "Azurill",
     "type": "normal",
     "height": 0.2,
     "weight": 2,
@@ -3875,7 +3875,7 @@
 
   {
     "id": 299,
-    "name": "nosepass",
+    "name": "Nosepass",
     "type": "rock",
     "height": 1,
     "weight": 97,
@@ -3888,7 +3888,7 @@
 
   {
     "id": 300,
-    "name": "skitty",
+    "name": "Skitty",
     "type": "normal",
     "height": 0.6,
     "weight": 11,
@@ -3901,7 +3901,7 @@
 
   {
     "id": 301,
-    "name": "delcatty",
+    "name": "Delcatty",
     "type": "normal",
     "height": 1.1,
     "weight": 32.6,
@@ -3914,7 +3914,7 @@
 
   {
     "id": 302,
-    "name": "sableye",
+    "name": "Sableye",
     "type": "dark",
     "height": 0.5,
     "weight": 11,
@@ -3927,7 +3927,7 @@
 
   {
     "id": 303,
-    "name": "mawile",
+    "name": "Mawile",
     "type": "steel",
     "height": 0.6,
     "weight": 11.5,
@@ -3940,7 +3940,7 @@
 
   {
     "id": 304,
-    "name": "aron",
+    "name": "Aron",
     "type": "steel",
     "height": 0.4,
     "weight": 60,
@@ -3953,7 +3953,7 @@
 
   {
     "id": 305,
-    "name": "lairon",
+    "name": "Lairon",
     "type": "steel",
     "height": 0.9,
     "weight": 120,
@@ -3966,7 +3966,7 @@
 
   {
     "id": 306,
-    "name": "aggron",
+    "name": "Aggron",
     "type": "steel",
     "height": 2.1,
     "weight": 360,
@@ -3979,7 +3979,7 @@
 
   {
     "id": 307,
-    "name": "meditite",
+    "name": "Meditite",
     "type": "fighting",
     "height": 0.6,
     "weight": 11.2,
@@ -3992,7 +3992,7 @@
 
   {
     "id": 308,
-    "name": "medicham",
+    "name": "Medicham",
     "type": "fighting",
     "height": 1.3,
     "weight": 31.5,
@@ -4005,7 +4005,7 @@
 
   {
     "id": 309,
-    "name": "electrike",
+    "name": "Electrike",
     "type": "electric",
     "height": 0.6,
     "weight": 15.2,
@@ -4018,7 +4018,7 @@
 
   {
     "id": 310,
-    "name": "manectric",
+    "name": "Manectric",
     "type": "electric",
     "height": 1.5,
     "weight": 40.2,
@@ -4031,7 +4031,7 @@
 
   {
     "id": 311,
-    "name": "plusle",
+    "name": "Plusle",
     "type": "electric",
     "height": 0.4,
     "weight": 4.2,
@@ -4044,7 +4044,7 @@
 
   {
     "id": 312,
-    "name": "minun",
+    "name": "Minun",
     "type": "electric",
     "height": 0.4,
     "weight": 4.2,
@@ -4057,7 +4057,7 @@
 
   {
     "id": 313,
-    "name": "volbeat",
+    "name": "Volbeat",
     "type": "bug",
     "height": 0.7,
     "weight": 17.7,
@@ -4070,7 +4070,7 @@
 
   {
     "id": 314,
-    "name": "illumise",
+    "name": "Illumise",
     "type": "bug",
     "height": 0.6,
     "weight": 17.7,
@@ -4083,7 +4083,7 @@
 
   {
     "id": 315,
-    "name": "roselia",
+    "name": "Roselia",
     "type": "grass",
     "height": 0.3,
     "weight": 2,
@@ -4096,7 +4096,7 @@
 
   {
     "id": 316,
-    "name": "gulpin",
+    "name": "Gulpin",
     "type": "poison",
     "height": 0.4,
     "weight": 10.3,
@@ -4109,7 +4109,7 @@
 
   {
     "id": 317,
-    "name": "swalot",
+    "name": "Swalot",
     "type": "poison",
     "height": 1.7,
     "weight": 80,
@@ -4122,7 +4122,7 @@
 
   {
     "id": 318,
-    "name": "carvanha",
+    "name": "Carvanha",
     "type": "water",
     "height": 0.8,
     "weight": 20.8,
@@ -4135,7 +4135,7 @@
 
   {
     "id": 319,
-    "name": "sharpedo",
+    "name": "Sharpedo",
     "type": "water",
     "height": 1.8,
     "weight": 88.8,
@@ -4148,7 +4148,7 @@
 
   {
     "id": 320,
-    "name": "wailmer",
+    "name": "Wailmer",
     "type": "water",
     "height": 2,
     "weight": 130,
@@ -4161,7 +4161,7 @@
 
   {
     "id": 321,
-    "name": "wailord",
+    "name": "Wailord",
     "type": "water",
     "height": 14.5,
     "weight": 398,
@@ -4174,7 +4174,7 @@
 
   {
     "id": 322,
-    "name": "numel",
+    "name": "Numel",
     "type": "fire",
     "height": 0.7,
     "weight": 24,
@@ -4187,7 +4187,7 @@
 
   {
     "id": 323,
-    "name": "camerupt",
+    "name": "Camerupt",
     "type": "fire",
     "height": 1.9,
     "weight": 220,
@@ -4200,7 +4200,7 @@
 
   {
     "id": 324,
-    "name": "torkoal",
+    "name": "Torkoal",
     "type": "fire",
     "height": 0.5,
     "weight": 80.4,
@@ -4213,7 +4213,7 @@
 
   {
     "id": 325,
-    "name": "spoink",
+    "name": "Spoink",
     "type": "psychic",
     "height": 0.7,
     "weight": 30.6,
@@ -4226,7 +4226,7 @@
 
   {
     "id": 326,
-    "name": "grumpig",
+    "name": "Grumpig",
     "type": "psychic",
     "height": 0.9,
     "weight": 71.5,
@@ -4239,7 +4239,7 @@
 
   {
     "id": 327,
-    "name": "spinda",
+    "name": "Spinda",
     "type": "normal",
     "height": 1.1,
     "weight": 5,
@@ -4252,7 +4252,7 @@
 
   {
     "id": 328,
-    "name": "trapinch",
+    "name": "Trapinch",
     "type": "ground",
     "height": 0.7,
     "weight": 15,
@@ -4265,7 +4265,7 @@
 
   {
     "id": 329,
-    "name": "vibrava",
+    "name": "Vibrava",
     "type": "ground",
     "height": 1.1,
     "weight": 15.3,
@@ -4278,7 +4278,7 @@
 
   {
     "id": 330,
-    "name": "flygon",
+    "name": "Flygon",
     "type": "ground",
     "height": 2,
     "weight": 82,
@@ -4291,7 +4291,7 @@
 
   {
     "id": 331,
-    "name": "cacnea",
+    "name": "Cacnea",
     "type": "grass",
     "height": 0.4,
     "weight": 51.3,
@@ -4304,7 +4304,7 @@
 
   {
     "id": 332,
-    "name": "cacturne",
+    "name": "Cacturne",
     "type": "grass",
     "height": 1.3,
     "weight": 77.4,
@@ -4317,7 +4317,7 @@
 
   {
     "id": 333,
-    "name": "swablu",
+    "name": "Swablu",
     "type": "normal",
     "height": 0.4,
     "weight": 1.2,
@@ -4330,7 +4330,7 @@
 
   {
     "id": 334,
-    "name": "altaria",
+    "name": "Altaria",
     "type": "dragon",
     "height": 1.1,
     "weight": 20.6,
@@ -4343,7 +4343,7 @@
 
   {
     "id": 335,
-    "name": "zangoose",
+    "name": "Zangoose",
     "type": "normal",
     "height": 1.3,
     "weight": 40.3,
@@ -4356,7 +4356,7 @@
 
   {
     "id": 336,
-    "name": "seviper",
+    "name": "Seviper",
     "type": "poison",
     "height": 2.7,
     "weight": 52.5,
@@ -4369,7 +4369,7 @@
 
   {
     "id": 337,
-    "name": "lunatone",
+    "name": "Lunatone",
     "type": "rock",
     "height": 1,
     "weight": 168,
@@ -4382,7 +4382,7 @@
 
   {
     "id": 338,
-    "name": "solrock",
+    "name": "Solrock",
     "type": "rock",
     "height": 1.2,
     "weight": 154,
@@ -4395,7 +4395,7 @@
 
   {
     "id": 339,
-    "name": "barboach",
+    "name": "Barboach",
     "type": "water",
     "height": 0.4,
     "weight": 1.9,
@@ -4408,7 +4408,7 @@
 
   {
     "id": 340,
-    "name": "whiscash",
+    "name": "Whiscash",
     "type": "water",
     "height": 0.9,
     "weight": 23.6,
@@ -4421,7 +4421,7 @@
 
   {
     "id": 341,
-    "name": "corphish",
+    "name": "Corphish",
     "type": "water",
     "height": 0.6,
     "weight": 11.5,
@@ -4434,7 +4434,7 @@
 
   {
     "id": 342,
-    "name": "crawdaunt",
+    "name": "Crawdaunt",
     "type": "water",
     "height": 1.1,
     "weight": 32.8,
@@ -4447,7 +4447,7 @@
 
   {
     "id": 343,
-    "name": "baltoy",
+    "name": "Baltoy",
     "type": "ground",
     "height": 0.5,
     "weight": 21.5,
@@ -4460,7 +4460,7 @@
 
   {
     "id": 344,
-    "name": "claydol",
+    "name": "Claydol",
     "type": "ground",
     "height": 1.5,
     "weight": 108,
@@ -4473,7 +4473,7 @@
 
   {
     "id": 345,
-    "name": "lileep",
+    "name": "Lileep",
     "type": "rock",
     "height": 1,
     "weight": 23.8,
@@ -4486,7 +4486,7 @@
 
   {
     "id": 346,
-    "name": "cradily",
+    "name": "Cradily",
     "type": "rock",
     "height": 1.5,
     "weight": 60.4,
@@ -4499,7 +4499,7 @@
 
   {
     "id": 347,
-    "name": "anorith",
+    "name": "Anorith",
     "type": "rock",
     "height": 0.7,
     "weight": 12.5,
@@ -4512,7 +4512,7 @@
 
   {
     "id": 348,
-    "name": "armaldo",
+    "name": "Armaldo",
     "type": "rock",
     "height": 1.5,
     "weight": 68.2,
@@ -4525,7 +4525,7 @@
 
   {
     "id": 349,
-    "name": "feebas",
+    "name": "Feebas",
     "type": "water",
     "height": 0.6,
     "weight": 7.4,
@@ -4538,7 +4538,7 @@
 
   {
     "id": 350,
-    "name": "milotic",
+    "name": "Milotic",
     "type": "water",
     "height": 6.2,
     "weight": 162,
@@ -4551,7 +4551,7 @@
 
   {
     "id": 351,
-    "name": "castform",
+    "name": "Castform",
     "type": "normal",
     "height": 0.3,
     "weight": 0.8,
@@ -4564,7 +4564,7 @@
 
   {
     "id": 352,
-    "name": "kecleon",
+    "name": "Kecleon",
     "type": "normal",
     "height": 1,
     "weight": 22,
@@ -4577,7 +4577,7 @@
 
   {
     "id": 353,
-    "name": "shuppet",
+    "name": "Shuppet",
     "type": "ghost",
     "height": 0.6,
     "weight": 2.3,
@@ -4590,7 +4590,7 @@
 
   {
     "id": 354,
-    "name": "banette",
+    "name": "Banette",
     "type": "ghost",
     "height": 1.1,
     "weight": 12.5,
@@ -4603,7 +4603,7 @@
 
   {
     "id": 355,
-    "name": "duskull",
+    "name": "Duskull",
     "type": "ghost",
     "height": 0.8,
     "weight": 15,
@@ -4616,7 +4616,7 @@
 
   {
     "id": 356,
-    "name": "dusclops",
+    "name": "Dusclops",
     "type": "ghost",
     "height": 1.6,
     "weight": 30.6,
@@ -4629,7 +4629,7 @@
 
   {
     "id": 357,
-    "name": "tropius",
+    "name": "Tropius",
     "type": "grass",
     "height": 2,
     "weight": 100,
@@ -4642,7 +4642,7 @@
 
   {
     "id": 358,
-    "name": "chimecho",
+    "name": "Chimecho",
     "type": "psychic",
     "height": 0.6,
     "weight": 1,
@@ -4655,7 +4655,7 @@
 
   {
     "id": 359,
-    "name": "absol",
+    "name": "Absol",
     "type": "dark",
     "height": 1.2,
     "weight": 47,
@@ -4668,7 +4668,7 @@
 
   {
     "id": 360,
-    "name": "wynaut",
+    "name": "Wynaut",
     "type": "psychic",
     "height": 0.6,
     "weight": 14,
@@ -4681,7 +4681,7 @@
 
   {
     "id": 361,
-    "name": "snorunt",
+    "name": "Snorunt",
     "type": "ice",
     "height": 0.7,
     "weight": 16.8,
@@ -4694,7 +4694,7 @@
 
   {
     "id": 362,
-    "name": "glalie",
+    "name": "Glalie",
     "type": "ice",
     "height": 1.5,
     "weight": 256.5,
@@ -4707,7 +4707,7 @@
 
   {
     "id": 363,
-    "name": "spheal",
+    "name": "Spheal",
     "type": "ice",
     "height": 0.8,
     "weight": 39.5,
@@ -4720,7 +4720,7 @@
 
   {
     "id": 364,
-    "name": "sealeo",
+    "name": "Sealeo",
     "type": "ice",
     "height": 1.1,
     "weight": 87.6,
@@ -4733,7 +4733,7 @@
 
   {
     "id": 365,
-    "name": "walrein",
+    "name": "Walrein",
     "type": "ice",
     "height": 1.4,
     "weight": 150.6,
@@ -4746,7 +4746,7 @@
 
   {
     "id": 366,
-    "name": "clamperl",
+    "name": "Clamperl",
     "type": "water",
     "height": 0.4,
     "weight": 52.5,
@@ -4759,7 +4759,7 @@
 
   {
     "id": 367,
-    "name": "huntail",
+    "name": "Huntail",
     "type": "water",
     "height": 1.7,
     "weight": 27,
@@ -4772,7 +4772,7 @@
 
   {
     "id": 368,
-    "name": "gorebyss",
+    "name": "Gorebyss",
     "type": "water",
     "height": 1.8,
     "weight": 22.6,
@@ -4785,7 +4785,7 @@
 
   {
     "id": 369,
-    "name": "relicanth",
+    "name": "Relicanth",
     "type": "water",
     "height": 1,
     "weight": 23.4,
@@ -4798,7 +4798,7 @@
 
   {
     "id": 370,
-    "name": "luvdisc",
+    "name": "Luvdisc",
     "type": "water",
     "height": 0.6,
     "weight": 8.7,
@@ -4811,7 +4811,7 @@
 
   {
     "id": 371,
-    "name": "bagon",
+    "name": "Bagon",
     "type": "dragon",
     "height": 0.6,
     "weight": 42.1,
@@ -4824,7 +4824,7 @@
 
   {
     "id": 372,
-    "name": "shelgon",
+    "name": "Shelgon",
     "type": "dragon",
     "height": 1.1,
     "weight": 110.5,
@@ -4837,7 +4837,7 @@
 
   {
     "id": 373,
-    "name": "salamence",
+    "name": "Salamence",
     "type": "dragon",
     "height": 1.5,
     "weight": 102.6,
@@ -4850,7 +4850,7 @@
 
   {
     "id": 374,
-    "name": "beldum",
+    "name": "Beldum",
     "type": "steel",
     "height": 0.6,
     "weight": 95.2,
@@ -4863,7 +4863,7 @@
 
   {
     "id": 375,
-    "name": "metang",
+    "name": "Metang",
     "type": "steel",
     "height": 1.2,
     "weight": 202.5,
@@ -4876,7 +4876,7 @@
 
   {
     "id": 376,
-    "name": "metagross",
+    "name": "Metagross",
     "type": "steel",
     "height": 1.6,
     "weight": 550,
@@ -4889,7 +4889,7 @@
 
   {
     "id": 377,
-    "name": "regirock",
+    "name": "Regirock",
     "type": "rock",
     "height": 1.7,
     "weight": 230,
@@ -4902,7 +4902,7 @@
 
   {
     "id": 378,
-    "name": "regice",
+    "name": "Regice",
     "type": "ice",
     "height": 1.8,
     "weight": 175,
@@ -4915,7 +4915,7 @@
 
   {
     "id": 379,
-    "name": "registeel",
+    "name": "Registeel",
     "type": "steel",
     "height": 1.9,
     "weight": 205,
@@ -4928,7 +4928,7 @@
 
   {
     "id": 380,
-    "name": "latias",
+    "name": "Latias",
     "type": "dragon",
     "height": 1.4,
     "weight": 40,
@@ -4941,7 +4941,7 @@
 
   {
     "id": 381,
-    "name": "latios",
+    "name": "Latios",
     "type": "dragon",
     "height": 2,
     "weight": 60,
@@ -4954,7 +4954,7 @@
 
   {
     "id": 382,
-    "name": "kyogre",
+    "name": "Kyogre",
     "type": "water",
     "height": 4.5,
     "weight": 352,
@@ -4967,7 +4967,7 @@
 
   {
     "id": 383,
-    "name": "groudon",
+    "name": "Groudon",
     "type": "ground",
     "height": 3.5,
     "weight": 950,
@@ -4980,7 +4980,7 @@
 
   {
     "id": 384,
-    "name": "rayquaza",
+    "name": "Rayquaza",
     "type": "dragon",
     "height": 7,
     "weight": 206.5,
@@ -4993,7 +4993,7 @@
 
   {
     "id": 385,
-    "name": "jirachi",
+    "name": "Jirachi",
     "type": "steel",
     "height": 0.3,
     "weight": 1.1,
@@ -5006,7 +5006,7 @@
 
   {
     "id": 386,
-    "name": "deoxys-normal",
+    "name": "Deoxys",
     "type": "psychic",
     "height": 1.7,
     "weight": 60.8,
@@ -5019,7 +5019,7 @@
 
   {
     "id": 387,
-    "name": "turtwig",
+    "name": "Turtwig",
     "type": "grass",
     "height": 0.4,
     "weight": 10.2,
@@ -5032,7 +5032,7 @@
 
   {
     "id": 388,
-    "name": "grotle",
+    "name": "Grotle",
     "type": "grass",
     "height": 1.1,
     "weight": 97,
@@ -5045,7 +5045,7 @@
 
   {
     "id": 389,
-    "name": "torterra",
+    "name": "Torterra",
     "type": "grass",
     "height": 2.2,
     "weight": 310,
@@ -5058,7 +5058,7 @@
 
   {
     "id": 390,
-    "name": "chimchar",
+    "name": "Chimchar",
     "type": "fire",
     "height": 0.5,
     "weight": 6.2,
@@ -5071,7 +5071,7 @@
 
   {
     "id": 391,
-    "name": "monferno",
+    "name": "Monferno",
     "type": "fire",
     "height": 0.9,
     "weight": 22,
@@ -5084,7 +5084,7 @@
 
   {
     "id": 392,
-    "name": "infernape",
+    "name": "Infernape",
     "type": "fire",
     "height": 1.2,
     "weight": 55,
@@ -5097,7 +5097,7 @@
 
   {
     "id": 393,
-    "name": "piplup",
+    "name": "Piplup",
     "type": "water",
     "height": 0.4,
     "weight": 5.2,
@@ -5110,7 +5110,7 @@
 
   {
     "id": 394,
-    "name": "prinplup",
+    "name": "Prinplup",
     "type": "water",
     "height": 0.8,
     "weight": 23,
@@ -5123,7 +5123,7 @@
 
   {
     "id": 395,
-    "name": "empoleon",
+    "name": "Empoleon",
     "type": "water",
     "height": 1.7,
     "weight": 84.5,
@@ -5136,7 +5136,7 @@
 
   {
     "id": 396,
-    "name": "starly",
+    "name": "Starly",
     "type": "normal",
     "height": 0.3,
     "weight": 2,
@@ -5149,7 +5149,7 @@
 
   {
     "id": 397,
-    "name": "staravia",
+    "name": "Staravia",
     "type": "normal",
     "height": 0.6,
     "weight": 15.5,
@@ -5162,7 +5162,7 @@
 
   {
     "id": 398,
-    "name": "staraptor",
+    "name": "Staraptor",
     "type": "normal",
     "height": 1.2,
     "weight": 24.9,
@@ -5175,7 +5175,7 @@
 
   {
     "id": 399,
-    "name": "bidoof",
+    "name": "Bidoof",
     "type": "normal",
     "height": 0.5,
     "weight": 20,
@@ -5188,7 +5188,7 @@
 
   {
     "id": 400,
-    "name": "bibarel",
+    "name": "Bibarel",
     "type": "normal",
     "height": 1,
     "weight": 31.5,
@@ -5201,7 +5201,7 @@
 
   {
     "id": 401,
-    "name": "kricketot",
+    "name": "Kricketot",
     "type": "bug",
     "height": 0.3,
     "weight": 2.2,
@@ -5214,7 +5214,7 @@
 
   {
     "id": 402,
-    "name": "kricketune",
+    "name": "Kricketune",
     "type": "bug",
     "height": 1,
     "weight": 25.5,
@@ -5227,7 +5227,7 @@
 
   {
     "id": 403,
-    "name": "shinx",
+    "name": "Shinx",
     "type": "electric",
     "height": 0.5,
     "weight": 9.5,
@@ -5240,7 +5240,7 @@
 
   {
     "id": 404,
-    "name": "luxio",
+    "name": "Luxio",
     "type": "electric",
     "height": 0.9,
     "weight": 30.5,
@@ -5253,7 +5253,7 @@
 
   {
     "id": 405,
-    "name": "luxray",
+    "name": "Luxray",
     "type": "electric",
     "height": 1.4,
     "weight": 42,
@@ -5266,7 +5266,7 @@
 
   {
     "id": 406,
-    "name": "budew",
+    "name": "Budew",
     "type": "grass",
     "height": 0.2,
     "weight": 1.2,
@@ -5279,7 +5279,7 @@
 
   {
     "id": 407,
-    "name": "roserade",
+    "name": "Roserade",
     "type": "grass",
     "height": 0.9,
     "weight": 14.5,
@@ -5292,7 +5292,7 @@
 
   {
     "id": 408,
-    "name": "cranidos",
+    "name": "Cranidos",
     "type": "rock",
     "height": 0.9,
     "weight": 31.5,
@@ -5305,7 +5305,7 @@
 
   {
     "id": 409,
-    "name": "rampardos",
+    "name": "Rampardos",
     "type": "rock",
     "height": 1.6,
     "weight": 102.5,
@@ -5318,7 +5318,7 @@
 
   {
     "id": 410,
-    "name": "shieldon",
+    "name": "Shieldon",
     "type": "rock",
     "height": 0.5,
     "weight": 57,
@@ -5331,7 +5331,7 @@
 
   {
     "id": 411,
-    "name": "bastiodon",
+    "name": "Bastiodon",
     "type": "rock",
     "height": 1.3,
     "weight": 149.5,
@@ -5344,7 +5344,7 @@
 
   {
     "id": 412,
-    "name": "burmy",
+    "name": "Burmy",
     "type": "bug",
     "height": 0.2,
     "weight": 3.4,
@@ -5357,7 +5357,7 @@
 
   {
     "id": 413,
-    "name": "wormadam-plant",
+    "name": "Wormadam",
     "type": "bug",
     "height": 0.5,
     "weight": 6.5,
@@ -5370,7 +5370,7 @@
 
   {
     "id": 414,
-    "name": "mothim",
+    "name": "Mothim",
     "type": "bug",
     "height": 0.9,
     "weight": 23.3,
@@ -5383,7 +5383,7 @@
 
   {
     "id": 415,
-    "name": "combee",
+    "name": "Combee",
     "type": "bug",
     "height": 0.3,
     "weight": 5.5,
@@ -5396,7 +5396,7 @@
 
   {
     "id": 416,
-    "name": "vespiquen",
+    "name": "Vespiquen",
     "type": "bug",
     "height": 1.2,
     "weight": 38.5,
@@ -5409,7 +5409,7 @@
 
   {
     "id": 417,
-    "name": "pachirisu",
+    "name": "Pachirisu",
     "type": "electric",
     "height": 0.4,
     "weight": 3.9,
@@ -5422,7 +5422,7 @@
 
   {
     "id": 418,
-    "name": "buizel",
+    "name": "Buizel",
     "type": "water",
     "height": 0.7,
     "weight": 29.5,
@@ -5435,7 +5435,7 @@
 
   {
     "id": 419,
-    "name": "floatzel",
+    "name": "Floatzel",
     "type": "water",
     "height": 1.1,
     "weight": 33.5,
@@ -5448,7 +5448,7 @@
 
   {
     "id": 420,
-    "name": "cherubi",
+    "name": "Cherubi",
     "type": "grass",
     "height": 0.4,
     "weight": 3.3,
@@ -5461,7 +5461,7 @@
 
   {
     "id": 421,
-    "name": "cherrim",
+    "name": "Cherrim",
     "type": "grass",
     "height": 0.5,
     "weight": 9.3,
@@ -5474,7 +5474,7 @@
 
   {
     "id": 422,
-    "name": "shellos",
+    "name": "Shellos",
     "type": "water",
     "height": 0.3,
     "weight": 6.3,
@@ -5487,7 +5487,7 @@
 
   {
     "id": 423,
-    "name": "gastrodon",
+    "name": "Gastrodon",
     "type": "water",
     "height": 0.9,
     "weight": 29.9,
@@ -5500,7 +5500,7 @@
 
   {
     "id": 424,
-    "name": "ambipom",
+    "name": "Ambipom",
     "type": "normal",
     "height": 1.2,
     "weight": 20.3,
@@ -5513,7 +5513,7 @@
 
   {
     "id": 425,
-    "name": "drifloon",
+    "name": "Drifloon",
     "type": "ghost",
     "height": 0.4,
     "weight": 1.2,
@@ -5526,7 +5526,7 @@
 
   {
     "id": 426,
-    "name": "drifblim",
+    "name": "Drifblim",
     "type": "ghost",
     "height": 1.2,
     "weight": 15,
@@ -5539,7 +5539,7 @@
 
   {
     "id": 427,
-    "name": "buneary",
+    "name": "Buneary",
     "type": "normal",
     "height": 0.4,
     "weight": 5.5,
@@ -5552,7 +5552,7 @@
 
   {
     "id": 428,
-    "name": "lopunny",
+    "name": "Lopunny",
     "type": "normal",
     "height": 1.2,
     "weight": 33.3,
@@ -5565,7 +5565,7 @@
 
   {
     "id": 429,
-    "name": "mismagius",
+    "name": "Mismagius",
     "type": "ghost",
     "height": 0.9,
     "weight": 4.4,
@@ -5578,7 +5578,7 @@
 
   {
     "id": 430,
-    "name": "honchkrow",
+    "name": "Honchkrow",
     "type": "dark",
     "height": 0.9,
     "weight": 27.3,
@@ -5591,7 +5591,7 @@
 
   {
     "id": 431,
-    "name": "glameow",
+    "name": "Glameow",
     "type": "normal",
     "height": 0.5,
     "weight": 3.9,
@@ -5604,7 +5604,7 @@
 
   {
     "id": 432,
-    "name": "purugly",
+    "name": "Purugly",
     "type": "normal",
     "height": 1,
     "weight": 43.8,
@@ -5617,7 +5617,7 @@
 
   {
     "id": 433,
-    "name": "chingling",
+    "name": "Chingling",
     "type": "psychic",
     "height": 0.2,
     "weight": 0.6,
@@ -5630,7 +5630,7 @@
 
   {
     "id": 434,
-    "name": "stunky",
+    "name": "Stunky",
     "type": "poison",
     "height": 0.4,
     "weight": 19.2,
@@ -5643,7 +5643,7 @@
 
   {
     "id": 435,
-    "name": "skuntank",
+    "name": "Skuntank",
     "type": "poison",
     "height": 1,
     "weight": 38,
@@ -5656,7 +5656,7 @@
 
   {
     "id": 436,
-    "name": "bronzor",
+    "name": "Bronzor",
     "type": "steel",
     "height": 0.5,
     "weight": 60.5,
@@ -5669,7 +5669,7 @@
 
   {
     "id": 437,
-    "name": "bronzong",
+    "name": "Bronzong",
     "type": "steel",
     "height": 1.3,
     "weight": 187,
@@ -5682,7 +5682,7 @@
 
   {
     "id": 438,
-    "name": "bonsly",
+    "name": "Bonsly",
     "type": "rock",
     "height": 0.5,
     "weight": 15,
@@ -5695,7 +5695,7 @@
 
   {
     "id": 439,
-    "name": "mime-jr",
+    "name": "Mime Jr.",
     "type": "psychic",
     "height": 0.6,
     "weight": 13,
@@ -5708,7 +5708,7 @@
 
   {
     "id": 440,
-    "name": "happiny",
+    "name": "Happiny",
     "type": "normal",
     "height": 0.6,
     "weight": 24.4,
@@ -5721,7 +5721,7 @@
 
   {
     "id": 441,
-    "name": "chatot",
+    "name": "Chatot",
     "type": "normal",
     "height": 0.5,
     "weight": 1.9,
@@ -5734,7 +5734,7 @@
 
   {
     "id": 442,
-    "name": "spiritomb",
+    "name": "Spiritomb",
     "type": "ghost",
     "height": 1,
     "weight": 108,
@@ -5747,7 +5747,7 @@
 
   {
     "id": 443,
-    "name": "gible",
+    "name": "Gible",
     "type": "dragon",
     "height": 0.7,
     "weight": 20.5,
@@ -5760,7 +5760,7 @@
 
   {
     "id": 444,
-    "name": "gabite",
+    "name": "Gabite",
     "type": "dragon",
     "height": 1.4,
     "weight": 56,
@@ -5773,7 +5773,7 @@
 
   {
     "id": 445,
-    "name": "garchomp",
+    "name": "Garchomp",
     "type": "dragon",
     "height": 1.9,
     "weight": 95,
@@ -5786,7 +5786,7 @@
 
   {
     "id": 446,
-    "name": "munchlax",
+    "name": "Munchlax",
     "type": "normal",
     "height": 0.6,
     "weight": 105,
@@ -5799,7 +5799,7 @@
 
   {
     "id": 447,
-    "name": "riolu",
+    "name": "Riolu",
     "type": "fighting",
     "height": 0.7,
     "weight": 20.2,
@@ -5812,7 +5812,7 @@
 
   {
     "id": 448,
-    "name": "lucario",
+    "name": "Lucario",
     "type": "fighting",
     "height": 1.2,
     "weight": 54,
@@ -5825,7 +5825,7 @@
 
   {
     "id": 449,
-    "name": "hippopotas",
+    "name": "Hippopotas",
     "type": "ground",
     "height": 0.8,
     "weight": 49.5,
@@ -5838,7 +5838,7 @@
 
   {
     "id": 450,
-    "name": "hippowdon",
+    "name": "Hippowdon",
     "type": "ground",
     "height": 2,
     "weight": 300,
@@ -5851,7 +5851,7 @@
 
   {
     "id": 451,
-    "name": "skorupi",
+    "name": "Skorupi",
     "type": "poison",
     "height": 0.8,
     "weight": 12,
@@ -5864,7 +5864,7 @@
 
   {
     "id": 452,
-    "name": "drapion",
+    "name": "Drapion",
     "type": "poison",
     "height": 1.3,
     "weight": 61.5,
@@ -5877,7 +5877,7 @@
 
   {
     "id": 453,
-    "name": "croagunk",
+    "name": "Croagunk",
     "type": "poison",
     "height": 0.7,
     "weight": 23,
@@ -5890,7 +5890,7 @@
 
   {
     "id": 454,
-    "name": "toxicroak",
+    "name": "Toxicroak",
     "type": "poison",
     "height": 1.3,
     "weight": 44.4,
@@ -5903,7 +5903,7 @@
 
   {
     "id": 455,
-    "name": "carnivine",
+    "name": "Carnivine",
     "type": "grass",
     "height": 1.4,
     "weight": 27,
@@ -5916,7 +5916,7 @@
 
   {
     "id": 456,
-    "name": "finneon",
+    "name": "Finneon",
     "type": "water",
     "height": 0.4,
     "weight": 7,
@@ -5929,7 +5929,7 @@
 
   {
     "id": 457,
-    "name": "lumineon",
+    "name": "Lumineon",
     "type": "water",
     "height": 1.2,
     "weight": 24,
@@ -5942,7 +5942,7 @@
 
   {
     "id": 458,
-    "name": "mantyke",
+    "name": "Mantyke",
     "type": "water",
     "height": 1,
     "weight": 65,
@@ -5955,7 +5955,7 @@
 
   {
     "id": 459,
-    "name": "snover",
+    "name": "Snover",
     "type": "grass",
     "height": 1,
     "weight": 50.5,
@@ -5968,7 +5968,7 @@
 
   {
     "id": 460,
-    "name": "abomasnow",
+    "name": "Abomasnow",
     "type": "grass",
     "height": 2.2,
     "weight": 135.5,
@@ -5981,7 +5981,7 @@
 
   {
     "id": 461,
-    "name": "weavile",
+    "name": "Weavile",
     "type": "dark",
     "height": 1.1,
     "weight": 34,
@@ -5994,7 +5994,7 @@
 
   {
     "id": 462,
-    "name": "magnezone",
+    "name": "Magnezone",
     "type": "electric",
     "height": 1.2,
     "weight": 180,
@@ -6007,7 +6007,7 @@
 
   {
     "id": 463,
-    "name": "lickilicky",
+    "name": "Lickilicky",
     "type": "normal",
     "height": 1.7,
     "weight": 140,
@@ -6020,7 +6020,7 @@
 
   {
     "id": 464,
-    "name": "rhyperior",
+    "name": "Rhyperior",
     "type": "ground",
     "height": 2.4,
     "weight": 282.8,
@@ -6033,7 +6033,7 @@
 
   {
     "id": 465,
-    "name": "tangrowth",
+    "name": "Tangrowth",
     "type": "grass",
     "height": 2,
     "weight": 128.6,
@@ -6046,7 +6046,7 @@
 
   {
     "id": 466,
-    "name": "electivire",
+    "name": "Electivire",
     "type": "electric",
     "height": 1.8,
     "weight": 138.6,
@@ -6059,7 +6059,7 @@
 
   {
     "id": 467,
-    "name": "magmortar",
+    "name": "Magmortar",
     "type": "fire",
     "height": 1.6,
     "weight": 68,
@@ -6072,7 +6072,7 @@
 
   {
     "id": 468,
-    "name": "togekiss",
+    "name": "Togekiss",
     "type": "fairy",
     "height": 1.5,
     "weight": 38,
@@ -6085,7 +6085,7 @@
 
   {
     "id": 469,
-    "name": "yanmega",
+    "name": "Yanmega",
     "type": "bug",
     "height": 1.9,
     "weight": 51.5,
@@ -6098,7 +6098,7 @@
 
   {
     "id": 470,
-    "name": "leafeon",
+    "name": "Leafeon",
     "type": "grass",
     "height": 1,
     "weight": 25.5,
@@ -6111,7 +6111,7 @@
 
   {
     "id": 471,
-    "name": "glaceon",
+    "name": "Glaceon",
     "type": "ice",
     "height": 0.8,
     "weight": 25.9,
@@ -6124,7 +6124,7 @@
 
   {
     "id": 472,
-    "name": "gliscor",
+    "name": "Gliscor",
     "type": "ground",
     "height": 2,
     "weight": 42.5,
@@ -6137,7 +6137,7 @@
 
   {
     "id": 473,
-    "name": "mamoswine",
+    "name": "Mamoswine",
     "type": "ice",
     "height": 2.5,
     "weight": 291,
@@ -6150,7 +6150,7 @@
 
   {
     "id": 474,
-    "name": "porygon-z",
+    "name": "Porygon-Z",
     "type": "normal",
     "height": 0.9,
     "weight": 34,
@@ -6163,7 +6163,7 @@
 
   {
     "id": 475,
-    "name": "gallade",
+    "name": "Gallade",
     "type": "psychic",
     "height": 1.6,
     "weight": 52,
@@ -6176,7 +6176,7 @@
 
   {
     "id": 476,
-    "name": "probopass",
+    "name": "Probopass",
     "type": "rock",
     "height": 1.4,
     "weight": 340,
@@ -6189,7 +6189,7 @@
 
   {
     "id": 477,
-    "name": "dusknoir",
+    "name": "Dusknoir",
     "type": "ghost",
     "height": 2.2,
     "weight": 106.6,
@@ -6202,7 +6202,7 @@
 
   {
     "id": 478,
-    "name": "froslass",
+    "name": "Froslass",
     "type": "ice",
     "height": 1.3,
     "weight": 26.6,
@@ -6215,7 +6215,7 @@
 
   {
     "id": 479,
-    "name": "rotom",
+    "name": "Rotom",
     "type": "electric",
     "height": 0.3,
     "weight": 0.3,
@@ -6228,7 +6228,7 @@
 
   {
     "id": 480,
-    "name": "uxie",
+    "name": "Uxie",
     "type": "psychic",
     "height": 0.3,
     "weight": 0.3,
@@ -6241,7 +6241,7 @@
 
   {
     "id": 481,
-    "name": "mesprit",
+    "name": "Mesprit",
     "type": "psychic",
     "height": 0.3,
     "weight": 0.3,
@@ -6254,7 +6254,7 @@
 
   {
     "id": 482,
-    "name": "azelf",
+    "name": "Azelf",
     "type": "psychic",
     "height": 0.3,
     "weight": 0.3,
@@ -6267,7 +6267,7 @@
 
   {
     "id": 483,
-    "name": "dialga",
+    "name": "Dialga",
     "type": "steel",
     "height": 5.4,
     "weight": 683,
@@ -6280,7 +6280,7 @@
 
   {
     "id": 484,
-    "name": "palkia",
+    "name": "Palkia",
     "type": "water",
     "height": 4.2,
     "weight": 336,
@@ -6293,7 +6293,7 @@
 
   {
     "id": 485,
-    "name": "heatran",
+    "name": "Heatran",
     "type": "fire",
     "height": 1.7,
     "weight": 430,
@@ -6306,7 +6306,7 @@
 
   {
     "id": 486,
-    "name": "regigigas",
+    "name": "Regigigas",
     "type": "normal",
     "height": 3.7,
     "weight": 420,
@@ -6319,7 +6319,7 @@
 
   {
     "id": 487,
-    "name": "giratina-altered",
+    "name": "Giratina",
     "type": "ghost",
     "height": 4.5,
     "weight": 750,
@@ -6332,7 +6332,7 @@
 
   {
     "id": 488,
-    "name": "cresselia",
+    "name": "Cresselia",
     "type": "psychic",
     "height": 1.5,
     "weight": 85.6,
@@ -6345,7 +6345,7 @@
 
   {
     "id": 489,
-    "name": "phione",
+    "name": "Phione",
     "type": "water",
     "height": 0.4,
     "weight": 3.1,
@@ -6358,7 +6358,7 @@
 
   {
     "id": 490,
-    "name": "manaphy",
+    "name": "Manaphy",
     "type": "water",
     "height": 0.3,
     "weight": 1.4,
@@ -6371,7 +6371,7 @@
 
   {
     "id": 491,
-    "name": "darkrai",
+    "name": "Darkrai",
     "type": "dark",
     "height": 1.5,
     "weight": 50.5,
@@ -6384,7 +6384,7 @@
 
   {
     "id": 492,
-    "name": "shaymin-land",
+    "name": "Shaymin",
     "type": "grass",
     "height": 0.2,
     "weight": 2.1,
@@ -6397,7 +6397,7 @@
 
   {
     "id": 493,
-    "name": "arceus",
+    "name": "Arceus",
     "type": "normal",
     "height": 3.2,
     "weight": 320,
@@ -6410,7 +6410,7 @@
 
   {
     "id": 494,
-    "name": "victini",
+    "name": "Victini",
     "type": "psychic",
     "height": 0.4,
     "weight": 4,
@@ -6423,7 +6423,7 @@
 
   {
     "id": 495,
-    "name": "snivy",
+    "name": "Snivy",
     "type": "grass",
     "height": 0.6,
     "weight": 8.1,
@@ -6436,7 +6436,7 @@
 
   {
     "id": 496,
-    "name": "servine",
+    "name": "Servine",
     "type": "grass",
     "height": 0.8,
     "weight": 16,
@@ -6449,7 +6449,7 @@
 
   {
     "id": 497,
-    "name": "serperior",
+    "name": "Serperior",
     "type": "grass",
     "height": 3.3,
     "weight": 63,
@@ -6462,7 +6462,7 @@
 
   {
     "id": 498,
-    "name": "tepig",
+    "name": "Tepig",
     "type": "fire",
     "height": 0.5,
     "weight": 9.9,
@@ -6475,7 +6475,7 @@
 
   {
     "id": 499,
-    "name": "pignite",
+    "name": "Pignite",
     "type": "fire",
     "height": 1,
     "weight": 55.5,
@@ -6488,7 +6488,7 @@
 
   {
     "id": 500,
-    "name": "emboar",
+    "name": "Emboar",
     "type": "fire",
     "height": 1.6,
     "weight": 150,
@@ -6501,7 +6501,7 @@
 
   {
     "id": 501,
-    "name": "oshawott",
+    "name": "Oshawott",
     "type": "water",
     "height": 0.5,
     "weight": 5.9,
@@ -6514,7 +6514,7 @@
 
   {
     "id": 502,
-    "name": "dewott",
+    "name": "Dewott",
     "type": "water",
     "height": 0.8,
     "weight": 24.5,
@@ -6527,7 +6527,7 @@
 
   {
     "id": 503,
-    "name": "samurott",
+    "name": "Samurott",
     "type": "water",
     "height": 1.5,
     "weight": 94.6,
@@ -6540,7 +6540,7 @@
 
   {
     "id": 504,
-    "name": "patrat",
+    "name": "Patrat",
     "type": "normal",
     "height": 0.5,
     "weight": 11.6,
@@ -6553,7 +6553,7 @@
 
   {
     "id": 505,
-    "name": "watchog",
+    "name": "Watchog",
     "type": "normal",
     "height": 1.1,
     "weight": 27,
@@ -6566,7 +6566,7 @@
 
   {
     "id": 506,
-    "name": "lillipup",
+    "name": "Lillipup",
     "type": "normal",
     "height": 0.4,
     "weight": 4.1,
@@ -6579,7 +6579,7 @@
 
   {
     "id": 507,
-    "name": "herdier",
+    "name": "Herdier",
     "type": "normal",
     "height": 0.9,
     "weight": 14.7,
@@ -6592,7 +6592,7 @@
 
   {
     "id": 508,
-    "name": "stoutland",
+    "name": "Stoutland",
     "type": "normal",
     "height": 1.2,
     "weight": 61,
@@ -6605,7 +6605,7 @@
 
   {
     "id": 509,
-    "name": "purrloin",
+    "name": "Purrloin",
     "type": "dark",
     "height": 0.4,
     "weight": 10.1,
@@ -6618,7 +6618,7 @@
 
   {
     "id": 510,
-    "name": "liepard",
+    "name": "Liepard",
     "type": "dark",
     "height": 1.1,
     "weight": 37.5,
@@ -6631,7 +6631,7 @@
 
   {
     "id": 511,
-    "name": "pansage",
+    "name": "Pansage",
     "type": "grass",
     "height": 0.6,
     "weight": 10.5,
@@ -6644,7 +6644,7 @@
 
   {
     "id": 512,
-    "name": "simisage",
+    "name": "Simisage",
     "type": "grass",
     "height": 1.1,
     "weight": 30.5,
@@ -6657,7 +6657,7 @@
 
   {
     "id": 513,
-    "name": "pansear",
+    "name": "Pansear",
     "type": "fire",
     "height": 0.6,
     "weight": 11,
@@ -6670,7 +6670,7 @@
 
   {
     "id": 514,
-    "name": "simisear",
+    "name": "Simisear",
     "type": "fire",
     "height": 1,
     "weight": 28,
@@ -6683,7 +6683,7 @@
 
   {
     "id": 515,
-    "name": "panpour",
+    "name": "Panpour",
     "type": "water",
     "height": 0.6,
     "weight": 13.5,
@@ -6696,7 +6696,7 @@
 
   {
     "id": 516,
-    "name": "simipour",
+    "name": "Simipour",
     "type": "water",
     "height": 1,
     "weight": 29,
@@ -6709,7 +6709,7 @@
 
   {
     "id": 517,
-    "name": "munna",
+    "name": "Munna",
     "type": "psychic",
     "height": 0.6,
     "weight": 23.3,
@@ -6722,7 +6722,7 @@
 
   {
     "id": 518,
-    "name": "musharna",
+    "name": "Musharna",
     "type": "psychic",
     "height": 1.1,
     "weight": 60.5,
@@ -6735,7 +6735,7 @@
 
   {
     "id": 519,
-    "name": "pidove",
+    "name": "Pidove",
     "type": "normal",
     "height": 0.3,
     "weight": 2.1,
@@ -6748,7 +6748,7 @@
 
   {
     "id": 520,
-    "name": "tranquill",
+    "name": "Tranquill",
     "type": "normal",
     "height": 0.6,
     "weight": 15,
@@ -6761,7 +6761,7 @@
 
   {
     "id": 521,
-    "name": "unfezant",
+    "name": "Unfezant",
     "type": "normal",
     "height": 1.2,
     "weight": 29,
@@ -6774,7 +6774,7 @@
 
   {
     "id": 522,
-    "name": "blitzle",
+    "name": "Blitzle",
     "type": "electric",
     "height": 0.8,
     "weight": 29.8,
@@ -6787,7 +6787,7 @@
 
   {
     "id": 523,
-    "name": "zebstrika",
+    "name": "Zebstrika",
     "type": "electric",
     "height": 1.6,
     "weight": 79.5,
@@ -6800,7 +6800,7 @@
 
   {
     "id": 524,
-    "name": "roggenrola",
+    "name": "Roggenrola",
     "type": "rock",
     "height": 0.4,
     "weight": 18,
@@ -6813,7 +6813,7 @@
 
   {
     "id": 525,
-    "name": "boldore",
+    "name": "Boldore",
     "type": "rock",
     "height": 0.9,
     "weight": 102,
@@ -6826,7 +6826,7 @@
 
   {
     "id": 526,
-    "name": "gigalith",
+    "name": "Gigalith",
     "type": "rock",
     "height": 1.7,
     "weight": 260,
@@ -6839,7 +6839,7 @@
 
   {
     "id": 527,
-    "name": "woobat",
+    "name": "Woobat",
     "type": "psychic",
     "height": 0.4,
     "weight": 2.1,
@@ -6852,7 +6852,7 @@
 
   {
     "id": 528,
-    "name": "swoobat",
+    "name": "Swoobat",
     "type": "psychic",
     "height": 0.9,
     "weight": 10.5,
@@ -6865,7 +6865,7 @@
 
   {
     "id": 529,
-    "name": "drilbur",
+    "name": "Drilbur",
     "type": "ground",
     "height": 0.3,
     "weight": 8.5,
@@ -6878,7 +6878,7 @@
 
   {
     "id": 530,
-    "name": "excadrill",
+    "name": "Excadrill",
     "type": "ground",
     "height": 0.7,
     "weight": 40.4,
@@ -6891,7 +6891,7 @@
 
   {
     "id": 531,
-    "name": "audino",
+    "name": "Audino",
     "type": "normal",
     "height": 1.1,
     "weight": 31,
@@ -6904,7 +6904,7 @@
 
   {
     "id": 532,
-    "name": "timburr",
+    "name": "Timburr",
     "type": "fighting",
     "height": 0.6,
     "weight": 12.5,
@@ -6917,7 +6917,7 @@
 
   {
     "id": 533,
-    "name": "gurdurr",
+    "name": "Gurdurr",
     "type": "fighting",
     "height": 1.2,
     "weight": 40,
@@ -6930,7 +6930,7 @@
 
   {
     "id": 534,
-    "name": "conkeldurr",
+    "name": "Conkeldurr",
     "type": "fighting",
     "height": 1.4,
     "weight": 87,
@@ -6943,7 +6943,7 @@
 
   {
     "id": 535,
-    "name": "tympole",
+    "name": "Tympole",
     "type": "water",
     "height": 0.5,
     "weight": 4.5,
@@ -6956,7 +6956,7 @@
 
   {
     "id": 536,
-    "name": "palpitoad",
+    "name": "Palpitoad",
     "type": "water",
     "height": 0.8,
     "weight": 17,
@@ -6969,7 +6969,7 @@
 
   {
     "id": 537,
-    "name": "seismitoad",
+    "name": "Seismitoad",
     "type": "water",
     "height": 1.5,
     "weight": 62,
@@ -6982,7 +6982,7 @@
 
   {
     "id": 538,
-    "name": "throh",
+    "name": "Throh",
     "type": "fighting",
     "height": 1.3,
     "weight": 55.5,
@@ -6995,7 +6995,7 @@
 
   {
     "id": 539,
-    "name": "sawk",
+    "name": "Sawk",
     "type": "fighting",
     "height": 1.4,
     "weight": 51,
@@ -7008,7 +7008,7 @@
 
   {
     "id": 540,
-    "name": "sewaddle",
+    "name": "Sewaddle",
     "type": "bug",
     "height": 0.3,
     "weight": 2.5,
@@ -7021,7 +7021,7 @@
 
   {
     "id": 541,
-    "name": "swadloon",
+    "name": "Swadloon",
     "type": "bug",
     "height": 0.5,
     "weight": 7.3,
@@ -7034,7 +7034,7 @@
 
   {
     "id": 542,
-    "name": "leavanny",
+    "name": "Leavanny",
     "type": "bug",
     "height": 1.2,
     "weight": 20.5,
@@ -7047,7 +7047,7 @@
 
   {
     "id": 543,
-    "name": "venipede",
+    "name": "Venipede",
     "type": "bug",
     "height": 0.4,
     "weight": 5.3,
@@ -7060,7 +7060,7 @@
 
   {
     "id": 544,
-    "name": "whirlipede",
+    "name": "Whirlipede",
     "type": "bug",
     "height": 1.2,
     "weight": 58.5,
@@ -7073,7 +7073,7 @@
 
   {
     "id": 545,
-    "name": "scolipede",
+    "name": "Scolipede",
     "type": "bug",
     "height": 2.5,
     "weight": 200.5,
@@ -7086,7 +7086,7 @@
 
   {
     "id": 546,
-    "name": "cottonee",
+    "name": "Cottonee",
     "type": "grass",
     "height": 0.3,
     "weight": 0.6,
@@ -7099,7 +7099,7 @@
 
   {
     "id": 547,
-    "name": "whimsicott",
+    "name": "Whimsicott",
     "type": "grass",
     "height": 0.7,
     "weight": 6.6,
@@ -7112,7 +7112,7 @@
 
   {
     "id": 548,
-    "name": "petilil",
+    "name": "Petilil",
     "type": "grass",
     "height": 0.5,
     "weight": 6.6,
@@ -7125,7 +7125,7 @@
 
   {
     "id": 549,
-    "name": "lilligant",
+    "name": "Lilligant",
     "type": "grass",
     "height": 1.1,
     "weight": 16.3,
@@ -7138,7 +7138,7 @@
 
   {
     "id": 550,
-    "name": "basculin-red-striped",
+    "name": "Basculin",
     "type": "water",
     "height": 1,
     "weight": 18,
@@ -7151,7 +7151,7 @@
 
   {
     "id": 551,
-    "name": "sandile",
+    "name": "Sandile",
     "type": "ground",
     "height": 0.7,
     "weight": 15.2,
@@ -7164,7 +7164,7 @@
 
   {
     "id": 552,
-    "name": "krokorok",
+    "name": "Krokorok",
     "type": "ground",
     "height": 1,
     "weight": 33.4,
@@ -7177,7 +7177,7 @@
 
   {
     "id": 553,
-    "name": "krookodile",
+    "name": "Krookodile",
     "type": "ground",
     "height": 1.5,
     "weight": 96.3,
@@ -7190,7 +7190,7 @@
 
   {
     "id": 554,
-    "name": "darumaka",
+    "name": "Darumaka",
     "type": "fire",
     "height": 0.6,
     "weight": 37.5,
@@ -7203,7 +7203,7 @@
 
   {
     "id": 555,
-    "name": "darmanitan-standard",
+    "name": "Darmanitan",
     "type": "fire",
     "height": 1.3,
     "weight": 92.9,
@@ -7216,7 +7216,7 @@
 
   {
     "id": 556,
-    "name": "maractus",
+    "name": "Maractus",
     "type": "grass",
     "height": 1,
     "weight": 28,
@@ -7229,7 +7229,7 @@
 
   {
     "id": 557,
-    "name": "dwebble",
+    "name": "Dwebble",
     "type": "bug",
     "height": 0.3,
     "weight": 14.5,
@@ -7242,7 +7242,7 @@
 
   {
     "id": 558,
-    "name": "crustle",
+    "name": "Crustle",
     "type": "bug",
     "height": 1.4,
     "weight": 200,
@@ -7255,7 +7255,7 @@
 
   {
     "id": 559,
-    "name": "scraggy",
+    "name": "Scraggy",
     "type": "dark",
     "height": 0.6,
     "weight": 11.8,
@@ -7268,7 +7268,7 @@
 
   {
     "id": 560,
-    "name": "scrafty",
+    "name": "Scrafty",
     "type": "dark",
     "height": 1.1,
     "weight": 30,
@@ -7281,7 +7281,7 @@
 
   {
     "id": 561,
-    "name": "sigilyph",
+    "name": "Sigilyph",
     "type": "psychic",
     "height": 1.4,
     "weight": 14,
@@ -7294,7 +7294,7 @@
 
   {
     "id": 562,
-    "name": "yamask",
+    "name": "Yamask",
     "type": "ghost",
     "height": 0.5,
     "weight": 1.5,
@@ -7307,7 +7307,7 @@
 
   {
     "id": 563,
-    "name": "cofagrigus",
+    "name": "Cofagrigus",
     "type": "ghost",
     "height": 1.7,
     "weight": 76.5,
@@ -7320,7 +7320,7 @@
 
   {
     "id": 564,
-    "name": "tirtouga",
+    "name": "Tirtouga",
     "type": "water",
     "height": 0.7,
     "weight": 16.5,
@@ -7333,7 +7333,7 @@
 
   {
     "id": 565,
-    "name": "carracosta",
+    "name": "Carracosta",
     "type": "water",
     "height": 1.2,
     "weight": 81,
@@ -7346,7 +7346,7 @@
 
   {
     "id": 566,
-    "name": "archen",
+    "name": "Archen",
     "type": "rock",
     "height": 0.5,
     "weight": 9.5,
@@ -7359,7 +7359,7 @@
 
   {
     "id": 567,
-    "name": "archeops",
+    "name": "Archeops",
     "type": "rock",
     "height": 1.4,
     "weight": 32,
@@ -7372,7 +7372,7 @@
 
   {
     "id": 568,
-    "name": "trubbish",
+    "name": "Trubbish",
     "type": "poison",
     "height": 0.6,
     "weight": 31,
@@ -7385,7 +7385,7 @@
 
   {
     "id": 569,
-    "name": "garbodor",
+    "name": "Garbodor",
     "type": "poison",
     "height": 1.9,
     "weight": 107.3,
@@ -7398,7 +7398,7 @@
 
   {
     "id": 570,
-    "name": "zorua",
+    "name": "Zorua",
     "type": "dark",
     "height": 0.7,
     "weight": 12.5,
@@ -7411,7 +7411,7 @@
 
   {
     "id": 571,
-    "name": "zoroark",
+    "name": "Zoroark",
     "type": "dark",
     "height": 1.6,
     "weight": 81.1,
@@ -7424,7 +7424,7 @@
 
   {
     "id": 572,
-    "name": "minccino",
+    "name": "Minccino",
     "type": "normal",
     "height": 0.4,
     "weight": 5.8,
@@ -7437,7 +7437,7 @@
 
   {
     "id": 573,
-    "name": "cinccino",
+    "name": "Cinccino",
     "type": "normal",
     "height": 0.5,
     "weight": 7.5,
@@ -7450,7 +7450,7 @@
 
   {
     "id": 574,
-    "name": "gothita",
+    "name": "Gothita",
     "type": "psychic",
     "height": 0.4,
     "weight": 5.8,
@@ -7463,7 +7463,7 @@
 
   {
     "id": 575,
-    "name": "gothorita",
+    "name": "Gothorita",
     "type": "psychic",
     "height": 0.7,
     "weight": 18,
@@ -7476,7 +7476,7 @@
 
   {
     "id": 576,
-    "name": "gothitelle",
+    "name": "Gothitelle",
     "type": "psychic",
     "height": 1.5,
     "weight": 44,
@@ -7489,7 +7489,7 @@
 
   {
     "id": 577,
-    "name": "solosis",
+    "name": "Solosis",
     "type": "psychic",
     "height": 0.3,
     "weight": 1,
@@ -7502,7 +7502,7 @@
 
   {
     "id": 578,
-    "name": "duosion",
+    "name": "Duosion",
     "type": "psychic",
     "height": 0.6,
     "weight": 8,
@@ -7515,7 +7515,7 @@
 
   {
     "id": 579,
-    "name": "reuniclus",
+    "name": "Reuniclus",
     "type": "psychic",
     "height": 1,
     "weight": 20.1,
@@ -7528,7 +7528,7 @@
 
   {
     "id": 580,
-    "name": "ducklett",
+    "name": "Ducklett",
     "type": "water",
     "height": 0.5,
     "weight": 5.5,
@@ -7541,7 +7541,7 @@
 
   {
     "id": 581,
-    "name": "swanna",
+    "name": "Swanna",
     "type": "water",
     "height": 1.3,
     "weight": 24.2,
@@ -7554,7 +7554,7 @@
 
   {
     "id": 582,
-    "name": "vanillite",
+    "name": "Vanillite",
     "type": "ice",
     "height": 0.4,
     "weight": 5.7,
@@ -7567,7 +7567,7 @@
 
   {
     "id": 583,
-    "name": "vanillish",
+    "name": "Vanillish",
     "type": "ice",
     "height": 1.1,
     "weight": 41,
@@ -7580,7 +7580,7 @@
 
   {
     "id": 584,
-    "name": "vanilluxe",
+    "name": "Vanilluxe",
     "type": "ice",
     "height": 1.3,
     "weight": 57.5,
@@ -7593,7 +7593,7 @@
 
   {
     "id": 585,
-    "name": "deerling",
+    "name": "Deerling",
     "type": "normal",
     "height": 0.6,
     "weight": 19.5,
@@ -7606,7 +7606,7 @@
 
   {
     "id": 586,
-    "name": "sawsbuck",
+    "name": "Sawsbuck",
     "type": "normal",
     "height": 1.9,
     "weight": 92.5,
@@ -7619,7 +7619,7 @@
 
   {
     "id": 587,
-    "name": "emolga",
+    "name": "Emolga",
     "type": "electric",
     "height": 0.4,
     "weight": 5,
@@ -7632,7 +7632,7 @@
 
   {
     "id": 588,
-    "name": "karrablast",
+    "name": "Karrablast",
     "type": "bug",
     "height": 0.5,
     "weight": 5.9,
@@ -7645,7 +7645,7 @@
 
   {
     "id": 589,
-    "name": "escavalier",
+    "name": "Escavalier",
     "type": "bug",
     "height": 1,
     "weight": 33,
@@ -7658,7 +7658,7 @@
 
   {
     "id": 590,
-    "name": "foongus",
+    "name": "Foongus",
     "type": "grass",
     "height": 0.2,
     "weight": 1,
@@ -7671,7 +7671,7 @@
 
   {
     "id": 591,
-    "name": "amoonguss",
+    "name": "Amoonguss",
     "type": "grass",
     "height": 0.6,
     "weight": 10.5,
@@ -7684,7 +7684,7 @@
 
   {
     "id": 592,
-    "name": "frillish-male",
+    "name": "Frillish",
     "type": "water",
     "height": 1.2,
     "weight": 33,
@@ -7697,7 +7697,7 @@
 
   {
     "id": 593,
-    "name": "jellicent-male",
+    "name": "Jellicent",
     "type": "water",
     "height": 2.2,
     "weight": 135,
@@ -7710,7 +7710,7 @@
 
   {
     "id": 594,
-    "name": "alomomola",
+    "name": "Alomomola",
     "type": "water",
     "height": 1.2,
     "weight": 31.6,
@@ -7723,7 +7723,7 @@
 
   {
     "id": 595,
-    "name": "joltik",
+    "name": "Joltik",
     "type": "bug",
     "height": 0.1,
     "weight": 0.6,
@@ -7736,7 +7736,7 @@
 
   {
     "id": 596,
-    "name": "galvantula",
+    "name": "Galvantula",
     "type": "bug",
     "height": 0.8,
     "weight": 14.3,
@@ -7749,7 +7749,7 @@
 
   {
     "id": 597,
-    "name": "ferroseed",
+    "name": "Ferroseed",
     "type": "grass",
     "height": 0.6,
     "weight": 18.8,
@@ -7762,7 +7762,7 @@
 
   {
     "id": 598,
-    "name": "ferrothorn",
+    "name": "Ferrothorn",
     "type": "grass",
     "height": 1,
     "weight": 110,
@@ -7775,7 +7775,7 @@
 
   {
     "id": 599,
-    "name": "klink",
+    "name": "Klink",
     "type": "steel",
     "height": 0.3,
     "weight": 21,
@@ -7788,7 +7788,7 @@
 
   {
     "id": 600,
-    "name": "klang",
+    "name": "Klang",
     "type": "steel",
     "height": 0.6,
     "weight": 51,
@@ -7801,7 +7801,7 @@
 
   {
     "id": 601,
-    "name": "klinklang",
+    "name": "Klinklang",
     "type": "steel",
     "height": 0.6,
     "weight": 81,
@@ -7814,7 +7814,7 @@
 
   {
     "id": 602,
-    "name": "tynamo",
+    "name": "Tynamo",
     "type": "electric",
     "height": 0.2,
     "weight": 0.3,
@@ -7827,7 +7827,7 @@
 
   {
     "id": 603,
-    "name": "eelektrik",
+    "name": "Eelektrik",
     "type": "electric",
     "height": 1.2,
     "weight": 22,
@@ -7840,7 +7840,7 @@
 
   {
     "id": 604,
-    "name": "eelektross",
+    "name": "Eelektross",
     "type": "electric",
     "height": 2.1,
     "weight": 80.5,
@@ -7853,7 +7853,7 @@
 
   {
     "id": 605,
-    "name": "elgyem",
+    "name": "Elgyem",
     "type": "psychic",
     "height": 0.5,
     "weight": 9,
@@ -7866,7 +7866,7 @@
 
   {
     "id": 606,
-    "name": "beheeyem",
+    "name": "Beheeyem",
     "type": "psychic",
     "height": 1,
     "weight": 34.5,
@@ -7879,7 +7879,7 @@
 
   {
     "id": 607,
-    "name": "litwick",
+    "name": "Litwick",
     "type": "ghost",
     "height": 0.3,
     "weight": 3.1,
@@ -7892,7 +7892,7 @@
 
   {
     "id": 608,
-    "name": "lampent",
+    "name": "Lampent",
     "type": "ghost",
     "height": 0.6,
     "weight": 13,
@@ -7905,7 +7905,7 @@
 
   {
     "id": 609,
-    "name": "chandelure",
+    "name": "Chandelure",
     "type": "ghost",
     "height": 1,
     "weight": 34.3,
@@ -7918,7 +7918,7 @@
 
   {
     "id": 610,
-    "name": "axew",
+    "name": "Axew",
     "type": "dragon",
     "height": 0.6,
     "weight": 18,
@@ -7931,7 +7931,7 @@
 
   {
     "id": 611,
-    "name": "fraxure",
+    "name": "Fraxure",
     "type": "dragon",
     "height": 1,
     "weight": 36,
@@ -7944,7 +7944,7 @@
 
   {
     "id": 612,
-    "name": "haxorus",
+    "name": "Haxorus",
     "type": "dragon",
     "height": 1.8,
     "weight": 105.5,
@@ -7957,7 +7957,7 @@
 
   {
     "id": 613,
-    "name": "cubchoo",
+    "name": "Cubchoo",
     "type": "ice",
     "height": 0.5,
     "weight": 8.5,
@@ -7970,7 +7970,7 @@
 
   {
     "id": 614,
-    "name": "beartic",
+    "name": "Beartic",
     "type": "ice",
     "height": 2.6,
     "weight": 260,
@@ -7983,7 +7983,7 @@
 
   {
     "id": 615,
-    "name": "cryogonal",
+    "name": "Cryogonal",
     "type": "ice",
     "height": 1.1,
     "weight": 148,
@@ -7996,7 +7996,7 @@
 
   {
     "id": 616,
-    "name": "shelmet",
+    "name": "Shelmet",
     "type": "bug",
     "height": 0.4,
     "weight": 7.7,
@@ -8009,7 +8009,7 @@
 
   {
     "id": 617,
-    "name": "accelgor",
+    "name": "Accelgor",
     "type": "bug",
     "height": 0.8,
     "weight": 25.3,
@@ -8022,7 +8022,7 @@
 
   {
     "id": 618,
-    "name": "stunfisk",
+    "name": "Stunfisk",
     "type": "ground",
     "height": 0.7,
     "weight": 11,
@@ -8035,7 +8035,7 @@
 
   {
     "id": 619,
-    "name": "mienfoo",
+    "name": "Mienfoo",
     "type": "fighting",
     "height": 0.9,
     "weight": 20,
@@ -8048,7 +8048,7 @@
 
   {
     "id": 620,
-    "name": "mienshao",
+    "name": "Mienshao",
     "type": "fighting",
     "height": 1.4,
     "weight": 35.5,
@@ -8061,7 +8061,7 @@
 
   {
     "id": 621,
-    "name": "druddigon",
+    "name": "Druddigon",
     "type": "dragon",
     "height": 1.6,
     "weight": 139,
@@ -8074,7 +8074,7 @@
 
   {
     "id": 622,
-    "name": "golett",
+    "name": "Golett",
     "type": "ground",
     "height": 1,
     "weight": 92,
@@ -8087,7 +8087,7 @@
 
   {
     "id": 623,
-    "name": "golurk",
+    "name": "Golurk",
     "type": "ground",
     "height": 2.8,
     "weight": 330,
@@ -8100,7 +8100,7 @@
 
   {
     "id": 624,
-    "name": "pawniard",
+    "name": "Pawniard",
     "type": "dark",
     "height": 0.5,
     "weight": 10.2,
@@ -8113,7 +8113,7 @@
 
   {
     "id": 625,
-    "name": "bisharp",
+    "name": "Bisharp",
     "type": "dark",
     "height": 1.6,
     "weight": 70,
@@ -8126,7 +8126,7 @@
 
   {
     "id": 626,
-    "name": "bouffalant",
+    "name": "Bouffalant",
     "type": "normal",
     "height": 1.6,
     "weight": 94.6,
@@ -8139,7 +8139,7 @@
 
   {
     "id": 627,
-    "name": "rufflet",
+    "name": "Rufflet",
     "type": "normal",
     "height": 0.5,
     "weight": 10.5,
@@ -8152,7 +8152,7 @@
 
   {
     "id": 628,
-    "name": "braviary",
+    "name": "Braviary",
     "type": "normal",
     "height": 1.5,
     "weight": 41,
@@ -8165,7 +8165,7 @@
 
   {
     "id": 629,
-    "name": "vullaby",
+    "name": "Vullaby",
     "type": "dark",
     "height": 0.5,
     "weight": 9,
@@ -8178,7 +8178,7 @@
 
   {
     "id": 630,
-    "name": "mandibuzz",
+    "name": "Mandibuzz",
     "type": "dark",
     "height": 1.2,
     "weight": 39.5,
@@ -8191,7 +8191,7 @@
 
   {
     "id": 631,
-    "name": "heatmor",
+    "name": "Heatmor",
     "type": "fire",
     "height": 1.4,
     "weight": 58,
@@ -8204,7 +8204,7 @@
 
   {
     "id": 632,
-    "name": "durant",
+    "name": "Durant",
     "type": "bug",
     "height": 0.3,
     "weight": 33,
@@ -8217,7 +8217,7 @@
 
   {
     "id": 633,
-    "name": "deino",
+    "name": "Deino",
     "type": "dark",
     "height": 0.8,
     "weight": 17.3,
@@ -8230,7 +8230,7 @@
 
   {
     "id": 634,
-    "name": "zweilous",
+    "name": "Zweilous",
     "type": "dark",
     "height": 1.4,
     "weight": 50,
@@ -8243,7 +8243,7 @@
 
   {
     "id": 635,
-    "name": "hydreigon",
+    "name": "Hydreigon",
     "type": "dark",
     "height": 1.8,
     "weight": 160,
@@ -8256,7 +8256,7 @@
 
   {
     "id": 636,
-    "name": "larvesta",
+    "name": "Larvesta",
     "type": "bug",
     "height": 1.1,
     "weight": 28.8,
@@ -8269,7 +8269,7 @@
 
   {
     "id": 637,
-    "name": "volcarona",
+    "name": "Volcarona",
     "type": "bug",
     "height": 1.6,
     "weight": 46,
@@ -8282,7 +8282,7 @@
 
   {
     "id": 638,
-    "name": "cobalion",
+    "name": "Cobalion",
     "type": "steel",
     "height": 2.1,
     "weight": 250,
@@ -8295,7 +8295,7 @@
 
   {
     "id": 639,
-    "name": "terrakion",
+    "name": "Terrakion",
     "type": "rock",
     "height": 1.9,
     "weight": 260,
@@ -8308,7 +8308,7 @@
 
   {
     "id": 640,
-    "name": "virizion",
+    "name": "Virizion",
     "type": "grass",
     "height": 2,
     "weight": 200,
@@ -8321,7 +8321,7 @@
 
   {
     "id": 641,
-    "name": "tornadus-incarnate",
+    "name": "Tornadus",
     "type": "flying",
     "height": 1.5,
     "weight": 63,
@@ -8334,7 +8334,7 @@
 
   {
     "id": 642,
-    "name": "thundurus-incarnate",
+    "name": "Thundurus",
     "type": "electric",
     "height": 1.5,
     "weight": 61,
@@ -8347,7 +8347,7 @@
 
   {
     "id": 643,
-    "name": "reshiram",
+    "name": "Reshiram",
     "type": "dragon",
     "height": 3.2,
     "weight": 330,
@@ -8360,7 +8360,7 @@
 
   {
     "id": 644,
-    "name": "zekrom",
+    "name": "Zekrom",
     "type": "dragon",
     "height": 2.9,
     "weight": 345,
@@ -8373,7 +8373,7 @@
 
   {
     "id": 645,
-    "name": "landorus-incarnate",
+    "name": "Landorus",
     "type": "ground",
     "height": 1.5,
     "weight": 68,
@@ -8386,7 +8386,7 @@
 
   {
     "id": 646,
-    "name": "kyurem",
+    "name": "Kyurem",
     "type": "dragon",
     "height": 3,
     "weight": 325,
@@ -8399,7 +8399,7 @@
 
   {
     "id": 647,
-    "name": "keldeo-ordinary",
+    "name": "Keldeo",
     "type": "water",
     "height": 1.4,
     "weight": 48.5,
@@ -8412,7 +8412,7 @@
 
   {
     "id": 648,
-    "name": "meloetta-aria",
+    "name": "Meloetta",
     "type": "normal",
     "height": 0.6,
     "weight": 6.5,
@@ -8425,7 +8425,7 @@
 
   {
     "id": 649,
-    "name": "genesect",
+    "name": "Genesect",
     "type": "bug",
     "height": 1.5,
     "weight": 82.5,
@@ -8438,7 +8438,7 @@
 
   {
     "id": 650,
-    "name": "chespin",
+    "name": "Chespin",
     "type": "grass",
     "height": 0.4,
     "weight": 9,
@@ -8451,7 +8451,7 @@
 
   {
     "id": 651,
-    "name": "quilladin",
+    "name": "Quilladin",
     "type": "grass",
     "height": 0.7,
     "weight": 29,
@@ -8464,7 +8464,7 @@
 
   {
     "id": 652,
-    "name": "chesnaught",
+    "name": "Chesnaught",
     "type": "grass",
     "height": 1.6,
     "weight": 90,
@@ -8477,7 +8477,7 @@
 
   {
     "id": 653,
-    "name": "fennekin",
+    "name": "Fennekin",
     "type": "fire",
     "height": 0.4,
     "weight": 9.4,
@@ -8490,7 +8490,7 @@
 
   {
     "id": 654,
-    "name": "braixen",
+    "name": "Braixen",
     "type": "fire",
     "height": 1,
     "weight": 14.5,
@@ -8503,7 +8503,7 @@
 
   {
     "id": 655,
-    "name": "delphox",
+    "name": "Delphox",
     "type": "fire",
     "height": 1.5,
     "weight": 39,
@@ -8516,7 +8516,7 @@
 
   {
     "id": 656,
-    "name": "froakie",
+    "name": "Froakie",
     "type": "water",
     "height": 0.3,
     "weight": 7,
@@ -8529,7 +8529,7 @@
 
   {
     "id": 657,
-    "name": "frogadier",
+    "name": "Frogadier",
     "type": "water",
     "height": 0.6,
     "weight": 10.9,
@@ -8542,7 +8542,7 @@
 
   {
     "id": 658,
-    "name": "greninja",
+    "name": "Greninja",
     "type": "water",
     "height": 1.5,
     "weight": 40,
@@ -8555,7 +8555,7 @@
 
   {
     "id": 659,
-    "name": "bunnelby",
+    "name": "Bunnelby",
     "type": "normal",
     "height": 0.4,
     "weight": 5,
@@ -8568,7 +8568,7 @@
 
   {
     "id": 660,
-    "name": "diggersby",
+    "name": "Diggersby",
     "type": "normal",
     "height": 1,
     "weight": 42.4,
@@ -8581,7 +8581,7 @@
 
   {
     "id": 661,
-    "name": "fletchling",
+    "name": "Fletchling",
     "type": "normal",
     "height": 0.3,
     "weight": 1.7,
@@ -8594,7 +8594,7 @@
 
   {
     "id": 662,
-    "name": "fletchinder",
+    "name": "Fletchinder",
     "type": "fire",
     "height": 0.7,
     "weight": 16,
@@ -8607,7 +8607,7 @@
 
   {
     "id": 663,
-    "name": "talonflame",
+    "name": "Talonflame",
     "type": "fire",
     "height": 1.2,
     "weight": 24.5,
@@ -8620,7 +8620,7 @@
 
   {
     "id": 664,
-    "name": "scatterbug",
+    "name": "Scatterbug",
     "type": "bug",
     "height": 0.3,
     "weight": 2.5,
@@ -8633,7 +8633,7 @@
 
   {
     "id": 665,
-    "name": "spewpa",
+    "name": "Spewpa",
     "type": "bug",
     "height": 0.3,
     "weight": 8.4,
@@ -8646,7 +8646,7 @@
 
   {
     "id": 666,
-    "name": "vivillon",
+    "name": "Vivillon",
     "type": "bug",
     "height": 1.2,
     "weight": 17,
@@ -8659,7 +8659,7 @@
 
   {
     "id": 667,
-    "name": "litleo",
+    "name": "Litleo",
     "type": "fire",
     "height": 0.6,
     "weight": 13.5,
@@ -8672,7 +8672,7 @@
 
   {
     "id": 668,
-    "name": "pyroar-male",
+    "name": "Pyroar",
     "type": "fire",
     "height": 1.5,
     "weight": 81.5,
@@ -8685,7 +8685,7 @@
 
   {
     "id": 669,
-    "name": "flabebe",
+    "name": "Flabébé",
     "type": "fairy",
     "height": 0.1,
     "weight": 0.1,
@@ -8698,7 +8698,7 @@
 
   {
     "id": 670,
-    "name": "floette",
+    "name": "Floette",
     "type": "fairy",
     "height": 0.2,
     "weight": 0.9,
@@ -8711,7 +8711,7 @@
 
   {
     "id": 671,
-    "name": "florges",
+    "name": "Florges",
     "type": "fairy",
     "height": 1.1,
     "weight": 10,
@@ -8724,7 +8724,7 @@
 
   {
     "id": 672,
-    "name": "skiddo",
+    "name": "Skiddo",
     "type": "grass",
     "height": 0.9,
     "weight": 31,
@@ -8737,7 +8737,7 @@
 
   {
     "id": 673,
-    "name": "gogoat",
+    "name": "Gogoat",
     "type": "grass",
     "height": 1.7,
     "weight": 91,
@@ -8750,7 +8750,7 @@
 
   {
     "id": 674,
-    "name": "pancham",
+    "name": "Pancham",
     "type": "fighting",
     "height": 0.6,
     "weight": 8,
@@ -8763,7 +8763,7 @@
 
   {
     "id": 675,
-    "name": "pangoro",
+    "name": "Pangoro",
     "type": "fighting",
     "height": 2.1,
     "weight": 136,
@@ -8776,7 +8776,7 @@
 
   {
     "id": 676,
-    "name": "furfrou",
+    "name": "Furfrou",
     "type": "normal",
     "height": 1.2,
     "weight": 28,
@@ -8789,7 +8789,7 @@
 
   {
     "id": 677,
-    "name": "espurr",
+    "name": "Espurr",
     "type": "psychic",
     "height": 0.3,
     "weight": 3.5,
@@ -8802,7 +8802,7 @@
 
   {
     "id": 678,
-    "name": "meowstic-male",
+    "name": "Meowstic",
     "type": "psychic",
     "height": 0.6,
     "weight": 8.5,
@@ -8815,7 +8815,7 @@
 
   {
     "id": 679,
-    "name": "honedge",
+    "name": "Honedge",
     "type": "steel",
     "height": 0.8,
     "weight": 2,
@@ -8828,7 +8828,7 @@
 
   {
     "id": 680,
-    "name": "doublade",
+    "name": "Doublade",
     "type": "steel",
     "height": 0.8,
     "weight": 4.5,
@@ -8841,7 +8841,7 @@
 
   {
     "id": 681,
-    "name": "aegislash-shield",
+    "name": "Aegislash",
     "type": "steel",
     "height": 1.7,
     "weight": 53,
@@ -8854,7 +8854,7 @@
 
   {
     "id": 682,
-    "name": "spritzee",
+    "name": "Spritzee",
     "type": "fairy",
     "height": 0.2,
     "weight": 0.5,
@@ -8867,7 +8867,7 @@
 
   {
     "id": 683,
-    "name": "aromatisse",
+    "name": "Aromatisse",
     "type": "fairy",
     "height": 0.8,
     "weight": 15.5,
@@ -8880,7 +8880,7 @@
 
   {
     "id": 684,
-    "name": "swirlix",
+    "name": "Swirlix",
     "type": "fairy",
     "height": 0.4,
     "weight": 3.5,
@@ -8893,7 +8893,7 @@
 
   {
     "id": 685,
-    "name": "slurpuff",
+    "name": "Slurpuff",
     "type": "fairy",
     "height": 0.8,
     "weight": 5,
@@ -8906,7 +8906,7 @@
 
   {
     "id": 686,
-    "name": "inkay",
+    "name": "Inkay",
     "type": "dark",
     "height": 0.4,
     "weight": 3.5,
@@ -8919,7 +8919,7 @@
 
   {
     "id": 687,
-    "name": "malamar",
+    "name": "Malamar",
     "type": "dark",
     "height": 1.5,
     "weight": 47,
@@ -8932,7 +8932,7 @@
 
   {
     "id": 688,
-    "name": "binacle",
+    "name": "Binacle",
     "type": "rock",
     "height": 0.5,
     "weight": 31,
@@ -8945,7 +8945,7 @@
 
   {
     "id": 689,
-    "name": "barbaracle",
+    "name": "Barbaracle",
     "type": "rock",
     "height": 1.3,
     "weight": 96,
@@ -8958,7 +8958,7 @@
 
   {
     "id": 690,
-    "name": "skrelp",
+    "name": "Skrelp",
     "type": "poison",
     "height": 0.5,
     "weight": 7.3,
@@ -8971,7 +8971,7 @@
 
   {
     "id": 691,
-    "name": "dragalge",
+    "name": "Dragalge",
     "type": "poison",
     "height": 1.8,
     "weight": 81.5,
@@ -8984,7 +8984,7 @@
 
   {
     "id": 692,
-    "name": "clauncher",
+    "name": "Clauncher",
     "type": "water",
     "height": 0.5,
     "weight": 8.3,
@@ -8997,7 +8997,7 @@
 
   {
     "id": 693,
-    "name": "clawitzer",
+    "name": "Clawitzer",
     "type": "water",
     "height": 1.3,
     "weight": 35.3,
@@ -9010,7 +9010,7 @@
 
   {
     "id": 694,
-    "name": "helioptile",
+    "name": "Helioptile",
     "type": "electric",
     "height": 0.5,
     "weight": 6,
@@ -9023,7 +9023,7 @@
 
   {
     "id": 695,
-    "name": "heliolisk",
+    "name": "Heliolisk",
     "type": "electric",
     "height": 1,
     "weight": 21,
@@ -9036,7 +9036,7 @@
 
   {
     "id": 696,
-    "name": "tyrunt",
+    "name": "Tyrunt",
     "type": "rock",
     "height": 0.8,
     "weight": 26,
@@ -9049,7 +9049,7 @@
 
   {
     "id": 697,
-    "name": "tyrantrum",
+    "name": "Tyrantrum",
     "type": "rock",
     "height": 2.5,
     "weight": 270,
@@ -9062,7 +9062,7 @@
 
   {
     "id": 698,
-    "name": "amaura",
+    "name": "Amaura",
     "type": "rock",
     "height": 1.3,
     "weight": 25.2,
@@ -9075,7 +9075,7 @@
 
   {
     "id": 699,
-    "name": "aurorus",
+    "name": "Aurorus",
     "type": "rock",
     "height": 2.7,
     "weight": 225,
@@ -9088,7 +9088,7 @@
 
   {
     "id": 700,
-    "name": "sylveon",
+    "name": "Sylveon",
     "type": "fairy",
     "height": 1,
     "weight": 23.5,
@@ -9101,7 +9101,7 @@
 
   {
     "id": 701,
-    "name": "hawlucha",
+    "name": "Hawlucha",
     "type": "fighting",
     "height": 0.8,
     "weight": 21.5,
@@ -9114,7 +9114,7 @@
 
   {
     "id": 702,
-    "name": "dedenne",
+    "name": "Dedenne",
     "type": "electric",
     "height": 0.2,
     "weight": 2.2,
@@ -9127,7 +9127,7 @@
 
   {
     "id": 703,
-    "name": "carbink",
+    "name": "Carbink",
     "type": "rock",
     "height": 0.3,
     "weight": 5.7,
@@ -9140,7 +9140,7 @@
 
   {
     "id": 704,
-    "name": "goomy",
+    "name": "Goomy",
     "type": "dragon",
     "height": 0.3,
     "weight": 2.8,
@@ -9153,7 +9153,7 @@
 
   {
     "id": 705,
-    "name": "sliggoo",
+    "name": "Sliggoo",
     "type": "dragon",
     "height": 0.8,
     "weight": 17.5,
@@ -9166,7 +9166,7 @@
 
   {
     "id": 706,
-    "name": "goodra",
+    "name": "Goodra",
     "type": "dragon",
     "height": 2,
     "weight": 150.5,
@@ -9179,7 +9179,7 @@
 
   {
     "id": 707,
-    "name": "klefki",
+    "name": "Klefki",
     "type": "steel",
     "height": 0.2,
     "weight": 3,
@@ -9192,7 +9192,7 @@
 
   {
     "id": 708,
-    "name": "phantump",
+    "name": "Phantump",
     "type": "ghost",
     "height": 0.4,
     "weight": 7,
@@ -9205,7 +9205,7 @@
 
   {
     "id": 709,
-    "name": "trevenant",
+    "name": "Trevenant",
     "type": "ghost",
     "height": 1.5,
     "weight": 71,
@@ -9218,7 +9218,7 @@
 
   {
     "id": 710,
-    "name": "pumpkaboo-average",
+    "name": "Pumpkaboo",
     "type": "ghost",
     "height": 0.4,
     "weight": 5,
@@ -9231,7 +9231,7 @@
 
   {
     "id": 711,
-    "name": "gourgeist-average",
+    "name": "Gourgeist",
     "type": "ghost",
     "height": 0.9,
     "weight": 12.5,
@@ -9244,7 +9244,7 @@
 
   {
     "id": 712,
-    "name": "bergmite",
+    "name": "Bergmite",
     "type": "ice",
     "height": 1,
     "weight": 99.5,
@@ -9257,7 +9257,7 @@
 
   {
     "id": 713,
-    "name": "avalugg",
+    "name": "Avalugg",
     "type": "ice",
     "height": 2,
     "weight": 505,
@@ -9270,7 +9270,7 @@
 
   {
     "id": 714,
-    "name": "noibat",
+    "name": "Noibat",
     "type": "flying",
     "height": 0.5,
     "weight": 8,
@@ -9283,7 +9283,7 @@
 
   {
     "id": 715,
-    "name": "noivern",
+    "name": "Noivern",
     "type": "flying",
     "height": 1.5,
     "weight": 85,
@@ -9296,7 +9296,7 @@
 
   {
     "id": 716,
-    "name": "xerneas",
+    "name": "Xerneas",
     "type": "fairy",
     "height": 3,
     "weight": 215,
@@ -9309,7 +9309,7 @@
 
   {
     "id": 717,
-    "name": "yveltal",
+    "name": "Yveltal",
     "type": "dark",
     "height": 5.8,
     "weight": 203,
@@ -9322,7 +9322,7 @@
 
   {
     "id": 718,
-    "name": "zygarde-50",
+    "name": "Zygarde",
     "type": "dragon",
     "height": 5,
     "weight": 305,
@@ -9335,7 +9335,7 @@
 
   {
     "id": 719,
-    "name": "diancie",
+    "name": "Diancie",
     "type": "rock",
     "height": 0.7,
     "weight": 8.8,
@@ -9348,7 +9348,7 @@
 
   {
     "id": 720,
-    "name": "hoopa",
+    "name": "Hoopa",
     "type": "psychic",
     "height": 0.5,
     "weight": 9,
@@ -9361,7 +9361,7 @@
 
   {
     "id": 721,
-    "name": "volcanion",
+    "name": "Volcanion",
     "type": "fire",
     "height": 1.7,
     "weight": 195,
@@ -9374,7 +9374,7 @@
 
   {
     "id": 722,
-    "name": "rowlet",
+    "name": "Rowlet",
     "type": "grass",
     "height": 0.3,
     "weight": 1.5,
@@ -9387,7 +9387,7 @@
 
   {
     "id": 723,
-    "name": "dartrix",
+    "name": "Dartrix",
     "type": "grass",
     "height": 0.7,
     "weight": 16,
@@ -9400,7 +9400,7 @@
 
   {
     "id": 724,
-    "name": "decidueye",
+    "name": "Decidueye",
     "type": "grass",
     "height": 1.6,
     "weight": 36.6,
@@ -9413,7 +9413,7 @@
 
   {
     "id": 725,
-    "name": "litten",
+    "name": "Litten",
     "type": "fire",
     "height": 0.4,
     "weight": 4.3,
@@ -9426,7 +9426,7 @@
 
   {
     "id": 726,
-    "name": "torracat",
+    "name": "Torracat",
     "type": "fire",
     "height": 0.7,
     "weight": 25,
@@ -9439,7 +9439,7 @@
 
   {
     "id": 727,
-    "name": "incineroar",
+    "name": "Incineroar",
     "type": "fire",
     "height": 1.8,
     "weight": 83,
@@ -9452,7 +9452,7 @@
 
   {
     "id": 728,
-    "name": "popplio",
+    "name": "Popplio",
     "type": "water",
     "height": 0.4,
     "weight": 7.5,
@@ -9465,7 +9465,7 @@
 
   {
     "id": 729,
-    "name": "brionne",
+    "name": "Brionne",
     "type": "water",
     "height": 0.6,
     "weight": 17.5,
@@ -9478,7 +9478,7 @@
 
   {
     "id": 730,
-    "name": "primarina",
+    "name": "Primarina",
     "type": "water",
     "height": 1.8,
     "weight": 44,
@@ -9491,7 +9491,7 @@
 
   {
     "id": 731,
-    "name": "pikipek",
+    "name": "Pikipek",
     "type": "normal",
     "height": 0.3,
     "weight": 1.2,
@@ -9504,7 +9504,7 @@
 
   {
     "id": 732,
-    "name": "trumbeak",
+    "name": "Trumbeak",
     "type": "normal",
     "height": 0.6,
     "weight": 14.8,
@@ -9517,7 +9517,7 @@
 
   {
     "id": 733,
-    "name": "toucannon",
+    "name": "Toucannon",
     "type": "normal",
     "height": 1.1,
     "weight": 26,
@@ -9530,7 +9530,7 @@
 
   {
     "id": 734,
-    "name": "yungoos",
+    "name": "Yungoos",
     "type": "normal",
     "height": 0.4,
     "weight": 6,
@@ -9543,7 +9543,7 @@
 
   {
     "id": 735,
-    "name": "gumshoos",
+    "name": "Gumshoos",
     "type": "normal",
     "height": 0.7,
     "weight": 14.2,
@@ -9556,7 +9556,7 @@
 
   {
     "id": 736,
-    "name": "grubbin",
+    "name": "Grubbin",
     "type": "bug",
     "height": 0.4,
     "weight": 4.4,
@@ -9569,7 +9569,7 @@
 
   {
     "id": 737,
-    "name": "charjabug",
+    "name": "Charjabug",
     "type": "bug",
     "height": 0.5,
     "weight": 10.5,
@@ -9582,7 +9582,7 @@
 
   {
     "id": 738,
-    "name": "vikavolt",
+    "name": "Vikavolt",
     "type": "bug",
     "height": 1.5,
     "weight": 45,
@@ -9595,7 +9595,7 @@
 
   {
     "id": 739,
-    "name": "crabrawler",
+    "name": "Crabrawler",
     "type": "fighting",
     "height": 0.6,
     "weight": 7,
@@ -9608,7 +9608,7 @@
 
   {
     "id": 740,
-    "name": "crabominable",
+    "name": "Crabominable",
     "type": "fighting",
     "height": 1.7,
     "weight": 180,
@@ -9621,7 +9621,7 @@
 
   {
     "id": 741,
-    "name": "oricorio-baile",
+    "name": "Oricorio",
     "type": "fire",
     "height": 0.6,
     "weight": 3.4,
@@ -9634,7 +9634,7 @@
 
   {
     "id": 742,
-    "name": "cutiefly",
+    "name": "Cutiefly",
     "type": "bug",
     "height": 0.1,
     "weight": 0.2,
@@ -9647,7 +9647,7 @@
 
   {
     "id": 743,
-    "name": "ribombee",
+    "name": "Ribombee",
     "type": "bug",
     "height": 0.2,
     "weight": 0.5,
@@ -9660,7 +9660,7 @@
 
   {
     "id": 744,
-    "name": "rockruff",
+    "name": "Rockruff",
     "type": "rock",
     "height": 0.5,
     "weight": 9.2,
@@ -9673,7 +9673,7 @@
 
   {
     "id": 745,
-    "name": "lycanroc-midday",
+    "name": "Lycanroc",
     "type": "rock",
     "height": 0.8,
     "weight": 25,
@@ -9686,7 +9686,7 @@
 
   {
     "id": 746,
-    "name": "wishiwashi-solo",
+    "name": "Wishiwashi",
     "type": "water",
     "height": 0.2,
     "weight": 0.3,
@@ -9699,7 +9699,7 @@
 
   {
     "id": 747,
-    "name": "mareanie",
+    "name": "Mareanie",
     "type": "poison",
     "height": 0.4,
     "weight": 8,
@@ -9712,7 +9712,7 @@
 
   {
     "id": 748,
-    "name": "toxapex",
+    "name": "Toxapex",
     "type": "poison",
     "height": 0.7,
     "weight": 14.5,
@@ -9725,7 +9725,7 @@
 
   {
     "id": 749,
-    "name": "mudbray",
+    "name": "Mudbray",
     "type": "ground",
     "height": 1,
     "weight": 110,
@@ -9738,7 +9738,7 @@
 
   {
     "id": 750,
-    "name": "mudsdale",
+    "name": "Mudsdale",
     "type": "ground",
     "height": 2.5,
     "weight": 920,
@@ -9751,7 +9751,7 @@
 
   {
     "id": 751,
-    "name": "dewpider",
+    "name": "Dewpider",
     "type": "water",
     "height": 0.3,
     "weight": 4,
@@ -9764,7 +9764,7 @@
 
   {
     "id": 752,
-    "name": "araquanid",
+    "name": "Araquanid",
     "type": "water",
     "height": 1.8,
     "weight": 82,
@@ -9777,7 +9777,7 @@
 
   {
     "id": 753,
-    "name": "fomantis",
+    "name": "Fomantis",
     "type": "grass",
     "height": 0.3,
     "weight": 1.5,
@@ -9790,7 +9790,7 @@
 
   {
     "id": 754,
-    "name": "lurantis",
+    "name": "Lurantis",
     "type": "grass",
     "height": 0.9,
     "weight": 18.5,
@@ -9803,7 +9803,7 @@
 
   {
     "id": 755,
-    "name": "morelull",
+    "name": "Morelull",
     "type": "grass",
     "height": 0.2,
     "weight": 1.5,
@@ -9816,7 +9816,7 @@
 
   {
     "id": 756,
-    "name": "shiinotic",
+    "name": "Shiinotic",
     "type": "grass",
     "height": 1,
     "weight": 11.5,
@@ -9829,7 +9829,7 @@
 
   {
     "id": 757,
-    "name": "salandit",
+    "name": "Salandit",
     "type": "poison",
     "height": 0.6,
     "weight": 4.8,
@@ -9842,7 +9842,7 @@
 
   {
     "id": 758,
-    "name": "salazzle",
+    "name": "Salazzle",
     "type": "poison",
     "height": 1.2,
     "weight": 22.2,
@@ -9855,7 +9855,7 @@
 
   {
     "id": 759,
-    "name": "stufful",
+    "name": "Stufful",
     "type": "normal",
     "height": 0.5,
     "weight": 6.8,
@@ -9868,7 +9868,7 @@
 
   {
     "id": 760,
-    "name": "bewear",
+    "name": "Bewear",
     "type": "normal",
     "height": 2.1,
     "weight": 135,
@@ -9881,7 +9881,7 @@
 
   {
     "id": 761,
-    "name": "bounsweet",
+    "name": "Bounsweet",
     "type": "grass",
     "height": 0.3,
     "weight": 3.2,
@@ -9894,7 +9894,7 @@
 
   {
     "id": 762,
-    "name": "steenee",
+    "name": "Steenee",
     "type": "grass",
     "height": 0.7,
     "weight": 8.2,
@@ -9907,7 +9907,7 @@
 
   {
     "id": 763,
-    "name": "tsareena",
+    "name": "Tsareena",
     "type": "grass",
     "height": 1.2,
     "weight": 21.4,
@@ -9920,7 +9920,7 @@
 
   {
     "id": 764,
-    "name": "comfey",
+    "name": "Comfey",
     "type": "fairy",
     "height": 0.1,
     "weight": 0.3,
@@ -9933,7 +9933,7 @@
 
   {
     "id": 765,
-    "name": "oranguru",
+    "name": "Oranguru",
     "type": "normal",
     "height": 1.5,
     "weight": 76,
@@ -9946,7 +9946,7 @@
 
   {
     "id": 766,
-    "name": "passimian",
+    "name": "Passimian",
     "type": "fighting",
     "height": 2,
     "weight": 82.8,
@@ -9959,7 +9959,7 @@
 
   {
     "id": 767,
-    "name": "wimpod",
+    "name": "Wimpod",
     "type": "bug",
     "height": 0.5,
     "weight": 12,
@@ -9972,7 +9972,7 @@
 
   {
     "id": 768,
-    "name": "golisopod",
+    "name": "Golisopod",
     "type": "bug",
     "height": 2,
     "weight": 108,
@@ -9985,7 +9985,7 @@
 
   {
     "id": 769,
-    "name": "sandygast",
+    "name": "Sandygast",
     "type": "ghost",
     "height": 0.5,
     "weight": 70,
@@ -9998,7 +9998,7 @@
 
   {
     "id": 770,
-    "name": "palossand",
+    "name": "Palossand",
     "type": "ghost",
     "height": 1.3,
     "weight": 250,
@@ -10011,7 +10011,7 @@
 
   {
     "id": 771,
-    "name": "pyukumuku",
+    "name": "Pyukumuku",
     "type": "water",
     "height": 0.3,
     "weight": 1.2,
@@ -10024,7 +10024,7 @@
 
   {
     "id": 772,
-    "name": "type-null",
+    "name": "Type: Null",
     "type": "normal",
     "height": 1.9,
     "weight": 120.5,
@@ -10037,7 +10037,7 @@
 
   {
     "id": 773,
-    "name": "silvally",
+    "name": "Silvally",
     "type": "normal",
     "height": 2.3,
     "weight": 100.5,
@@ -10050,7 +10050,7 @@
 
   {
     "id": 774,
-    "name": "minior-red-meteor",
+    "name": "Minior",
     "type": "rock",
     "height": 0.3,
     "weight": 40,
@@ -10063,7 +10063,7 @@
 
   {
     "id": 775,
-    "name": "komala",
+    "name": "Komala",
     "type": "normal",
     "height": 0.4,
     "weight": 19.9,
@@ -10076,7 +10076,7 @@
 
   {
     "id": 776,
-    "name": "turtonator",
+    "name": "Turtonator",
     "type": "fire",
     "height": 2,
     "weight": 212,
@@ -10089,7 +10089,7 @@
 
   {
     "id": 777,
-    "name": "togedemaru",
+    "name": "Togedemaru",
     "type": "electric",
     "height": 0.3,
     "weight": 3.3,
@@ -10102,7 +10102,7 @@
 
   {
     "id": 778,
-    "name": "mimikyu-disguised",
+    "name": "Mimikyu",
     "type": "ghost",
     "height": 0.2,
     "weight": 0.7,
@@ -10115,7 +10115,7 @@
 
   {
     "id": 779,
-    "name": "bruxish",
+    "name": "Bruxish",
     "type": "water",
     "height": 0.9,
     "weight": 19,
@@ -10128,7 +10128,7 @@
 
   {
     "id": 780,
-    "name": "drampa",
+    "name": "Drampa",
     "type": "normal",
     "height": 3,
     "weight": 185,
@@ -10141,7 +10141,7 @@
 
   {
     "id": 781,
-    "name": "dhelmise",
+    "name": "Dhelmise",
     "type": "ghost",
     "height": 3.9,
     "weight": 210,
@@ -10154,7 +10154,7 @@
 
   {
     "id": 782,
-    "name": "jangmo-o",
+    "name": "Jangmo-o",
     "type": "dragon",
     "height": 0.6,
     "weight": 29.7,
@@ -10167,7 +10167,7 @@
 
   {
     "id": 783,
-    "name": "hakamo-o",
+    "name": "Hakamo-o",
     "type": "dragon",
     "height": 1.2,
     "weight": 47,
@@ -10180,7 +10180,7 @@
 
   {
     "id": 784,
-    "name": "kommo-o",
+    "name": "Kommo-o",
     "type": "dragon",
     "height": 1.6,
     "weight": 78.2,
@@ -10193,7 +10193,7 @@
 
   {
     "id": 785,
-    "name": "tapu-koko",
+    "name": "Tapu Koko",
     "type": "electric",
     "height": 1.8,
     "weight": 20.5,
@@ -10206,7 +10206,7 @@
 
   {
     "id": 786,
-    "name": "tapu-lele",
+    "name": "Tapu Lele",
     "type": "psychic",
     "height": 1.2,
     "weight": 18.6,
@@ -10219,7 +10219,7 @@
 
   {
     "id": 787,
-    "name": "tapu-bulu",
+    "name": "Tapu Bulu",
     "type": "grass",
     "height": 1.9,
     "weight": 45.5,
@@ -10232,7 +10232,7 @@
 
   {
     "id": 788,
-    "name": "tapu-fini",
+    "name": "Tapu Fini",
     "type": "water",
     "height": 1.3,
     "weight": 21.2,
@@ -10245,7 +10245,7 @@
 
   {
     "id": 789,
-    "name": "cosmog",
+    "name": "Cosmog",
     "type": "psychic",
     "height": 0.2,
     "weight": 0.1,
@@ -10258,7 +10258,7 @@
 
   {
     "id": 790,
-    "name": "cosmoem",
+    "name": "Cosmoem",
     "type": "psychic",
     "height": 0.1,
     "weight": 999.9,
@@ -10271,7 +10271,7 @@
 
   {
     "id": 791,
-    "name": "solgaleo",
+    "name": "Solgaleo",
     "type": "psychic",
     "height": 3.4,
     "weight": 230,
@@ -10284,7 +10284,7 @@
 
   {
     "id": 792,
-    "name": "lunala",
+    "name": "Lunala",
     "type": "psychic",
     "height": 4,
     "weight": 120,
@@ -10297,7 +10297,7 @@
 
   {
     "id": 793,
-    "name": "nihilego",
+    "name": "Nihilego",
     "type": "rock",
     "height": 1.2,
     "weight": 55.5,
@@ -10310,7 +10310,7 @@
 
   {
     "id": 794,
-    "name": "buzzwole",
+    "name": "Buzzwole",
     "type": "bug",
     "height": 2.4,
     "weight": 333.6,
@@ -10323,7 +10323,7 @@
 
   {
     "id": 795,
-    "name": "pheromosa",
+    "name": "Pheromosa",
     "type": "bug",
     "height": 1.8,
     "weight": 25,
@@ -10336,7 +10336,7 @@
 
   {
     "id": 796,
-    "name": "xurkitree",
+    "name": "Xurkitree",
     "type": "electric",
     "height": 3.8,
     "weight": 100,
@@ -10349,7 +10349,7 @@
 
   {
     "id": 797,
-    "name": "celesteela",
+    "name": "Celesteela",
     "type": "steel",
     "height": 9.2,
     "weight": 999.9,
@@ -10362,7 +10362,7 @@
 
   {
     "id": 798,
-    "name": "kartana",
+    "name": "Kartana",
     "type": "grass",
     "height": 0.3,
     "weight": 0.1,
@@ -10375,7 +10375,7 @@
 
   {
     "id": 799,
-    "name": "guzzlord",
+    "name": "Guzzlord",
     "type": "dark",
     "height": 5.5,
     "weight": 888,
@@ -10388,7 +10388,7 @@
 
   {
     "id": 800,
-    "name": "necrozma",
+    "name": "Necrozma",
     "type": "psychic",
     "height": 2.4,
     "weight": 230,
@@ -10401,7 +10401,7 @@
 
   {
     "id": 801,
-    "name": "magearna",
+    "name": "Magearna",
     "type": "steel",
     "height": 1,
     "weight": 80.5,
@@ -10414,7 +10414,7 @@
 
   {
     "id": 802,
-    "name": "marshadow",
+    "name": "Marshadow",
     "type": "fighting",
     "height": 0.7,
     "weight": 22.2,
@@ -10427,7 +10427,7 @@
 
   {
     "id": 803,
-    "name": "poipole",
+    "name": "Poipole",
     "type": "poison",
     "height": 0.6,
     "weight": 1.8,
@@ -10440,7 +10440,7 @@
 
   {
     "id": 804,
-    "name": "naganadel",
+    "name": "Naganadel",
     "type": "poison",
     "height": 3.6,
     "weight": 150,
@@ -10453,7 +10453,7 @@
 
   {
     "id": 805,
-    "name": "stakataka",
+    "name": "Stakataka",
     "type": "rock",
     "height": 5.5,
     "weight": 820,
@@ -10466,7 +10466,7 @@
 
   {
     "id": 806,
-    "name": "blacephalon",
+    "name": "Blacephalon",
     "type": "fire",
     "height": 1.8,
     "weight": 13,
@@ -10479,7 +10479,7 @@
 
   {
     "id": 807,
-    "name": "zeraora",
+    "name": "Zeraora",
     "type": "electric",
     "height": 1.5,
     "weight": 44.5,
@@ -10492,7 +10492,7 @@
 
   {
     "id": 808,
-    "name": "meltan",
+    "name": "Meltan",
     "type": "steel",
     "height": 0.2,
     "weight": 8,
@@ -10505,7 +10505,7 @@
 
   {
     "id": 809,
-    "name": "melmetal",
+    "name": "Melmetal",
     "type": "steel",
     "height": 2.5,
     "weight": 800,
@@ -10518,7 +10518,7 @@
 
   {
     "id": 810,
-    "name": "grookey",
+    "name": "Grookey",
     "type": "grass",
     "height": 0.3,
     "weight": 5,
@@ -10531,7 +10531,7 @@
 
   {
     "id": 811,
-    "name": "thwackey",
+    "name": "Thwackey",
     "type": "grass",
     "height": 0.7,
     "weight": 14,
@@ -10544,7 +10544,7 @@
 
   {
     "id": 812,
-    "name": "rillaboom",
+    "name": "Rillaboom",
     "type": "grass",
     "height": 2.1,
     "weight": 90,
@@ -10557,7 +10557,7 @@
 
   {
     "id": 813,
-    "name": "scorbunny",
+    "name": "Scorbunny",
     "type": "fire",
     "height": 0.3,
     "weight": 4.5,
@@ -10570,7 +10570,7 @@
 
   {
     "id": 814,
-    "name": "raboot",
+    "name": "Raboot",
     "type": "fire",
     "height": 0.6,
     "weight": 9,
@@ -10583,7 +10583,7 @@
 
   {
     "id": 815,
-    "name": "cinderace",
+    "name": "Cinderace",
     "type": "fire",
     "height": 1.4,
     "weight": 33,
@@ -10596,7 +10596,7 @@
 
   {
     "id": 816,
-    "name": "sobble",
+    "name": "Sobble",
     "type": "water",
     "height": 0.3,
     "weight": 4,
@@ -10609,7 +10609,7 @@
 
   {
     "id": 817,
-    "name": "drizzile",
+    "name": "Drizzile",
     "type": "water",
     "height": 0.7,
     "weight": 11.5,
@@ -10622,7 +10622,7 @@
 
   {
     "id": 818,
-    "name": "inteleon",
+    "name": "Inteleon",
     "type": "water",
     "height": 1.9,
     "weight": 45.2,
@@ -10635,7 +10635,7 @@
 
   {
     "id": 819,
-    "name": "skwovet",
+    "name": "Skwovet",
     "type": "normal",
     "height": 0.3,
     "weight": 2.5,
@@ -10648,7 +10648,7 @@
 
   {
     "id": 820,
-    "name": "greedent",
+    "name": "Greedent",
     "type": "normal",
     "height": 0.6,
     "weight": 6,
@@ -10661,7 +10661,7 @@
 
   {
     "id": 821,
-    "name": "rookidee",
+    "name": "Rookidee",
     "type": "flying",
     "height": 0.2,
     "weight": 1.8,
@@ -10674,7 +10674,7 @@
 
   {
     "id": 822,
-    "name": "corvisquire",
+    "name": "Corvisquire",
     "type": "flying",
     "height": 0.8,
     "weight": 16,
@@ -10687,7 +10687,7 @@
 
   {
     "id": 823,
-    "name": "corviknight",
+    "name": "Corviknight",
     "type": "flying",
     "height": 2.2,
     "weight": 75,
@@ -10700,7 +10700,7 @@
 
   {
     "id": 824,
-    "name": "blipbug",
+    "name": "Blipbug",
     "type": "bug",
     "height": 0.4,
     "weight": 8,
@@ -10713,7 +10713,7 @@
 
   {
     "id": 825,
-    "name": "dottler",
+    "name": "Dottler",
     "type": "bug",
     "height": 0.4,
     "weight": 19.5,
@@ -10726,7 +10726,7 @@
 
   {
     "id": 826,
-    "name": "orbeetle",
+    "name": "Orbeetle",
     "type": "bug",
     "height": 0.4,
     "weight": 40.8,
@@ -10739,7 +10739,7 @@
 
   {
     "id": 827,
-    "name": "nickit",
+    "name": "Nickit",
     "type": "dark",
     "height": 0.6,
     "weight": 8.9,
@@ -10752,7 +10752,7 @@
 
   {
     "id": 828,
-    "name": "thievul",
+    "name": "Thievul",
     "type": "dark",
     "height": 1.2,
     "weight": 19.9,
@@ -10765,7 +10765,7 @@
 
   {
     "id": 829,
-    "name": "gossifleur",
+    "name": "Gossifleur",
     "type": "grass",
     "height": 0.4,
     "weight": 2.2,
@@ -10778,7 +10778,7 @@
 
   {
     "id": 830,
-    "name": "eldegoss",
+    "name": "Eldegoss",
     "type": "grass",
     "height": 0.5,
     "weight": 2.5,
@@ -10791,7 +10791,7 @@
 
   {
     "id": 831,
-    "name": "wooloo",
+    "name": "Wooloo",
     "type": "normal",
     "height": 0.6,
     "weight": 6,
@@ -10804,7 +10804,7 @@
 
   {
     "id": 832,
-    "name": "dubwool",
+    "name": "Dubwool",
     "type": "normal",
     "height": 1.3,
     "weight": 43,
@@ -10817,7 +10817,7 @@
 
   {
     "id": 833,
-    "name": "chewtle",
+    "name": "Chewtle",
     "type": "water",
     "height": 0.3,
     "weight": 8.5,
@@ -10830,7 +10830,7 @@
 
   {
     "id": 834,
-    "name": "drednaw",
+    "name": "Drednaw",
     "type": "water",
     "height": 1,
     "weight": 115.5,
@@ -10843,7 +10843,7 @@
 
   {
     "id": 835,
-    "name": "yamper",
+    "name": "Yamper",
     "type": "electric",
     "height": 0.3,
     "weight": 13.5,
@@ -10856,7 +10856,7 @@
 
   {
     "id": 836,
-    "name": "boltund",
+    "name": "Boltund",
     "type": "electric",
     "height": 1,
     "weight": 34,
@@ -10869,7 +10869,7 @@
 
   {
     "id": 837,
-    "name": "rolycoly",
+    "name": "Rolycoly",
     "type": "rock",
     "height": 0.3,
     "weight": 12,
@@ -10882,7 +10882,7 @@
 
   {
     "id": 838,
-    "name": "carkol",
+    "name": "Carkol",
     "type": "rock",
     "height": 1.1,
     "weight": 78,
@@ -10895,7 +10895,7 @@
 
   {
     "id": 839,
-    "name": "coalossal",
+    "name": "Coalossal",
     "type": "rock",
     "height": 2.8,
     "weight": 310.5,
@@ -10908,7 +10908,7 @@
 
   {
     "id": 840,
-    "name": "applin",
+    "name": "Applin",
     "type": "grass",
     "height": 0.2,
     "weight": 0.5,
@@ -10921,7 +10921,7 @@
 
   {
     "id": 841,
-    "name": "flapple",
+    "name": "Flapple",
     "type": "grass",
     "height": 0.3,
     "weight": 1,
@@ -10934,7 +10934,7 @@
 
   {
     "id": 842,
-    "name": "appletun",
+    "name": "Appletun",
     "type": "grass",
     "height": 0.4,
     "weight": 13,
@@ -10947,7 +10947,7 @@
 
   {
     "id": 843,
-    "name": "silicobra",
+    "name": "Silicobra",
     "type": "ground",
     "height": 2.2,
     "weight": 7.6,
@@ -10960,7 +10960,7 @@
 
   {
     "id": 844,
-    "name": "sandaconda",
+    "name": "Sandaconda",
     "type": "ground",
     "height": 3.8,
     "weight": 65.5,
@@ -10973,7 +10973,7 @@
 
   {
     "id": 845,
-    "name": "cramorant",
+    "name": "Cramorant",
     "type": "flying",
     "height": 0.8,
     "weight": 18,
@@ -10986,7 +10986,7 @@
 
   {
     "id": 846,
-    "name": "arrokuda",
+    "name": "Arrokuda",
     "type": "water",
     "height": 0.5,
     "weight": 1,
@@ -10999,7 +10999,7 @@
 
   {
     "id": 847,
-    "name": "barraskewda",
+    "name": "Barraskewda",
     "type": "water",
     "height": 1.3,
     "weight": 30,
@@ -11012,7 +11012,7 @@
 
   {
     "id": 848,
-    "name": "toxel",
+    "name": "Toxel",
     "type": "electric",
     "height": 0.4,
     "weight": 11,
@@ -11025,7 +11025,7 @@
 
   {
     "id": 849,
-    "name": "toxtricity-amped",
+    "name": "Toxtricity",
     "type": "electric",
     "height": 1.6,
     "weight": 40,
@@ -11038,7 +11038,7 @@
 
   {
     "id": 850,
-    "name": "sizzlipede",
+    "name": "Sizzlipede",
     "type": "fire",
     "height": 0.7,
     "weight": 1,
@@ -11051,7 +11051,7 @@
 
   {
     "id": 851,
-    "name": "centiskorch",
+    "name": "Centiskorch",
     "type": "fire",
     "height": 3,
     "weight": 120,
@@ -11064,7 +11064,7 @@
 
   {
     "id": 852,
-    "name": "clobbopus",
+    "name": "Clobbopus",
     "type": "fighting",
     "height": 0.6,
     "weight": 4,
@@ -11077,7 +11077,7 @@
 
   {
     "id": 853,
-    "name": "grapploct",
+    "name": "Grapploct",
     "type": "fighting",
     "height": 1.6,
     "weight": 39,
@@ -11090,7 +11090,7 @@
 
   {
     "id": 854,
-    "name": "sinistea",
+    "name": "Sinistea",
     "type": "ghost",
     "height": 0.1,
     "weight": 0.2,
@@ -11103,7 +11103,7 @@
 
   {
     "id": 855,
-    "name": "polteageist",
+    "name": "Polteageist",
     "type": "ghost",
     "height": 0.2,
     "weight": 0.4,
@@ -11116,7 +11116,7 @@
 
   {
     "id": 856,
-    "name": "hatenna",
+    "name": "Hatenna",
     "type": "psychic",
     "height": 0.4,
     "weight": 3.4,
@@ -11129,7 +11129,7 @@
 
   {
     "id": 857,
-    "name": "hattrem",
+    "name": "Hattrem",
     "type": "psychic",
     "height": 0.6,
     "weight": 4.8,
@@ -11142,7 +11142,7 @@
 
   {
     "id": 858,
-    "name": "hatterene",
+    "name": "Hatterene",
     "type": "psychic",
     "height": 2.1,
     "weight": 5.1,
@@ -11155,7 +11155,7 @@
 
   {
     "id": 859,
-    "name": "impidimp",
+    "name": "Impidimp",
     "type": "dark",
     "height": 0.4,
     "weight": 5.5,
@@ -11168,7 +11168,7 @@
 
   {
     "id": 860,
-    "name": "morgrem",
+    "name": "Morgrem",
     "type": "dark",
     "height": 0.8,
     "weight": 12.5,
@@ -11181,7 +11181,7 @@
 
   {
     "id": 861,
-    "name": "grimmsnarl",
+    "name": "Grimmsnarl",
     "type": "dark",
     "height": 1.5,
     "weight": 61,
@@ -11194,7 +11194,7 @@
 
   {
     "id": 862,
-    "name": "obstagoon",
+    "name": "Obstagoon",
     "type": "dark",
     "height": 1.6,
     "weight": 46,
@@ -11207,7 +11207,7 @@
 
   {
     "id": 863,
-    "name": "perrserker",
+    "name": "Perrserker",
     "type": "steel",
     "height": 0.8,
     "weight": 28,
@@ -11220,7 +11220,7 @@
 
   {
     "id": 864,
-    "name": "cursola",
+    "name": "Cursola",
     "type": "ghost",
     "height": 1,
     "weight": 0.4,
@@ -11233,7 +11233,7 @@
 
   {
     "id": 865,
-    "name": "sirfetchd",
+    "name": "Sirfetch’d",
     "type": "fighting",
     "height": 0.8,
     "weight": 117,
@@ -11246,7 +11246,7 @@
 
   {
     "id": 866,
-    "name": "mr-rime",
+    "name": "Mr. Rime",
     "type": "ice",
     "height": 1.5,
     "weight": 58.2,
@@ -11259,7 +11259,7 @@
 
   {
     "id": 867,
-    "name": "runerigus",
+    "name": "Runerigus",
     "type": "ground",
     "height": 1.6,
     "weight": 66.6,
@@ -11272,7 +11272,7 @@
 
   {
     "id": 868,
-    "name": "milcery",
+    "name": "Milcery",
     "type": "fairy",
     "height": 0.2,
     "weight": 0.3,
@@ -11285,7 +11285,7 @@
 
   {
     "id": 869,
-    "name": "alcremie",
+    "name": "Alcremie",
     "type": "fairy",
     "height": 0.3,
     "weight": 0.5,
@@ -11298,7 +11298,7 @@
 
   {
     "id": 870,
-    "name": "falinks",
+    "name": "Falinks",
     "type": "fighting",
     "height": 3,
     "weight": 62,
@@ -11311,7 +11311,7 @@
 
   {
     "id": 871,
-    "name": "pincurchin",
+    "name": "Pincurchin",
     "type": "electric",
     "height": 0.3,
     "weight": 1,
@@ -11324,7 +11324,7 @@
 
   {
     "id": 872,
-    "name": "snom",
+    "name": "Snom",
     "type": "ice",
     "height": 0.3,
     "weight": 3.8,
@@ -11337,7 +11337,7 @@
 
   {
     "id": 873,
-    "name": "frosmoth",
+    "name": "Frosmoth",
     "type": "ice",
     "height": 1.3,
     "weight": 42,
@@ -11350,7 +11350,7 @@
 
   {
     "id": 874,
-    "name": "stonjourner",
+    "name": "Stonjourner",
     "type": "rock",
     "height": 2.5,
     "weight": 520,
@@ -11363,7 +11363,7 @@
 
   {
     "id": 875,
-    "name": "eiscue-ice",
+    "name": "Eiscue",
     "type": "ice",
     "height": 1.4,
     "weight": 89,
@@ -11376,7 +11376,7 @@
 
   {
     "id": 876,
-    "name": "indeedee-male",
+    "name": "Indeedee",
     "type": "psychic",
     "height": 0.9,
     "weight": 28,
@@ -11389,7 +11389,7 @@
 
   {
     "id": 877,
-    "name": "morpeko-full-belly",
+    "name": "Morpeko",
     "type": "electric",
     "height": 0.3,
     "weight": 3,
@@ -11402,7 +11402,7 @@
 
   {
     "id": 878,
-    "name": "cufant",
+    "name": "Cufant",
     "type": "steel",
     "height": 1.2,
     "weight": 100,
@@ -11415,7 +11415,7 @@
 
   {
     "id": 879,
-    "name": "copperajah",
+    "name": "Copperajah",
     "type": "steel",
     "height": 3,
     "weight": 650,
@@ -11428,7 +11428,7 @@
 
   {
     "id": 880,
-    "name": "dracozolt",
+    "name": "Dracozolt",
     "type": "electric",
     "height": 1.8,
     "weight": 190,
@@ -11441,7 +11441,7 @@
 
   {
     "id": 881,
-    "name": "arctozolt",
+    "name": "Arctozolt",
     "type": "electric",
     "height": 2.3,
     "weight": 150,
@@ -11454,7 +11454,7 @@
 
   {
     "id": 882,
-    "name": "dracovish",
+    "name": "Dracovish",
     "type": "water",
     "height": 2.3,
     "weight": 215,
@@ -11467,7 +11467,7 @@
 
   {
     "id": 883,
-    "name": "arctovish",
+    "name": "Arctovish",
     "type": "water",
     "height": 2,
     "weight": 175,
@@ -11480,7 +11480,7 @@
 
   {
     "id": 884,
-    "name": "duraludon",
+    "name": "Duraludon",
     "type": "steel",
     "height": 1.8,
     "weight": 40,
@@ -11493,7 +11493,7 @@
 
   {
     "id": 885,
-    "name": "dreepy",
+    "name": "Dreepy",
     "type": "dragon",
     "height": 0.5,
     "weight": 2,
@@ -11506,7 +11506,7 @@
 
   {
     "id": 886,
-    "name": "drakloak",
+    "name": "Drakloak",
     "type": "dragon",
     "height": 1.4,
     "weight": 11,
@@ -11519,7 +11519,7 @@
 
   {
     "id": 887,
-    "name": "dragapult",
+    "name": "Dragapult",
     "type": "dragon",
     "height": 3,
     "weight": 50,
@@ -11532,7 +11532,7 @@
 
   {
     "id": 888,
-    "name": "zacian",
+    "name": "Zacian",
     "type": "fairy",
     "height": 2.8,
     "weight": 110,
@@ -11545,7 +11545,7 @@
 
   {
     "id": 889,
-    "name": "zamazenta",
+    "name": "Zamazenta",
     "type": "fighting",
     "height": 2.9,
     "weight": 210,
@@ -11558,7 +11558,7 @@
 
   {
     "id": 890,
-    "name": "eternatus",
+    "name": "Eternatus",
     "type": "poison",
     "height": 20,
     "weight": 950,
@@ -11571,7 +11571,7 @@
 
   {
     "id": 891,
-    "name": "kubfu",
+    "name": "Kubfu",
     "type": "fighting",
     "height": 0.6,
     "weight": 12,
@@ -11584,7 +11584,7 @@
 
   {
     "id": 892,
-    "name": "urshifu-single-strike",
+    "name": "Urshifu",
     "type": "fighting",
     "height": 1.9,
     "weight": 105,
@@ -11597,7 +11597,7 @@
 
   {
     "id": 893,
-    "name": "zarude",
+    "name": "Zarude",
     "type": "dark",
     "height": 1.8,
     "weight": 70,
@@ -11610,7 +11610,7 @@
 
   {
     "id": 894,
-    "name": "regieleki",
+    "name": "Regieleki",
     "type": "electric",
     "height": 1.2,
     "weight": 145,
@@ -11623,7 +11623,7 @@
 
   {
     "id": 895,
-    "name": "regidrago",
+    "name": "Regidrago",
     "type": "dragon",
     "height": 2.1,
     "weight": 200,
@@ -11636,7 +11636,7 @@
 
   {
     "id": 896,
-    "name": "glastrier",
+    "name": "Glastrier",
     "type": "ice",
     "height": 2.2,
     "weight": 800,
@@ -11649,7 +11649,7 @@
 
   {
     "id": 897,
-    "name": "spectrier",
+    "name": "Spectrier",
     "type": "ghost",
     "height": 2,
     "weight": 44.5,
@@ -11662,7 +11662,7 @@
 
   {
     "id": 898,
-    "name": "calyrex",
+    "name": "Calyrex",
     "type": "psychic",
     "height": 1.1,
     "weight": 7.7,
@@ -11675,7 +11675,7 @@
 
   {
     "id": 899,
-    "name": "wyrdeer",
+    "name": "Wyrdeer",
     "type": "normal",
     "height": 1.8,
     "weight": 95.1,
@@ -11688,7 +11688,7 @@
 
   {
     "id": 900,
-    "name": "kleavor",
+    "name": "Kleavor",
     "type": "bug",
     "height": 1.8,
     "weight": 89,
@@ -11701,7 +11701,7 @@
 
   {
     "id": 901,
-    "name": "ursaluna",
+    "name": "Ursaluna",
     "type": "ground",
     "height": 2.4,
     "weight": 290,
@@ -11714,7 +11714,7 @@
 
   {
     "id": 902,
-    "name": "basculegion-male",
+    "name": "Basculegion",
     "type": "water",
     "height": 3,
     "weight": 110,
@@ -11727,7 +11727,7 @@
 
   {
     "id": 903,
-    "name": "sneasler",
+    "name": "Sneasler",
     "type": "fighting",
     "height": 1.3,
     "weight": 43,
@@ -11740,7 +11740,7 @@
 
   {
     "id": 904,
-    "name": "overqwil",
+    "name": "Overqwil",
     "type": "dark",
     "height": 2.5,
     "weight": 60.5,
@@ -11753,7 +11753,7 @@
 
   {
     "id": 905,
-    "name": "enamorus-incarnate",
+    "name": "Enamorus",
     "type": "fairy",
     "height": 1.6,
     "weight": 48,
@@ -11766,7 +11766,7 @@
 
   {
     "id": 906,
-    "name": "sprigatito",
+    "name": "Sprigatito",
     "type": "grass",
     "height": 0.4,
     "weight": 4.1,
@@ -11779,7 +11779,7 @@
 
   {
     "id": 907,
-    "name": "floragato",
+    "name": "Floragato",
     "type": "grass",
     "height": 0.9,
     "weight": 12.2,
@@ -11792,7 +11792,7 @@
 
   {
     "id": 908,
-    "name": "meowscarada",
+    "name": "Meowscarada",
     "type": "grass",
     "height": 1.5,
     "weight": 31.2,
@@ -11805,7 +11805,7 @@
 
   {
     "id": 909,
-    "name": "fuecoco",
+    "name": "Fuecoco",
     "type": "fire",
     "height": 0.4,
     "weight": 9.8,
@@ -11818,7 +11818,7 @@
 
   {
     "id": 910,
-    "name": "crocalor",
+    "name": "Crocalor",
     "type": "fire",
     "height": 1,
     "weight": 30.7,
@@ -11831,7 +11831,7 @@
 
   {
     "id": 911,
-    "name": "skeledirge",
+    "name": "Skeledirge",
     "type": "fire",
     "height": 1.6,
     "weight": 326.5,
@@ -11844,7 +11844,7 @@
 
   {
     "id": 912,
-    "name": "quaxly",
+    "name": "Quaxly",
     "type": "water",
     "height": 0.5,
     "weight": 6.1,
@@ -11857,7 +11857,7 @@
 
   {
     "id": 913,
-    "name": "quaxwell",
+    "name": "Quaxwell",
     "type": "water",
     "height": 1.2,
     "weight": 21.5,
@@ -11870,7 +11870,7 @@
 
   {
     "id": 914,
-    "name": "quaquaval",
+    "name": "Quaquaval",
     "type": "water",
     "height": 1.8,
     "weight": 61.9,
@@ -11883,7 +11883,7 @@
 
   {
     "id": 915,
-    "name": "lechonk",
+    "name": "Lechonk",
     "type": "normal",
     "height": 0.5,
     "weight": 10.2,
@@ -11896,7 +11896,7 @@
 
   {
     "id": 916,
-    "name": "oinkologne-male",
+    "name": "Oinkologne",
     "type": "normal",
     "height": 1,
     "weight": 120,
@@ -11909,7 +11909,7 @@
 
   {
     "id": 917,
-    "name": "tarountula",
+    "name": "Tarountula",
     "type": "bug",
     "height": 0.3,
     "weight": 4,
@@ -11922,7 +11922,7 @@
 
   {
     "id": 918,
-    "name": "spidops",
+    "name": "Spidops",
     "type": "bug",
     "height": 1,
     "weight": 16.5,
@@ -11935,7 +11935,7 @@
 
   {
     "id": 919,
-    "name": "nymble",
+    "name": "Nymble",
     "type": "bug",
     "height": 0.2,
     "weight": 1,
@@ -11948,7 +11948,7 @@
 
   {
     "id": 920,
-    "name": "lokix",
+    "name": "Lokix",
     "type": "bug",
     "height": 1,
     "weight": 17.5,
@@ -11961,7 +11961,7 @@
 
   {
     "id": 921,
-    "name": "pawmi",
+    "name": "Pawmi",
     "type": "electric",
     "height": 0.3,
     "weight": 2.5,
@@ -11974,7 +11974,7 @@
 
   {
     "id": 922,
-    "name": "pawmo",
+    "name": "Pawmo",
     "type": "electric",
     "height": 0.4,
     "weight": 6.5,
@@ -11987,7 +11987,7 @@
 
   {
     "id": 923,
-    "name": "pawmot",
+    "name": "Pawmot",
     "type": "electric",
     "height": 0.9,
     "weight": 41,
@@ -12000,7 +12000,7 @@
 
   {
     "id": 924,
-    "name": "tandemaus",
+    "name": "Tandemaus",
     "type": "normal",
     "height": 0.3,
     "weight": 1.8,
@@ -12013,7 +12013,7 @@
 
   {
     "id": 925,
-    "name": "maushold-family-of-four",
+    "name": "Maushold",
     "type": "normal",
     "height": 0.3,
     "weight": 2.8,
@@ -12026,7 +12026,7 @@
 
   {
     "id": 926,
-    "name": "fidough",
+    "name": "Fidough",
     "type": "fairy",
     "height": 0.3,
     "weight": 10.9,
@@ -12039,7 +12039,7 @@
 
   {
     "id": 927,
-    "name": "dachsbun",
+    "name": "Dachsbun",
     "type": "fairy",
     "height": 0.5,
     "weight": 14.9,
@@ -12052,7 +12052,7 @@
 
   {
     "id": 928,
-    "name": "smoliv",
+    "name": "Smoliv",
     "type": "grass",
     "height": 0.3,
     "weight": 6.5,
@@ -12065,7 +12065,7 @@
 
   {
     "id": 929,
-    "name": "dolliv",
+    "name": "Dolliv",
     "type": "grass",
     "height": 0.6,
     "weight": 11.9,
@@ -12078,7 +12078,7 @@
 
   {
     "id": 930,
-    "name": "arboliva",
+    "name": "Arboliva",
     "type": "grass",
     "height": 1.4,
     "weight": 48.2,
@@ -12091,7 +12091,7 @@
 
   {
     "id": 931,
-    "name": "squawkabilly-green-plumage",
+    "name": "Squawkabilly",
     "type": "normal",
     "height": 0.6,
     "weight": 2.4,
@@ -12104,7 +12104,7 @@
 
   {
     "id": 932,
-    "name": "nacli",
+    "name": "Nacli",
     "type": "rock",
     "height": 0.4,
     "weight": 16,
@@ -12117,7 +12117,7 @@
 
   {
     "id": 933,
-    "name": "naclstack",
+    "name": "Naclstack",
     "type": "rock",
     "height": 0.6,
     "weight": 105,
@@ -12130,7 +12130,7 @@
 
   {
     "id": 934,
-    "name": "garganacl",
+    "name": "Garganacl",
     "type": "rock",
     "height": 2.3,
     "weight": 240,
@@ -12143,7 +12143,7 @@
 
   {
     "id": 935,
-    "name": "charcadet",
+    "name": "Charcadet",
     "type": "fire",
     "height": 0.6,
     "weight": 10.5,
@@ -12156,7 +12156,7 @@
 
   {
     "id": 936,
-    "name": "armarouge",
+    "name": "Armarouge",
     "type": "fire",
     "height": 1.5,
     "weight": 85,
@@ -12169,7 +12169,7 @@
 
   {
     "id": 937,
-    "name": "ceruledge",
+    "name": "Ceruledge",
     "type": "fire",
     "height": 1.6,
     "weight": 62,
@@ -12182,7 +12182,7 @@
 
   {
     "id": 938,
-    "name": "tadbulb",
+    "name": "Tadbulb",
     "type": "electric",
     "height": 0.3,
     "weight": 0.4,
@@ -12195,7 +12195,7 @@
 
   {
     "id": 939,
-    "name": "bellibolt",
+    "name": "Bellibolt",
     "type": "electric",
     "height": 1.2,
     "weight": 113,
@@ -12208,7 +12208,7 @@
 
   {
     "id": 940,
-    "name": "wattrel",
+    "name": "Wattrel",
     "type": "electric",
     "height": 0.4,
     "weight": 3.6,
@@ -12221,7 +12221,7 @@
 
   {
     "id": 941,
-    "name": "kilowattrel",
+    "name": "Kilowattrel",
     "type": "electric",
     "height": 1.4,
     "weight": 38.6,
@@ -12234,7 +12234,7 @@
 
   {
     "id": 942,
-    "name": "maschiff",
+    "name": "Maschiff",
     "type": "dark",
     "height": 0.5,
     "weight": 16,
@@ -12247,7 +12247,7 @@
 
   {
     "id": 943,
-    "name": "mabosstiff",
+    "name": "Mabosstiff",
     "type": "dark",
     "height": 1.1,
     "weight": 61,
@@ -12260,7 +12260,7 @@
 
   {
     "id": 944,
-    "name": "shroodle",
+    "name": "Shroodle",
     "type": "poison",
     "height": 0.2,
     "weight": 0.7,
@@ -12273,7 +12273,7 @@
 
   {
     "id": 945,
-    "name": "grafaiai",
+    "name": "Grafaiai",
     "type": "poison",
     "height": 0.7,
     "weight": 27.2,
@@ -12286,7 +12286,7 @@
 
   {
     "id": 946,
-    "name": "bramblin",
+    "name": "Bramblin",
     "type": "grass",
     "height": 0.6,
     "weight": 0.6,
@@ -12299,7 +12299,7 @@
 
   {
     "id": 947,
-    "name": "brambleghast",
+    "name": "Brambleghast",
     "type": "grass",
     "height": 1.2,
     "weight": 6,
@@ -12312,7 +12312,7 @@
 
   {
     "id": 948,
-    "name": "toedscool",
+    "name": "Toedscool",
     "type": "ground",
     "height": 0.9,
     "weight": 33,
@@ -12325,7 +12325,7 @@
 
   {
     "id": 949,
-    "name": "toedscruel",
+    "name": "Toedscruel",
     "type": "ground",
     "height": 1.9,
     "weight": 58,
@@ -12338,7 +12338,7 @@
 
   {
     "id": 950,
-    "name": "klawf",
+    "name": "Klawf",
     "type": "rock",
     "height": 1.3,
     "weight": 79,
@@ -12351,7 +12351,7 @@
 
   {
     "id": 951,
-    "name": "capsakid",
+    "name": "Capsakid",
     "type": "grass",
     "height": 0.3,
     "weight": 3,
@@ -12364,7 +12364,7 @@
 
   {
     "id": 952,
-    "name": "scovillain",
+    "name": "Scovillain",
     "type": "grass",
     "height": 0.9,
     "weight": 15,
@@ -12377,7 +12377,7 @@
 
   {
     "id": 953,
-    "name": "rellor",
+    "name": "Rellor",
     "type": "bug",
     "height": 0.2,
     "weight": 1,
@@ -12390,7 +12390,7 @@
 
   {
     "id": 954,
-    "name": "rabsca",
+    "name": "Rabsca",
     "type": "bug",
     "height": 0.3,
     "weight": 3.5,
@@ -12403,7 +12403,7 @@
 
   {
     "id": 955,
-    "name": "flittle",
+    "name": "Flittle",
     "type": "psychic",
     "height": 0.2,
     "weight": 1.5,
@@ -12416,7 +12416,7 @@
 
   {
     "id": 956,
-    "name": "espathra",
+    "name": "Espathra",
     "type": "psychic",
     "height": 1.9,
     "weight": 90,
@@ -12429,7 +12429,7 @@
 
   {
     "id": 957,
-    "name": "tinkatink",
+    "name": "Tinkatink",
     "type": "fairy",
     "height": 0.4,
     "weight": 8.9,
@@ -12442,7 +12442,7 @@
 
   {
     "id": 958,
-    "name": "tinkatuff",
+    "name": "Tinkatuff",
     "type": "fairy",
     "height": 0.7,
     "weight": 59.1,
@@ -12455,7 +12455,7 @@
 
   {
     "id": 959,
-    "name": "tinkaton",
+    "name": "Tinkaton",
     "type": "fairy",
     "height": 0.7,
     "weight": 112.8,
@@ -12468,7 +12468,7 @@
 
   {
     "id": 960,
-    "name": "wiglett",
+    "name": "Wiglett",
     "type": "water",
     "height": 1.2,
     "weight": 1.8,
@@ -12481,7 +12481,7 @@
 
   {
     "id": 961,
-    "name": "wugtrio",
+    "name": "Wugtrio",
     "type": "water",
     "height": 1.2,
     "weight": 5.4,
@@ -12494,7 +12494,7 @@
 
   {
     "id": 962,
-    "name": "bombirdier",
+    "name": "Bombirdier",
     "type": "flying",
     "height": 1.5,
     "weight": 42.9,
@@ -12507,7 +12507,7 @@
 
   {
     "id": 963,
-    "name": "finizen",
+    "name": "Finizen",
     "type": "water",
     "height": 1.3,
     "weight": 60.2,
@@ -12520,7 +12520,7 @@
 
   {
     "id": 964,
-    "name": "palafin-zero",
+    "name": "Palafin",
     "type": "water",
     "height": 1.3,
     "weight": 60.2,
@@ -12533,7 +12533,7 @@
 
   {
     "id": 965,
-    "name": "varoom",
+    "name": "Varoom",
     "type": "steel",
     "height": 1,
     "weight": 35,
@@ -12546,7 +12546,7 @@
 
   {
     "id": 966,
-    "name": "revavroom",
+    "name": "Revavroom",
     "type": "steel",
     "height": 1.8,
     "weight": 120,
@@ -12559,7 +12559,7 @@
 
   {
     "id": 967,
-    "name": "cyclizar",
+    "name": "Cyclizar",
     "type": "dragon",
     "height": 1.6,
     "weight": 63,
@@ -12572,7 +12572,7 @@
 
   {
     "id": 968,
-    "name": "orthworm",
+    "name": "Orthworm",
     "type": "steel",
     "height": 2.5,
     "weight": 310,
@@ -12585,7 +12585,7 @@
 
   {
     "id": 969,
-    "name": "glimmet",
+    "name": "Glimmet",
     "type": "rock",
     "height": 0.7,
     "weight": 8,
@@ -12598,7 +12598,7 @@
 
   {
     "id": 970,
-    "name": "glimmora",
+    "name": "Glimmora",
     "type": "rock",
     "height": 1.5,
     "weight": 45,
@@ -12611,7 +12611,7 @@
 
   {
     "id": 971,
-    "name": "greavard",
+    "name": "Greavard",
     "type": "ghost",
     "height": 0.6,
     "weight": 35,
@@ -12624,7 +12624,7 @@
 
   {
     "id": 972,
-    "name": "houndstone",
+    "name": "Houndstone",
     "type": "ghost",
     "height": 2,
     "weight": 15,
@@ -12637,7 +12637,7 @@
 
   {
     "id": 973,
-    "name": "flamigo",
+    "name": "Flamigo",
     "type": "flying",
     "height": 1.6,
     "weight": 37,
@@ -12650,7 +12650,7 @@
 
   {
     "id": 974,
-    "name": "cetoddle",
+    "name": "Cetoddle",
     "type": "ice",
     "height": 1.2,
     "weight": 45,
@@ -12663,7 +12663,7 @@
 
   {
     "id": 975,
-    "name": "cetitan",
+    "name": "Cetitan",
     "type": "ice",
     "height": 4.5,
     "weight": 700,
@@ -12676,7 +12676,7 @@
 
   {
     "id": 976,
-    "name": "veluza",
+    "name": "Veluza",
     "type": "water",
     "height": 2.5,
     "weight": 90,
@@ -12689,7 +12689,7 @@
 
   {
     "id": 977,
-    "name": "dondozo",
+    "name": "Dondozo",
     "type": "water",
     "height": 12,
     "weight": 220,
@@ -12702,7 +12702,7 @@
 
   {
     "id": 978,
-    "name": "tatsugiri-curly",
+    "name": "Tatsugiri",
     "type": "dragon",
     "height": 0.3,
     "weight": 8,
@@ -12715,7 +12715,7 @@
 
   {
     "id": 979,
-    "name": "annihilape",
+    "name": "Annihilape",
     "type": "fighting",
     "height": 1.2,
     "weight": 56,
@@ -12728,7 +12728,7 @@
 
   {
     "id": 980,
-    "name": "clodsire",
+    "name": "Clodsire",
     "type": "poison",
     "height": 1.8,
     "weight": 223,
@@ -12741,7 +12741,7 @@
 
   {
     "id": 981,
-    "name": "farigiraf",
+    "name": "Farigiraf",
     "type": "normal",
     "height": 3.2,
     "weight": 160,
@@ -12754,7 +12754,7 @@
 
   {
     "id": 982,
-    "name": "dudunsparce-two-segment",
+    "name": "Dudunsparce",
     "type": "normal",
     "height": 3.6,
     "weight": 39.2,
@@ -12767,7 +12767,7 @@
 
   {
     "id": 983,
-    "name": "kingambit",
+    "name": "Kingambit",
     "type": "dark",
     "height": 2,
     "weight": 120,
@@ -12780,7 +12780,7 @@
 
   {
     "id": 984,
-    "name": "great-tusk",
+    "name": "Great Tusk",
     "type": "ground",
     "height": 2.2,
     "weight": 320,
@@ -12793,7 +12793,7 @@
 
   {
     "id": 985,
-    "name": "scream-tail",
+    "name": "Scream Tail",
     "type": "fairy",
     "height": 1.2,
     "weight": 8,
@@ -12806,7 +12806,7 @@
 
   {
     "id": 986,
-    "name": "brute-bonnet",
+    "name": "Brute Bonnet",
     "type": "grass",
     "height": 1.2,
     "weight": 21,
@@ -12819,7 +12819,7 @@
 
   {
     "id": 987,
-    "name": "flutter-mane",
+    "name": "Flutter Mane",
     "type": "ghost",
     "height": 1.4,
     "weight": 4,
@@ -12832,7 +12832,7 @@
 
   {
     "id": 988,
-    "name": "slither-wing",
+    "name": "Slither Wing",
     "type": "bug",
     "height": 3.2,
     "weight": 92,
@@ -12845,7 +12845,7 @@
 
   {
     "id": 989,
-    "name": "sandy-shocks",
+    "name": "Sandy Shocks",
     "type": "electric",
     "height": 2.3,
     "weight": 60,
@@ -12858,7 +12858,7 @@
 
   {
     "id": 990,
-    "name": "iron-treads",
+    "name": "Iron Treads",
     "type": "ground",
     "height": 0.9,
     "weight": 240,
@@ -12871,7 +12871,7 @@
 
   {
     "id": 991,
-    "name": "iron-bundle",
+    "name": "Iron Bundle",
     "type": "ice",
     "height": 0.6,
     "weight": 11,
@@ -12884,7 +12884,7 @@
 
   {
     "id": 992,
-    "name": "iron-hands",
+    "name": "Iron Hands",
     "type": "fighting",
     "height": 1.8,
     "weight": 380.7,
@@ -12897,7 +12897,7 @@
 
   {
     "id": 993,
-    "name": "iron-jugulis",
+    "name": "Iron Jugulis",
     "type": "dark",
     "height": 1.3,
     "weight": 111,
@@ -12910,7 +12910,7 @@
 
   {
     "id": 994,
-    "name": "iron-moth",
+    "name": "Iron Moth",
     "type": "fire",
     "height": 1.2,
     "weight": 36,
@@ -12923,7 +12923,7 @@
 
   {
     "id": 995,
-    "name": "iron-thorns",
+    "name": "Iron Thorns",
     "type": "rock",
     "height": 1.6,
     "weight": 303,
@@ -12936,7 +12936,7 @@
 
   {
     "id": 996,
-    "name": "frigibax",
+    "name": "Frigibax",
     "type": "dragon",
     "height": 0.5,
     "weight": 17,
@@ -12949,7 +12949,7 @@
 
   {
     "id": 997,
-    "name": "arctibax",
+    "name": "Arctibax",
     "type": "dragon",
     "height": 0.8,
     "weight": 30,
@@ -12962,7 +12962,7 @@
 
   {
     "id": 998,
-    "name": "baxcalibur",
+    "name": "Baxcalibur",
     "type": "dragon",
     "height": 2.1,
     "weight": 210,
@@ -12975,7 +12975,7 @@
 
   {
     "id": 999,
-    "name": "gimmighoul",
+    "name": "Gimmighoul",
     "type": "ghost",
     "height": 0.3,
     "weight": 5,
@@ -12988,7 +12988,7 @@
 
   {
     "id": 1000,
-    "name": "gholdengo",
+    "name": "Gholdengo",
     "type": "steel",
     "height": 1.2,
     "weight": 30,
@@ -13001,7 +13001,7 @@
 
   {
     "id": 1001,
-    "name": "wo-chien",
+    "name": "Wo-Chien",
     "type": "dark",
     "height": 1.5,
     "weight": 74.2,
@@ -13014,7 +13014,7 @@
 
   {
     "id": 1002,
-    "name": "chien-pao",
+    "name": "Chien-Pao",
     "type": "dark",
     "height": 1.9,
     "weight": 152.2,
@@ -13027,7 +13027,7 @@
 
   {
     "id": 1003,
-    "name": "ting-lu",
+    "name": "Ting-Lu",
     "type": "dark",
     "height": 2.7,
     "weight": 699.7,
@@ -13040,7 +13040,7 @@
 
   {
     "id": 1004,
-    "name": "chi-yu",
+    "name": "Chi-Yu",
     "type": "dark",
     "height": 0.4,
     "weight": 4.9,
@@ -13053,7 +13053,7 @@
 
   {
     "id": 1005,
-    "name": "roaring-moon",
+    "name": "Roaring Moon",
     "type": "dragon",
     "height": 2,
     "weight": 380,
@@ -13066,7 +13066,7 @@
 
   {
     "id": 1006,
-    "name": "iron-valiant",
+    "name": "Iron Valiant",
     "type": "fairy",
     "height": 1.4,
     "weight": 35,
@@ -13079,7 +13079,7 @@
 
   {
     "id": 1007,
-    "name": "koraidon",
+    "name": "Koraidon",
     "type": "fighting",
     "height": 2.5,
     "weight": 303,
@@ -13092,7 +13092,7 @@
 
   {
     "id": 1008,
-    "name": "miraidon",
+    "name": "Miraidon",
     "type": "electric",
     "height": 3.5,
     "weight": 240,
@@ -13105,7 +13105,7 @@
 
   {
     "id": 1009,
-    "name": "walking-wake",
+    "name": "Walking Wake",
     "type": "water",
     "height": 3.5,
     "weight": 280,
@@ -13118,7 +13118,7 @@
 
   {
     "id": 1010,
-    "name": "iron-leaves",
+    "name": "Iron Leaves",
     "type": "grass",
     "height": 1.5,
     "weight": 125,
@@ -13131,7 +13131,7 @@
 
   {
     "id": 1011,
-    "name": "dipplin",
+    "name": "Dipplin",
     "type": "grass",
     "height": 0.4,
     "weight": 9.7,
@@ -13144,7 +13144,7 @@
 
   {
     "id": 1012,
-    "name": "poltchageist",
+    "name": "Poltchageist",
     "type": "grass",
     "height": 0.1,
     "weight": 1.1,
@@ -13157,7 +13157,7 @@
 
   {
     "id": 1013,
-    "name": "sinistcha",
+    "name": "Sinistcha",
     "type": "grass",
     "height": 0.2,
     "weight": 2.2,
@@ -13170,7 +13170,7 @@
 
   {
     "id": 1014,
-    "name": "okidogi",
+    "name": "Okidogi",
     "type": "poison",
     "height": 1.8,
     "weight": 92.2,
@@ -13183,7 +13183,7 @@
 
   {
     "id": 1015,
-    "name": "munkidori",
+    "name": "Munkidori",
     "type": "poison",
     "height": 1,
     "weight": 12.2,
@@ -13196,7 +13196,7 @@
 
   {
     "id": 1016,
-    "name": "fezandipiti",
+    "name": "Fezandipiti",
     "type": "poison",
     "height": 1.4,
     "weight": 30.1,
@@ -13209,7 +13209,7 @@
 
   {
     "id": 1017,
-    "name": "ogerpon",
+    "name": "Ogerpon",
     "type": "grass",
     "height": 1.2,
     "weight": 39.8,
@@ -13222,7 +13222,7 @@
 
   {
     "id": 1018,
-    "name": "archaludon",
+    "name": "Archaludon",
     "type": "steel",
     "height": 2,
     "weight": 60,
@@ -13235,7 +13235,7 @@
 
   {
     "id": 1019,
-    "name": "hydrapple",
+    "name": "Hydrapple",
     "type": "grass",
     "height": 1.8,
     "weight": 93,
@@ -13248,7 +13248,7 @@
 
   {
     "id": 1020,
-    "name": "gouging-fire",
+    "name": "Gouging Fire",
     "type": "fire",
     "height": 3.5,
     "weight": 590,
@@ -13261,7 +13261,7 @@
 
   {
     "id": 1021,
-    "name": "raging-bolt",
+    "name": "Raging Bolt",
     "type": "electric",
     "height": 5.2,
     "weight": 480,
@@ -13274,7 +13274,7 @@
 
   {
     "id": 1022,
-    "name": "iron-boulder",
+    "name": "Iron Boulder",
     "type": "rock",
     "height": 1.5,
     "weight": 162.5,
@@ -13287,7 +13287,7 @@
 
   {
     "id": 1023,
-    "name": "iron-crown",
+    "name": "Iron Crown",
     "type": "steel",
     "height": 1.6,
     "weight": 156,
@@ -13300,7 +13300,7 @@
 
   {
     "id": 1024,
-    "name": "terapagos",
+    "name": "Terapagos",
     "type": "normal",
     "height": 0.2,
     "weight": 6.5,
@@ -13313,7 +13313,7 @@
 
   {
     "id": 1025,
-    "name": "pecharunt",
+    "name": "Pecharunt",
     "type": "poison",
     "height": 0.3,
     "weight": 0.3,
