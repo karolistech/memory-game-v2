@@ -177,18 +177,45 @@ export default function Game({ setScreen }: GameProps) {
           </div>
 
           {game === "won" && (
-            <div className="game__result">
-              <p>You won!</p>
-              <button onClick={nextGame}>Next game</button>
-              <button onClick={() => setScreen("main-menu")}>Main menu</button>
+            <div className="game__outcome game__outcome--won">
+              <h2 className="game__outcome-title">You won!</h2>
+              <p className="game__outcome-message">You remembered every Pokémon!</p>
+
+              <button
+                className="game__outcome-button game__outcome-button--next-game"
+                onClick={nextGame}
+              >
+                Next Game
+              </button>
+
+              <button
+                className="game__outcome-button game__outcome-button--main-menu"
+                onClick={() => setScreen("main-menu")}
+              >
+                Main Menu
+              </button>
             </div>
           )}
 
           {game === "lost" && (
-            <div className="game__result">
-              <p>Game over, you picked the same card twice.</p>
-              <button onClick={retry}>Retry</button>
-              <button onClick={() => setScreen("main-menu")}>Main menu</button>
+            <div className="game__outcome game__outcome--lost">
+              <h2 className="game__outcome-title">Game over!</h2>
+              <p className="game__outcome-message">You picked the same Pokémon twice!</p>
+              <p className="game__outcome-score">Score: {score}</p>
+
+              <button
+                className="game__outcome-button game__outcome-button--retry"
+                onClick={retry}
+              >
+                Retry
+              </button>
+
+              <button
+                className="game__outcome-button game__outcome-button--main-menu"
+                onClick={() => setScreen("main-menu")}
+              >
+                Main Menu
+              </button>
             </div>
           )}
         </div>

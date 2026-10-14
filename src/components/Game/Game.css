@@ -56,7 +56,7 @@
   padding-block: 0.5rem;
   border-radius: var(--radius-lg);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
-  font-size: clamp(1rem, 6vw, 1.5rem);
+  font-size: clamp(1.25rem, 5vw, 1.5rem);
   font-weight: 600;
   text-align: center;
 }
@@ -67,6 +67,70 @@
   grid-template-columns: repeat(2, minmax(0, 160px));
   justify-content: center;
   gap: 1.5rem 1rem;
+}
+
+.game__outcome {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: var(--color-backdrop);
+}
+
+.game__outcome-title {
+  color: var(--color-white);
+  font-size: 3rem;
+}
+
+.game__outcome-message {
+  color: var(--color-white);
+}
+
+.game__outcome-score {
+  color: var(--color-white);
+}
+
+.game__outcome-button {
+  position: relative;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-white);
+  border-radius: var(--radius-pill);
+  font-weight: 600;
+}
+
+.game__outcome-button--next-game::after {
+  content: "";
+  position: absolute;
+  inset: var(--radius-sm);
+  border: 3px solid var(--color-sky-blue);
+  border-radius: inherit;
+  box-shadow: inset 0 0 3px var(--color-sky-blue);
+}
+
+.game__outcome-button--retry::after {
+  content: "";
+  position: absolute;
+  inset: var(--radius-sm);
+  border: 3px solid var(--color-green);
+  border-radius: inherit;
+  box-shadow: inset 0 0 3px var(--color-green);
+}
+
+.game__outcome-button--main-menu::after {
+  content: "";
+  position: absolute;
+  inset: var(--radius-sm);
+  border: 3px solid var(--color-red);
+  border-radius: inherit;
+  box-shadow: inset 0 0 3px var(--color-red);
 }
 
 @media (min-width: 600px) {

@@ -24,6 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--color-white);
   border-radius: var(--radius-pill);
   box-shadow: 2px 2px 8px #555;
   font-weight: 600;
