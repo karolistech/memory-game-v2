@@ -6,30 +6,30 @@ type Pokemon = {
   descriptions: string[];
 };
 
-const data = readFileSync("./src/data/original-descriptions.json", "utf-8");
+const data = readFileSync("./src/data/fixed-descriptions.json", "utf-8");
 
 const pokemons: Pokemon[] = JSON.parse(data);
 
 const fixes: Record<string, string> = {
   // pokemon names
-  // MAWHILE: "Mawile", NIDORAN: "Nidoran",
+  MAWHILE: "Mawile", NIDORAN: "Nidoran",
 
   // pokemon moves
   // HYPNOSIS: "Hypnosis",
 
   // game terms
-  // TRAINERS: "Trainers", TRAINER: "Trainer", BERRIES: "Berries",
+  // TRAINERS: "Trainers", TRAINER: "Trainer",
 
   // ordinary words
-  // BUG: "bug", DIGS: "Digs", DIG: "dig"
+  BERRIES: "berries"
 };
 
 function fixDescriptions(descriptions: string[]): string[] {
   const normalized = descriptions.map(description => normalize(description));
   const corrected = normalized.map(description => correct(description));
-  // const capitalized = corrected.map(description => capitalize(description));
+  const capitalized = corrected.map(description => capitalize(description));
 
-  return [...new Set(corrected)];
+  return [...new Set(capitalized)];
 }
 
 function normalize(description: string): string {
