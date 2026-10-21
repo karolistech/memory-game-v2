@@ -86,6 +86,6 @@ const fixed = pokemons.map(pokemon => ({
 
 const output = JSON.stringify(fixed, null, 2);
 
-writeFileSync("./src/data/fixed-descriptions.json", output, "utf-8");
+writeFileSync("./src/data/fixed-descriptions2.json", output, "utf-8");
 
 console.log("Descriptions fixed");
