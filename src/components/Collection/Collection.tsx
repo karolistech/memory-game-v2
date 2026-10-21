@@ -20,10 +20,7 @@ type CollectionProps = {
   setScreen: (screen: Screen) => void;
 };
 
-const totalPokemon = 1025;
-
-const ids = Array.from({ length: totalPokemon }, (_, i) => i + 1);
-// const ids2 = pokemons.map(pokemon => pokemon.id);
+const ids = pokemons.map(pokemon => pokemon.id);
 
 export default function Collection({ setScreen }: CollectionProps) {
   const { collection, getPokemon } = useCollection();
@@ -32,11 +29,9 @@ export default function Collection({ setScreen }: CollectionProps) {
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [pageSize, setPageSize] = useState<number>(20);
   const [helpModalOpen, setHelpModalOpen] = useState(false);
-  const [selectedPokemon, setSelectedPokemon] = useState<Pokemon | null>(null);
+  const [pokemon, setPokemon] = useState<Pokemon | null>(null);
 
   const filteredIds = filter === "collected" ? ids.filter(id => collection.includes(id)) : ids;
-
-  const collectedCount = collection.length;
 
   const totalPages = Math.ceil(filteredIds.length / pageSize);
   const startIndex = (currentPage - 1) * pageSize;
@@ -68,7 +63,7 @@ export default function Collection({ setScreen }: CollectionProps) {
   }
 
   function closeCardModal() {
-    setSelectedPokemon(null);
+    setPokemon(null);
   }
 
   return (
@@ -107,7 +102,7 @@ export default function Collection({ setScreen }: CollectionProps) {
           <span className="collection__counter-label">Pokémon Collected</span>
 
           <span className="collection__counter-value">
-            {collectedCount} / {totalPokemon}
+            {collection.length} / {ids.length}
           </span>
         </div>
 
@@ -130,13 +125,13 @@ export default function Collection({ setScreen }: CollectionProps) {
       ) : (
         <div className="collection__cards">
           {paginatedIds.map(id => (
-            <Card key={id} pokemon={getPokemon(id)} setSelectedPokemon={setSelectedPokemon} />
+            <Card key={id} pokemon={getPokemon(id)} setPokemon={setPokemon} />
           ))}
         </div>
       )}
 
-      {selectedPokemon && (
-        <CardModal pokemon={selectedPokemon} closeCardModal={closeCardModal} />
+      {pokemon && (
+        <CardModal pokemon={pokemon} closeCardModal={closeCardModal} />
       )}
 
       {totalPages > 1 && (

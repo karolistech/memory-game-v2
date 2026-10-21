@@ -12,7 +12,7 @@
 
 .collection__title {
   color: var(--color-yellow);
-  -webkit-text-stroke: 2px var(--color-dark-blue);
+  -webkit-text-stroke: 2px var(--color-blue-dark);
   font-size: clamp(1rem, 10vw, 3rem);
   text-transform: uppercase;
 }
@@ -25,7 +25,7 @@
   align-items: center;
   background-color: var(--color-white);
   border-radius: var(--radius-circle);
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--shadow-raised);
 }
 
 .collection__icon {
@@ -40,7 +40,7 @@
   align-items: center;
   background-color: var(--color-white);
   border-radius: var(--radius-lg);
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--shadow-surface);
 }
 
 .collection__filter {
@@ -51,7 +51,7 @@
   appearance: none;
   padding: 0.5rem 1.5rem 0.5rem 0.25rem;
   background-color: var(--color-white);
-  border: 1px solid #ccc;
+  border: 1px solid var(--color-gray);
   border-radius: var(--radius-sm);
   color: inherit;
   -webkit-tap-highlight-color: transparent;
@@ -83,7 +83,7 @@
 
 .collection__counter-value {
   padding: 0.5rem;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid var(--color-black);
   font-size: clamp(0.5rem, 4vw, 1.25rem);
   font-weight: 600;
 }

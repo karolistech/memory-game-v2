@@ -10,7 +10,7 @@
     position: fixed;
     z-index: 2;
     width: min(95%, 768px);
-    max-height: calc(100dvh - 1rem);
+    max-height: calc(100dvh - 2rem);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -26,7 +26,7 @@
 
   .help-modal__title {
     color: var(--color-yellow);
-    -webkit-text-stroke: 2px var(--color-dark-blue);
+    -webkit-text-stroke: 2px var(--color-blue-dark);
     font-size: clamp(1.5rem, 7.5vw, 2.5rem);
     text-align: center;
     text-transform: uppercase;
@@ -48,7 +48,7 @@
     counter-increment: step;
     position: relative;
     padding: 1rem;
-    border: 1px solid #555;
+    border: 1px solid var(--color-gray-dark);
     border-radius: var(--radius-md);
   }
 
@@ -62,14 +62,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #555;
+    background-color: var(--color-gray-dark);
     border-radius: var(--radius-circle);
     color: var(--color-white);
   }
 
   .help-modal__step-title {
     margin-bottom: 0.25rem;
-    color: var(--color-dark-blue);
+    color: var(--color-blue-dark);
   }
 
   .help-modal__button {
@@ -78,7 +78,7 @@
     height: 50px;
     align-self: center;
     border-radius: var(--radius-pill);
-    box-shadow: 2px 2px 8px #555;
+    box-shadow: var(--shadow-raised);
   }
 
   @media (min-width: 768px) {

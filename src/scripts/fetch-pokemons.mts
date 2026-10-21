@@ -1,4 +1,4 @@
-import { writeFile } from "node:fs/promises";
+import { writeFileSync } from "node:fs";
 
 import type { Pokemon } from "@/types/pokemon";
 
@@ -92,24 +92,21 @@ async function fetchPokemonDescription(id: number): Promise<string> {
   return entry.flavor_text.replace(/\s+/g, " ");
 }
 
-console.time("sequential");
-
-const totalPokemon = 1025;
-
+const totalPokemons = 1025;
 const pokemons: Pokemon[] = [];
 
-for (let i = 1; i <= totalPokemon; i++) {
+console.time("duration");
+
+for (let i = 1; i <= totalPokemons; i++) {
   const pokemon = await fetchPokemon(i);
 
   pokemons.push(pokemon);
 
-  console.log(`${i} / ${totalPokemon}`);
-
-  await new Promise(resolve => setTimeout(resolve, 500));
+  console.log(`${i} / ${totalPokemons}`);
 }
 
-console.timeEnd("sequential");
+console.timeEnd("duration");
 
-const json = JSON.stringify(pokemons, null, 2);
+const output = JSON.stringify(pokemons, null, 2);
 
-await writeFile("./src/data/pokemon.json", json);
+writeFileSync("./src/data/pokemons.json", output, "utf-8");

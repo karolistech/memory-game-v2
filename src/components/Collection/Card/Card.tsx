@@ -6,10 +6,10 @@ import cardBack from "@/assets/images/card-back.webp";
 
 type CardProps = {
   pokemon: Pokemon | undefined;
-  setSelectedPokemon: (pokemon: Pokemon) => void;
+  setPokemon: (pokemon: Pokemon) => void;
 };
 
-export default function Card({ pokemon, setSelectedPokemon }: CardProps) {
+export default function Card({ pokemon, setPokemon }: CardProps) {
   if (pokemon === undefined) {
     return (
       <div className="card">
@@ -21,7 +21,7 @@ export default function Card({ pokemon, setSelectedPokemon }: CardProps) {
   }
 
   return (
-    <button className="card" onClick={() => setSelectedPokemon(pokemon)}>
+    <button className="card" onClick={() => setPokemon(pokemon)}>
       <div className="card__face card__face--front">
         <div className="card__content" data-type={pokemon.type}>
           <div className="card__header">

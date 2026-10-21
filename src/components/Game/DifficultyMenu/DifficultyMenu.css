@@ -26,7 +26,7 @@
   align-items: center;
   background-color: var(--color-white);
   border-radius: var(--radius-pill);
-  box-shadow: 2px 2px 8px #555;
+  box-shadow: var(--shadow-raised);
   font-weight: 600;
   text-transform: capitalize;
 }
@@ -35,9 +35,9 @@
   content: "";
   position: absolute;
   inset: var(--radius-sm);
-  border: 3px solid var(--color-sky-blue);
+  border: 3px solid var(--color-blue);
   border-radius: inherit;
-  box-shadow: inset 0 0 3px var(--color-sky-blue);
+  box-shadow: inset 0 0 3px var(--color-blue);
 }
 
 .difficulty-menu__button--medium::after {
@@ -62,9 +62,9 @@
   content: "";
   position: absolute;
   inset: var(--radius-sm);
-  border: 3px solid var(--color-light-gray);
+  border: 3px solid var(--color-gray);
   border-radius: inherit;
-  box-shadow: inset 0 0 3px var(--color-light-gray);
+  box-shadow: inset 0 0 3px var(--color-gray);
 }
 
 .difficulty-menu__icon {

@@ -1,10 +1,16 @@
-// Run once with: node scripts/fix-names.mjs
-// Turns the lowercase API names in src/data/pokemon.json into display names.
 import { readFileSync, writeFileSync } from "node:fs";
 
-const file = "src/data/pokemons.json";
+type Pokemon = {
+  id: number;
+  name: string;
+  descriptions: string[];
+};
 
-const fixes = {
+const data = readFileSync("./src/data/original-descriptions.json", "utf-8");
+
+const pokemons: Pokemon[] = JSON.parse(data);
+
+const fixes: Record<string, string> = {
   // form suffix removed
   "deoxys-normal": "Deoxys", "wormadam-plant": "Wormadam", "giratina-altered": "Giratina", "shaymin-land": "Shaymin",
   "basculin-red-striped": "Basculin", "darmanitan-standard": "Darmanitan", "frillish-male": "Frillish",
@@ -26,25 +32,25 @@ const fixes = {
   "roaring-moon": "Roaring Moon", "iron-valiant": "Iron Valiant", "walking-wake": "Walking Wake", "iron-leaves": "Iron Leaves",
   "gouging-fire": "Gouging Fire", "raging-bolt": "Raging Bolt", "iron-boulder": "Iron Boulder", "iron-crown": "Iron Crown",
 
-  // punctuation and special characters
-  "nidoran-f": "Nidoran♀", "nidoran-m": "Nidoran♂", "farfetchd": "Farfetch’d", "mr-mime": "Mr. Mime",
-  "mime-jr": "Mime Jr.", "flabebe": "Flabébé", "type-null": "Type: Null", "sirfetchd": "Sirfetch’d", "mr-rime": "Mr. Rime",
-
-  // the hyphen is part of the name
+  // hyphen is part of the name
   "ho-oh": "Ho-Oh", "porygon-z": "Porygon-Z", "jangmo-o": "Jangmo-o", "hakamo-o": "Hakamo-o", "kommo-o": "Kommo-o",
-  "wo-chien": "Wo-Chien", "chien-pao": "Chien-Pao", "ting-lu": "Ting-Lu", "chi-yu": "Chi-Yu"
+  "wo-chien": "Wo-Chien", "chien-pao": "Chien-Pao", "ting-lu": "Ting-Lu", "chi-yu": "Chi-Yu",
+
+  // punctuation and special characters
+  "nidoran-f": "Nidoran♀", "nidoran-m": "Nidoran♂", "farfetchd": "Farfetch’d", "mr-mime": "Mr. Mime", "mime-jr": "Mime Jr.",
+  "flabebe": "Flabébé", "type-null": "Type: Null", "sirfetchd": "Sirfetch’d", "mr-rime": "Mr. Rime"
 };
 
-let text = readFileSync(file, "utf8");
-
-// 1) The special names, replaced exactly. Only the "name" lines are touched.
-for (const [from, to] of Object.entries(fixes)) {
-  text = text.replace(`"name": "${from}"`, `"name": "${to}"`).replace(`"name":"${from}"`, `"name":"${to}"`);
+function capitalize(name: string): string {
+  return name.charAt(0).toUpperCase() + name.slice(1);
 }
 
-// 2) Every remaining lowercase name just gets a capital first letter (bulbasaur -> Bulbasaur)
-text = text.replace(/("name":\s*")([a-z])/g, (_, start, letter) => start + letter.toUpperCase());
+const fixed = pokemons.map(pokemon => ({
+  ...pokemon, name: fixes[pokemon.name] ?? capitalize(pokemon.name)
+}));
 
-writeFileSync(file, text);
+const output = JSON.stringify(fixed, null, 2);
+
+writeFileSync("./src/data/fixed-names.json", output, "utf-8");
 
 console.log("Names fixed");

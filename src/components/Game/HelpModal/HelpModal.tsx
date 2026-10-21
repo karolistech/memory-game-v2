@@ -51,7 +51,7 @@ export default function HelpModal({ closeHelpModal }: HelpModalProps) {
 
             <p className="help-modal__step-text">
               Complete a level to advance to the next difficulty. Each level adds
-              more cards and a bigger challenge.
+              more cards and a bigger challenge:
             </p>
 
             <div className="help-modal__levels">

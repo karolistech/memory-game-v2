@@ -17,12 +17,12 @@
 
 .main-menu__pokemon {
   color: var(--color-yellow);
-  -webkit-text-stroke: 2px var(--color-dark-blue);
+  -webkit-text-stroke: 2px var(--color-blue-dark);
   font-size: 3.5rem;
 }
 
 .main-menu__memory-game {
-  color: var(--color-dark-blue);
+  color: var(--color-blue-dark);
   font-size: 2rem;
 }
 
@@ -34,9 +34,8 @@
   align-items: center;
   gap: 1.5rem;
   border-block: 2px solid;
-  border-image-source: linear-gradient(to right, transparent, #555 50%, transparent);
+  border-image-source: linear-gradient(to right, transparent, var(--color-gray-dark) 50%, transparent);
   border-image-slice: 1;
-  filter: drop-shadow(2px 3px 5px rgba(0, 0, 0, 0.5));
 }
 
 .main-menu__button {
@@ -48,6 +47,7 @@
   gap: 0.5rem;
   background-color: var(--color-white);
   border-radius: var(--radius-pill);
+  box-shadow: var(--shadow-raised);
 }
 
 .main-menu__icon {
@@ -63,7 +63,7 @@
   position: fixed;
   z-index: 1;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: var(--color-backdrop);
 }
 
 .reset-menu {
@@ -103,7 +103,7 @@
   width: 150px;
   height: 50px;
   border-radius: var(--radius-pill);
-  box-shadow: 2px 2px 8px #555;
+  box-shadow: var(--shadow-raised);
   font-weight: 600;
 }
 

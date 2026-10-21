@@ -5,19 +5,30 @@
 }
 
 :root {
-  --card-texture: url("./assets/images/card-texture.webp");
-
   --color-background: #f9f9f9;
   --color-backdrop: rgb(0 0 0 / 70%);
-
-  --color-card-back: #218;
-  --color-light-gray: #ccc;
   --color-yellow: #fc0;
-  --color-sky-blue: #59d;
-  --color-dark-blue: #037;
+  --color-blue: #59d;
+  --color-blue-dark: #037;
   --color-white: #fff;
+  --color-black: #000;
+  --color-gray: #ccc;
+  --color-gray-light: #e8e8e8;
+  --color-gray-dark: #555;
   --color-red: #f00;
   --color-green: #5b0;
+
+  --shadow-raised: 2px 2px 8px rgb(0 0 0 / 50%);
+  --shadow-surface: 0 0 8px rgb(0 0 0 / 25%);
+
+  --card-texture: url("./assets/images/card-texture.webp");
+
+  --color-card-back: #218;
+  --color-card-type-icon-background: rgb(0 0 0 / 20%);
+
+  --shadow-card-outer: 0 0 5cqw rgb(0 0 0 / 25%);
+  --shadow-card-inner: inset 0 0 5cqw rgb(0 0 0 / 50%);
+  --shadow-card-image: drop-shadow(2px 3px 5px rgb(0 0 0 / 50%));
 
   --radius-sm: 4px;
   --radius-md: 8px;
