@@ -1,5 +1,7 @@
 import { writeFileSync } from "node:fs";
 
+import type { Entry } from "@/types/entry";
+
 type DescriptionResponse = {
   id: number;
   name: string;
@@ -12,7 +14,7 @@ type DescriptionResponse = {
 
 const endpoint = "https://pokeapi.co/api/v2/pokemon-species/";
 
-async function fetchDescriptions(id: number) {
+async function fetchDescriptions(id: number): Promise<Entry> {
   const response = await fetch(`${endpoint}${id}`);
 
   if (!response.ok) {

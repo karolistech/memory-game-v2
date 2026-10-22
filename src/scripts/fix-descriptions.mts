@@ -1,35 +1,46 @@
 import { readFileSync, writeFileSync } from "node:fs";
 
-type Pokemon = {
-  id: number;
-  name: string;
-  descriptions: string[];
-};
+import type { Entry } from "@/types/entry";
 
-const data = readFileSync("./src/data/fixed-descriptions.json", "utf-8");
+const data = readFileSync("./src/data/fixed-names.json", "utf-8");
 
-const pokemons: Pokemon[] = JSON.parse(data);
+const entries: Entry[] = JSON.parse(data);
 
 const fixes: Record<string, string> = {
   // pokemon names
-  MAWHILE: "Mawile", NIDORAN: "Nidoran",
+  "2 KOFFINGs": "two Koffing", "DIGLETTs": "Diglett", "MAWHILE": "Mawile", "NIDORAN": "Nidoran", "MAGNEMITEs": "Magnemite",
 
   // pokemon moves
-  // HYPNOSIS: "Hypnosis",
+  "ACID": "Acid", "BODY SLAM": "Body Slam", "body slam": "Body Slam", "COMET PUNCH": "Comet Punch", "CONFUSION": "Confusion",
+  "DESTINY BOND": "Destiny Bond", "DOUBLESLAP": "Double Slap", "double slap": "Double Slap", "hyper beams": "Hyper Beams",
+  "HYPER BEAM": "Hyper Beam", "hyper beam": "Hyper Beam", "HYPNOSIS": "Hypnosis", "MIRROR MOVE": "Mirror Move",
+  "POISONPOWDER": "Poison Powder", "SCREECH": "Screech", "SELFDESTRUCT": "Self-Destruct", "THUNDER WAVE": "Thunder Wave",
 
   // game terms
-  // TRAINERS: "Trainers", TRAINER: "Trainer",
+   "BERRIES": "berries", "POKéMON": "Pokémon", "POKEMON": "Pokémon", "POKé BALLS": "Poké Balls", "POKé BALL": "Poké Ball",
+   "POKéGEAR": "Pokégear", "TRAINERS": "Trainers", "TRAINER": "Trainer", "trainers": "Trainers", "trainer": "Trainer",
 
   // ordinary words
-  BERRIES: "berries"
+  "BITE": "bite", "BUG": "bug", "CONSTRICT": "constrict", "DIGS": "digs", "DIG": "dig", "MPH": "mph", "SING": "sing",
+  "STONES": "stones", "STONEs": "stones", "TACKLES": "tackles", "TACKLE": "tackle", "Tackles": "tackles", "Tackle": "tackle",
+  "TELEPORTS": "teleports", "TELEPORT": "teleport", "Teleport": "teleport", "THRASHING": "thrashing", "towards": "toward"
 };
+
+const fixPatterns = Object.entries(fixes).map(([original, fix]) => ({
+  pattern: new RegExp(`\\b${original}\\b`, "g"), fix
+}));
+
+const namePatterns = entries.map(({ name }) => ({
+  pattern: new RegExp(`\\b${name.toUpperCase()}\\b`, "g"), name
+}));
 
 function fixDescriptions(descriptions: string[]): string[] {
   const normalized = descriptions.map(description => normalize(description));
   const corrected = normalized.map(description => correct(description));
   const capitalized = corrected.map(description => capitalize(description));
+  const deduplicated = deduplicate(capitalized);
 
-  return [...new Set(capitalized)];
+  return deduplicated;
 }
 
 function normalize(description: string): string {
@@ -37,55 +48,56 @@ function normalize(description: string): string {
     .replace(/\u00AD\s*/g, "")      // soft hyphen + line break: join the word
     .replace(/-\n/g, "-")           // real hyphen + line break: keep hyphen, drop break
     .replace(/\s+/g, " ")           // remaining newlines and \u000c become spaces
-
-    // .replace(/\s+-(?=[a-z])/g, "—") // line-wrapped dash: em dash
-    // .replace(/\s+-\s+|--/g, "—")    // spaced hyphen or double hyphen: em dash
-    // .replace(/\s*—\s*/g, "—")       // remove spaces around em dashes
-
-    // .replace(/\s[-–](?=\d)/g, " −") // negative numbers: real minus sign
-    // .replace(/\b\d{4,}\b/g, n => Number(n).toLocaleString("en-US"))
-
+    .replace(/\s+-(?=[a-z])/g, "—") // line-wrapped dash: em dash
+    .replace(/\s+-\s+|--/g, "—")    // spaced hyphen or double hyphen: em dash
+    .replace(/\s*—\s*/g, "—")       // remove spaces around em dashes
+    .replace(/\s[-–](?=\d)/g, " −") // negative numbers: real minus sign
+    .replace(/\b\d{4,}\b/g, n => Number(n).toLocaleString("en-US"))
     .replace(/'/g, "’")
-    // .replace(/\s”/g, " “")          // correct opening curly quotes
-
-    .replace(/POKéMON/g, "Pokémon")
-    // .replace(/POKEMON/g, "Pokémon")
-    // .replace(/POKé BALLS/g, "Poké Balls")
-    // .replace(/POKé BALL/g, "Poké Ball")
-    // .replace(/POKéGEAR/g, "Pokégear")
-
+    .replace(/\s”/g, " “")          // correct opening curly quotes
     .trim()
 }
 
-function correct(text: string): string {
-  for (const [original, fix] of Object.entries(fixes)) {
-    const pattern = new RegExp(`\\b${original}\\b`, "g");
-
-    text = text.replace(pattern, fix);
+function correct(description: string): string {
+  for (const { pattern, fix } of fixPatterns) {
+    description = description.replace(pattern, fix);
   }
 
-  return text;
+  return description;
 }
 
-const names = pokemons.map(pokemon => pokemon.name);
-
 function capitalize(description: string): string {
-  for (const name of names) {
-    const shouted = name.toUpperCase();
-    const pattern = new RegExp(`\\b${shouted}\\b`, "g");
+  if (!/[A-Z]{2,}/.test(description)) return description;
 
+  for (const { pattern, name } of namePatterns) {
     description = description.replace(pattern, name);
   }
 
   return description;
 }
 
-const fixed = pokemons.map(pokemon => ({
-  ...pokemon, descriptions: fixDescriptions(pokemon.descriptions)
+function deduplicate(descriptions: string[]): string[] {
+  const seen = new Set<string>();
+  const result: string[] = [];
+
+  for (const description of descriptions) {
+    const key = description.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+    if (seen.has(key)) continue;
+
+    seen.add(key);
+    result.push(description);
+  }
+
+  return result;
+}
+
+const fixed = entries.map(entry => ({
+  ...entry, descriptions: fixDescriptions(entry.descriptions)
 }));
 
 const output = JSON.stringify(fixed, null, 2);
 
-writeFileSync("./src/data/fixed-descriptions2.json", output, "utf-8");
+writeFileSync("./src/data/fixed-descriptions.json", output, "utf-8");
 
 console.log("Descriptions fixed");
