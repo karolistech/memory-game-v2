@@ -12,9 +12,9 @@ const fixes: Record<string, string> = {
 
   // pokemon moves
   "ACID": "Acid", "BODY SLAM": "Body Slam", "body slam": "Body Slam", "COMET PUNCH": "Comet Punch", "CONFUSION": "Confusion",
-  "DESTINY BOND": "Destiny Bond", "DOUBLESLAP": "Double Slap", "double slap": "Double Slap", "hyper beams": "Hyper Beams",
-  "HYPER BEAM": "Hyper Beam", "hyper beam": "Hyper Beam", "HYPNOSIS": "Hypnosis", "MIRROR MOVE": "Mirror Move",
-  "POISONPOWDER": "Poison Powder", "SCREECH": "Screech", "SELFDESTRUCT": "Self-Destruct", "THUNDER WAVE": "Thunder Wave",
+  "DESTINY BOND": "Destiny Bond", "DOUBLESLAP": "Double Slap", "double slap": "Double Slap", "HYPER BEAM": "Hyper Beam",
+  "hyper beam": "Hyper Beam", "HYPNOSIS": "Hypnosis", "MIRROR MOVE": "Mirror Move", "POISONPOWDER": "Poison Powder",
+  "SCREECH": "Screech", "SELFDESTRUCT": "Self-Destruct", "THUNDER WAVE": "Thunder Wave",
 
   // game terms
    "BERRIES": "berries", "POKéMON": "Pokémon", "POKEMON": "Pokémon", "POKé BALLS": "Poké Balls", "POKé BALL": "Poké Ball",
@@ -52,9 +52,14 @@ function normalize(description: string): string {
     .replace(/\s+-\s+|--/g, "—")    // spaced hyphen or double hyphen: em dash
     .replace(/\s*—\s*/g, "—")       // remove spaces around em dashes
     .replace(/\s[-–](?=\d)/g, " −") // negative numbers: real minus sign
-    .replace(/\b\d{4,}\b/g, n => Number(n).toLocaleString("en-US"))
-    .replace(/'/g, "’")
     .replace(/\s”/g, " “")          // correct opening curly quotes
+    .replace(/'/g, "’")
+
+    .replace(/\b\d{4,}\b/g, n => Number(n).toLocaleString("en-US"))
+    .replace(/(\d)F degrees/g, "$1 degrees Fahrenheit")
+    .replace(/(\d)° F\b/g, "$1 degrees Fahrenheit")
+    .replace(/degrees F\b/g, "degrees Fahrenheit")
+
     .trim()
 }
 
@@ -96,7 +101,7 @@ const fixed = entries.map(entry => ({
   ...entry, descriptions: fixDescriptions(entry.descriptions)
 }));
 
-const output = JSON.stringify(fixed, null, 2);
+const output = JSON.stringify(fixed, null, 2).replace(/},\n/g, "},\n\n") + "\n";
 
 writeFileSync("./src/data/fixed-descriptions.json", output, "utf-8");
 

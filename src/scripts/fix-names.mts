@@ -1,14 +1,10 @@
 import { readFileSync, writeFileSync } from "node:fs";
 
-type Pokemon = {
-  id: number;
-  name: string;
-  descriptions: string[];
-};
+import type { Entry } from "@/types/entry";
 
 const data = readFileSync("./src/data/original-descriptions.json", "utf-8");
 
-const pokemons: Pokemon[] = JSON.parse(data);
+const entries: Entry[] = JSON.parse(data);
 
 const fixes: Record<string, string> = {
   // form suffix removed
@@ -24,6 +20,10 @@ const fixes: Record<string, string> = {
   "oinkologne-male": "Oinkologne", "maushold-family-of-four": "Maushold", "squawkabilly-green-plumage": "Squawkabilly",
   "palafin-zero": "Palafin", "tatsugiri-curly": "Tatsugiri", "dudunsparce-two-segment": "Dudunsparce",
 
+  // hyphen is part of the name
+  "ho-oh": "Ho-Oh", "porygon-z": "Porygon-Z", "jangmo-o": "Jangmo-o", "hakamo-o": "Hakamo-o", "kommo-o": "Kommo-o",
+  "wo-chien": "Wo-Chien", "chien-pao": "Chien-Pao", "ting-lu": "Ting-Lu", "chi-yu": "Chi-Yu",
+
   // hyphen becomes a space
   "tapu-koko": "Tapu Koko", "tapu-lele": "Tapu Lele", "tapu-bulu": "Tapu Bulu", "tapu-fini": "Tapu Fini",
   "great-tusk": "Great Tusk", "scream-tail": "Scream Tail", "brute-bonnet": "Brute Bonnet", "flutter-mane": "Flutter Mane",
@@ -31,10 +31,6 @@ const fixes: Record<string, string> = {
   "iron-hands": "Iron Hands", "iron-jugulis": "Iron Jugulis", "iron-moth": "Iron Moth", "iron-thorns": "Iron Thorns",
   "roaring-moon": "Roaring Moon", "iron-valiant": "Iron Valiant", "walking-wake": "Walking Wake", "iron-leaves": "Iron Leaves",
   "gouging-fire": "Gouging Fire", "raging-bolt": "Raging Bolt", "iron-boulder": "Iron Boulder", "iron-crown": "Iron Crown",
-
-  // hyphen is part of the name
-  "ho-oh": "Ho-Oh", "porygon-z": "Porygon-Z", "jangmo-o": "Jangmo-o", "hakamo-o": "Hakamo-o", "kommo-o": "Kommo-o",
-  "wo-chien": "Wo-Chien", "chien-pao": "Chien-Pao", "ting-lu": "Ting-Lu", "chi-yu": "Chi-Yu",
 
   // punctuation and special characters
   "nidoran-f": "Nidoran♀", "nidoran-m": "Nidoran♂", "farfetchd": "Farfetch’d", "mr-mime": "Mr. Mime", "mime-jr": "Mime Jr.",
@@ -45,8 +41,8 @@ function capitalize(name: string): string {
   return name.charAt(0).toUpperCase() + name.slice(1);
 }
 
-const fixed = pokemons.map(pokemon => ({
-  ...pokemon, name: fixes[pokemon.name] ?? capitalize(pokemon.name)
+const fixed = entries.map(entry => ({
+  ...entry, name: fixes[entry.name] ?? capitalize(entry.name)
 }));
 
 const output = JSON.stringify(fixed, null, 2);
