@@ -30,6 +30,7 @@
   aspect-ratio: 5 / 7;
   width: min(100%, 350px);
   align-self: center;
+  perspective: 1000px;
 }
 
 .card-modal__card-face {
@@ -37,6 +38,7 @@
   padding: 5cqw;
   border-radius: 5cqw;
   box-shadow: var(--shadow-card-outer);
+  transition: transform 0.2s ease-out;
 }
 
 .card-modal__card-content {

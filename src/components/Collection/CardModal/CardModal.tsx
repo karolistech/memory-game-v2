@@ -1,3 +1,5 @@
+import { type PointerEvent, useRef } from "react";
+
 import type { Pokemon } from "@/types/pokemon";
 
 import "./CardModal.css";
@@ -8,7 +10,35 @@ type CardModalProps = {
   closeCardModal: () => void;
 };
 
+const tiltRange = 40;
+
 export default function CardModal({ pokemon, closeCardModal }: CardModalProps) {
+  const cardRef = useRef<HTMLDivElement>(null);
+
+  function handleCardTilt(e: PointerEvent) {
+    const card = cardRef.current;
+
+    if (card === null) return;
+
+    const rect = card.getBoundingClientRect();
+
+    const x = (e.clientX - rect.left) / rect.width;
+    const y = (e.clientY - rect.top) / rect.height;
+
+    const rotateX = (0.5 - y) * tiltRange;
+    const rotateY = (x - 0.5) * tiltRange;
+
+    card.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+  }
+
+  function resetCardTilt() {
+    const card = cardRef.current;
+
+    if (card === null) return;
+
+    card.style.transform = "rotateX(0deg) rotateY(0deg)";
+  }
+
   const stats = [
     ["HP", pokemon.stats.hp],
     ["Attack", pokemon.stats.attack],
@@ -32,8 +62,8 @@ export default function CardModal({ pokemon, closeCardModal }: CardModalProps) {
 
       <div className="card-modal">
         <div className="card-modal__content">
-          <div className="card-modal__card">
-            <div className="card-modal__card-face">
+          <div className="card-modal__card" onPointerMove={handleCardTilt} onPointerLeave={resetCardTilt}>
+            <div className="card-modal__card-face" ref={cardRef}>
               <div className="card-modal__card-content" data-type={pokemon.type}>
                 <div className="card-modal__card-header">
                   <span className="card-modal__card-name">{pokemon.name}</span>

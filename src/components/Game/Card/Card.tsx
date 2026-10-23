@@ -42,10 +42,3 @@ export default function Card({ pokemon, state, selectCard }: CardProps) {
     </button>
   );
 }
-
-// function getCardClass(open: boolean): string {
-//   const base = "card";
-//   const modifier = open && "card--open";
-
-//   return [base, modifier].filter(Boolean).join(" ");
-// }

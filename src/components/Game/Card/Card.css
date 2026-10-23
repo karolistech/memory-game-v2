@@ -2,13 +2,13 @@
   .card {
     container-type: inline-size;
     aspect-ratio: 5 / 7;
-    transform: perspective(800px);
+    transform: perspective(1000px);
     transform-style: preserve-3d;
     transition: transform 0.8s ease;
   }
 
   .card--open {
-    transform: perspective(800px) rotateY(180deg);
+    transform: perspective(1000px) rotateY(180deg);
   }
 
   .card__face {
