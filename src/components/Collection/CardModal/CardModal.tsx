@@ -1,4 +1,4 @@
-import { type MouseEvent, useRef } from "react";
+import { type PointerEvent, useRef } from "react";
 
 import type { Pokemon } from "@/types/pokemon";
 
@@ -15,7 +15,7 @@ const tiltRange = 40;
 export default function CardModal({ pokemon, closeCardModal }: CardModalProps) {
   const cardRef = useRef<HTMLDivElement>(null);
 
-  function handleCardTilt(e: MouseEvent) {
+  function handleCardTilt(e: PointerEvent) {
     const card = cardRef.current;
 
     if (card === null) return;
@@ -62,7 +62,7 @@ export default function CardModal({ pokemon, closeCardModal }: CardModalProps) {
 
       <div className="card-modal">
         <div className="card-modal__content">
-          <div className="card-modal__card" onMouseMove={handleCardTilt} onMouseLeave={resetCardTilt}>
+          <div className="card-modal__card" onPointerMove={handleCardTilt} onPointerLeave={resetCardTilt}>
             <div className="card-modal__card-face" ref={cardRef}>
               <div className="card-modal__card-content" data-type={pokemon.type}>
                 <div className="card-modal__card-header">
