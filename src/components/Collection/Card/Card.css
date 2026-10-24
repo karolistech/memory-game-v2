@@ -24,7 +24,7 @@
 
   .card__face--front {
     background-color: var(--color-white);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.2s ease, filter 0.2s ease;
   }
 
   .card__content {
@@ -80,7 +80,7 @@
   @media (hover: hover) and (pointer: fine) {
     .card__face--front:hover {
       transform: translateY(-5px);
-      box-shadow: var(--shadow-card-lifted);
+      filter: var(--shadow-card-hover);
     }
   }
 }

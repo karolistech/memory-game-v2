@@ -9,7 +9,7 @@
   .help-modal {
     position: fixed;
     z-index: 2;
-    width: min(95%, 768px);
+    width: min(95%, 750px);
     max-height: calc(100dvh - 2rem);
     top: 50%;
     left: 50%;

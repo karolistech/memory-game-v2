@@ -33,7 +33,7 @@ export default function HelpModal({ closeHelpModal }: HelpModalProps) {
 
             <p className="help-modal__step-text">
               Browse the Pokédex to explore Pokémon from all generations. Select
-              a Pokémon card to view its details and learn more.
+              a Pokémon card to view its details and learn more about it.
             </p>
           </li>
 
@@ -41,8 +41,8 @@ export default function HelpModal({ closeHelpModal }: HelpModalProps) {
             <h3 className="help-modal__step-title">Manage Collection</h3>
 
             <p className="help-modal__step-text">
-              Use the filter to view only collected Pokémon, adjust the number of
-              cards displayed per page, and track your progress.
+              Use the filter options to view only collected Pokémon, adjust the
+              number of cards displayed per page, and track your progress.
             </p>
           </li>
         </ol>
