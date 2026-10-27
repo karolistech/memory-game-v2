@@ -1075,7 +1075,7 @@
     "abilities": ["keen eye", "inner focus", "defiant"],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
     "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/83.ogg",
-    "description": "Farfetch’d never goes far without its trusty plant stalk. It uses the stalk to fight off foes and skillfully arrange its nest."
+    "description": "This Pokémon never goes far without its trusty plant stalk. It uses the stalk to fight off foes and skillfully arrange its nest."
   },
 
   {
@@ -1140,7 +1140,7 @@
     "abilities": ["stench", "sticky hold", "poison touch"],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
     "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/88.ogg",
-    "description": "It was born from sludge transformed by exposure to X-rays from the moon. When its internal load of germs decreases, it dies."
+    "description": "Born from pollution, Grimer leaves a stench wherever it slides. Even hardy plants struggle to grow in its trail."
   },
 
   {
@@ -2609,7 +2609,7 @@
     "abilities": ["levitate"],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
     "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/201.ogg",
-    "description": "Unown has a flat body shaped like an ancient written symbol. Scholars still can’t explain which came first."
+    "description": "Like a letter from a forgotten alphabet, Unown clings to walls. Its strange shape may hold a meaning no one knows."
   },
 
   {
@@ -2726,7 +2726,7 @@
     "abilities": ["intimidate", "quick feet", "rattled"],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/210.png",
     "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/210.ogg",
-    "description": "Granbull has a powerful jaw, but it isn’t eager to pick fights. If frightened or provoked, however, it can lash out with its massive fangs."
+    "description": "Those oversized fangs look fearsome, yet Granbull startles easily. Its intimidating face hides a timid heart."
   },
 
   {
@@ -3285,7 +3285,7 @@
     "abilities": ["overgrow", "unburden"],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/253.png",
     "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/253.ogg",
-    "description": "This Pokémon adeptly flies from branch to branch in trees. In a forest, no Pokémon can ever hope to catch a fleeing Grovyle, however fast they may be."
+    "description": "Leaves break up Grovyle’s outline among forest branches. Few can match its speed when it leaps from tree to tree."
   },
 
   {
@@ -3389,7 +3389,7 @@
     "abilities": ["run away", "quick feet", "rattled"],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/261.png",
     "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/261.ogg",
-    "description": "Poochyena is an omnivore—it will eat anything. A distinguishing feature is how large its fangs are compared to its body. This Pokémon tries to intimidate its foes by making the hair on its tail bristle out."
+    "description": "Raised hackles and bared fangs make Poochyena look fierce. It pursues tired prey, but retreats when the tables turn."
   },
 
   {
@@ -3727,7 +3727,7 @@
     "abilities": ["truant"],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/287.png",
     "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/287.ogg",
-    "description": "Slakoth’s heart beats just once a minute. Whatever happens, it’s content to loaf around motionless. It’s rare to see this Pokémon in motion."
+    "description": "Stillness suits Slakoth so well that it barely moves all day. Its slow heartbeat makes activity seem exhausting."
   },
 
   {
@@ -3740,7 +3740,7 @@
     "abilities": ["vital spirit"],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/288.png",
     "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/288.ogg",
-    "description": "Vigoroth is simply incapable of remaining still. Even when it tries to sleep, the blood in its veins grows agitated, compelling this Pokémon to run wild throughout the jungle before it can settle down."
+    "description": "Where Slakoth dozes, Vigoroth paces and fidgets. Its boundless energy needs an outlet, or nearby objects may suffer."
   },
 
   {
@@ -5703,7 +5703,7 @@
     "abilities": ["soundproof", "filter", "technician"],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/439.png",
     "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/439.ogg",
-    "description": "Mime Jr. mimics the expressions and movements of those around it. It enjoys busy places where it can watch people."
+    "description": "This Pokémon mimics the expressions and movements of those around it and enjoys busy places where it can watch people."
   },
 
   {
@@ -6327,7 +6327,7 @@
     "abilities": ["pressure", "telepathy"],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/487.png",
     "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/487.ogg",
-    "description": "Giratina is said to live in a world that mirrors our own, where nothing obeys the usual rules. It sometimes appears in ancient cemeteries."
+    "description": "Banished for its violence, Giratina dwells in a strange dimension. Its shadowy form seems to bend nature’s rules."
   },
 
   {
@@ -6678,7 +6678,7 @@
     "abilities": ["gluttony", "blaze"],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/514.png",
     "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/514.ogg",
-    "description": "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets."
+    "description": "Simisear’s head tuft holds a pocket of fire that glows when excited. A sweet scent can trail behind it."
   },
 
   {
@@ -6756,7 +6756,7 @@
     "abilities": ["big pecks", "super luck", "rivalry"],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/520.png",
     "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/520.ogg",
-    "description": "Tranquill flies at a moderate speed, but it never loses its way. It always finds its way back to its nest, however far it travels."
+    "description": "Tranquill finds its way through the densest forest without hesitation. Its quiet flight makes it hard to notice."
   },
 
   {
@@ -7640,7 +7640,7 @@
     "abilities": ["swarm", "shed skin", "no guard"],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/588.png",
     "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/588.ogg",
-    "description": "It spits a liquid from its mouth to melt through Shelmet’s shell. Karrablast doesn’t eat the shell—it eats only the contents."
+    "description": "Karrablast’s evolution is tied to encounters with Shelmet and electricity. This odd pairing can transform both Pokémon."
   },
 
   {
@@ -7653,7 +7653,7 @@
     "abilities": ["swarm", "shell armor", "overcoat"],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/589.png",
     "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/589.ogg",
-    "description": "It charges its enemies, lances at the ready. An image of one of its duels is captured in a famous painting of Escavalier clashing with Sirfetch’d."
+    "description": "Escavalier’s armor hides nearly all its body, leaving only its eyes exposed. It charges with twin horns held like lances."
   },
 
   {
@@ -9720,7 +9720,7 @@
     "abilities": ["merciless", "limber", "regenerator"],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/748.png",
     "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/748.ogg",
-    "description": "Toxapex forms a dome with its twelve legs and shelters from the tides. Its poison is so potent that its effects can last for days."
+    "description": "Toxapex forms a dome with its 12 legs and shelters from the tides. Its poison is so potent that its effects can last for days."
   },
 
   {
@@ -10406,7 +10406,7 @@
     "height": 1,
     "weight": 80.5,
     "stats": { "hp": 80, "attack": 95, "defense": 115, "speed": 65 },
-    "abilities": ["soul heart"],
+    "abilities": ["soul-heart"],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/801.png",
     "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/801.ogg",
     "description": "Magearna can sense and synchronize with the feelings of others. This ability helps it understand people and care for those who need it."
@@ -11241,7 +11241,7 @@
     "abilities": ["steadfast", "scrappy"],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/865.png",
     "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/865.ogg",
-    "description": "Sirfetch’d blocks attacks with a sturdy leaf shield before striking with its sharp leek. It retires from battle when its beloved leek finally withers."
+    "description": "This Pokémon blocks attacks with a sturdy leaf shield before striking with its sharp leek. It retires from battle when its beloved leek finally withers."
   },
 
   {
@@ -12044,7 +12044,7 @@
     "height": 0.5,
     "weight": 14.9,
     "stats": { "hp": 57, "attack": 80, "defense": 115, "speed": 95 },
-    "abilities": ["well baked body", "aroma veil"],
+    "abilities": ["well-baked body", "aroma veil"],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/927.png",
     "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/927.ogg",
     "description": "The aroma from Dachsbun’s body can help wheat thrive. When exposed to strong heat, its skin hardens into a protective surface."
@@ -12437,7 +12437,7 @@
     "abilities": ["mold breaker", "own tempo", "pickpocket"],
     "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/957.png",
     "cry": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/957.ogg",
-    "description": "This Pokémon pounds iron scraps together to make a hammer. It will remake the hammer again and again until it’s satisfied with the result."
+    "description": "Tinkatink collects scraps of metal to make a hammer. The little smith keeps working even when its creations are stolen."
   },
 
   {

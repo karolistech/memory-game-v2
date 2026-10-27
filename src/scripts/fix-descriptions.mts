@@ -23,7 +23,10 @@ const fixes: Record<string, string> = {
   // ordinary words
   "BITE": "bite", "BUG": "bug", "CONSTRICT": "constrict", "DIGS": "digs", "DIG": "dig", "MPH": "mph", "SING": "sing",
   "STONES": "stones", "STONEs": "stones", "TACKLES": "tackles", "TACKLE": "tackle", "Tackles": "tackles", "Tackle": "tackle",
-  "TELEPORTS": "teleports", "TELEPORT": "teleport", "Teleport": "teleport", "THRASHING": "thrashing", "towards": "toward"
+  "TELEPORTS": "teleports", "TELEPORT": "teleport", "Teleport": "teleport", "THRASHING": "thrashing",
+
+  // spelling
+  "towards": "toward"
 };
 
 const fixPatterns = Object.entries(fixes).map(([original, fix]) => ({
