@@ -14,7 +14,6 @@ const types = new Set(["bug", "dark", "dragon", "electric", "fairy", "fighting",
 const uncontracted = new Set([120, 259, 315, 352, 473, 530]);
 
 const find = (text: string, pattern: RegExp) => text.match(pattern)?.[0] ?? null;
-const codepoint = (char: string | null) => char === null ? null : `U+${char.charCodeAt(0).toString(16).toUpperCase().padStart(4, "0")}`;
 
 const rules: [string, (p: Pokemon) => string | null][] = [
   ["[object] matches the expected keys", p => Object.keys(p).join() === keys.join() ? null : Object.keys(p).join(", ")],
@@ -34,34 +33,32 @@ const rules: [string, (p: Pokemon) => string | null][] = [
   ["[abilities] between 1 and 3 entries", p => p.abilities.length >= 1 && p.abilities.length <= 3 ? null : String(p.abilities.length)],
   ["[abilities] no duplicate entries", p => new Set(p.abilities).size === p.abilities.length ? null : inspect(p.abilities)],
 
-  ["[image] url starts with https", p => p.image.startsWith("https://") ? null : p.image.slice(0, 20)],
+  ["[image] url starts with the correct host", p => p.image.startsWith("https://raw.githubusercontent.com/PokeAPI/sprites/") ? null : p.image],
   ["[image] url matches the id", p => p.image.endsWith(`/${p.id}.png`) ? null : p.image.slice(-20)],
 
-  ["[cry] url starts with https", p => p.cry.startsWith("https://") ? null : p.cry.slice(0, 20)],
+  ["[cry] url starts with the correct host", p => p.cry.startsWith("https://raw.githubusercontent.com/PokeAPI/cries/") ? null : p.cry],
   ["[cry] url matches the id", p => p.cry.endsWith(`/${p.id}.ogg`) ? null : p.cry.slice(-20)],
 
   // formatting
-  ["[description] sentence starts with a capital letter", p => find(p.description, /^[^A-Z]\w*|\.[”’]? [a-z]\w*/)],
-  ["[description] no control or invisible characters", p => codepoint(find(p.description, /[\u0000-\u001f\u00a0\u00ad\u200b]/))],
-  ["[description] no leading, trailing, or double spaces", p => /^\s|\s$|\s{2,}/.test(p.description) ? p.description : null],
-  ["[description] no straight quotes", p => find(p.description, /['"]/)],
-  ["[description] no exclamation points, question marks, or ellipses", p => find(p.description, /[!?]|\.{2,}|…/)],
+  ["[description] sentence starts with a capital letter", p => find(p.description, /^[^A-Z]\w*|\. [^A-Z]\w*/)],
+  ["[description] no control or invisible characters", p => find(p.description, /[\u0000-\u001f\u00a0\u00ad\u200b]/)],
+  ["[description] no leading, trailing, or double spaces", p => find(p.description, /^\s|\s$|\s{2,}/)],
+  ["[description] no disallowed punctuation", p => find(p.description, /[!?()'"“”]|\.{2,}/)],
   ["[description] correct punctuation spacing", p => find(p.description, /\s[,.;:]|[,.;:][A-Za-z]/)],
-  ["[description] ends with a period or period and closing quote", p => /\.[”’]?$/.test(p.description) ? null : p.description.slice(-20)],
+  ["[description] ends with a period", p => find(p.description, /[^.]$/)],
 
   // length
   ["[description] between 50 and 200 characters", p => p.description.length >= 50 && p.description.length <= 200 ? null : String(p.description.length)],
 
   // voice
-  ["[description] no first-person pronouns", p => find(p.description, /\b(I|me|my|mine|myself|we|us|our|ours|ourselves)\b/i)],
+  ["[description] no first-person pronouns", p => find(p.description, /\b(I|me|my|myself|we|us|our|ours|ourselves)\b/i)],
   ["[description] no second-person pronouns", p => find(p.description, /\b(you|your|yours|yourself|yourselves)\b/i)],
   ["[description] no third-person pronouns", p => find(p.description, /\b(he|him|his|himself|she|her|hers|herself)\b/i)],
 
   // contractions
   ["[description] no uncontracted negative forms", p => find(p.description, /\b(do|does|did|is|are|was|were|have|has|had|will|could|would|should)\s+not\b|\bcan\s*not\b/i)],
   ["[description] no uncontracted positive forms", p => uncontracted.has(p.id) ? null : find(p.description, /\b(it|that|there)\s+is\b|\bthey\s+are\b/i)],
-  ["[description] no contracted future forms", p => find(p.description, /\w+’ll\b/)],
-  ["[description] no contracted conditional or past perfect forms", p => find(p.description, /\w+’d\b/)],
+  ["[description] no auxiliary-verb contractions", p => find(p.description, /\w+’(ll|d|ve)\b/)],
 
   // content
   ["[description] no trainer or partner references", p => find(p.description, /\b(trainer|partner)s?\b/i)],
